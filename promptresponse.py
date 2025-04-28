@@ -4,6 +4,7 @@ from tqdm import tqdm
 
 # Dataset directory
 dataset_dir = './samples/'
+promptresponse_dir = './promptresponse/'
 
 # Prepare a list of prompt/response pairs
 llm_data = []
@@ -33,7 +34,7 @@ for filename in tqdm(os.listdir(dataset_dir), desc="Processing JSON files"):
             llm_data.append({"prompt": prompt.strip(), "response": response.strip()})
 
 # Save as a JSON file
-with open('/mnt/data/llm_finetune_data.json', 'w') as f:
+with open(f'{promptresponse_dir}/promptllm_finetune_data.json', 'w') as f:
     json.dump(llm_data, f, indent=2)
 
-print(f"LLM fine-tune data generated! Saved to /mnt/data/llm_finetune_data.json")
+print(f"LLM fine-tune data generated! Saved to {promptresponse_dir}/llm_finetune_data.json")
