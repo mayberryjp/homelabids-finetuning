@@ -1,0 +1,40 @@
+{
+  "ip_address": "192.168.165.188",
+  "export_date": "2025-02-01T13:02:49",
+  "host_info": {
+    "ip_address": "10.129.114.164",
+    "mac_address": "7f:50:46:d3:17:dc",
+    "mac_vendor": "Hutchinson Inc",
+    "dhcp_hostname": "nest_cam",
+    "os_fingerprint": "Nest_Cam",
+    "lease_hostname": "nest_cam"
+  },
+  "dns_queries": [
+    "cloudflare.com",
+    "arlo.com",
+    "ring.com"
+  ],
+  "flows": [
+    {
+      "destination": "216.74.102.31",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "182.207.176.52",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "64.6.232.84",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "91.105.63.127",
+      "port": 8883,
+      "protocol": 6
+    }
+  ],
+  "label": "Security Camera"
+}

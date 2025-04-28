@@ -1,0 +1,38 @@
+{
+  "ip_address": "192.168.248.250",
+  "export_date": "2025-01-11T18:30:07",
+  "host_info": {
+    "ip_address": "172.19.2.60",
+    "mac_address": "1d:5f:9c:1d:8c:e5",
+    "mac_vendor": "Boone, Clark and Edwards",
+    "dhcp_hostname": "hp_laserjet",
+    "os_fingerprint": "HP_LaserJet",
+    "lease_hostname": "hp_laserjet"
+  },
+  "dns_queries": [
+    "brother.com"
+  ],
+  "flows": [
+    {
+      "destination": "218.141.77.90",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "134.177.67.81",
+      "port": 80,
+      "protocol": 6
+    },
+    {
+      "destination": "214.65.20.21",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "7.149.237.147",
+      "port": 5000,
+      "protocol": 6
+    }
+  ],
+  "label": "Printer"
+}

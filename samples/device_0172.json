@@ -1,0 +1,48 @@
+{
+  "ip_address": "192.168.9.188",
+  "export_date": "2025-02-05T23:31:33",
+  "host_info": {
+    "ip_address": "10.35.238.22",
+    "mac_address": "f1:22:0b:5b:a7:a4",
+    "mac_vendor": "Williams-Morse",
+    "dhcp_hostname": "arlo_cam",
+    "os_fingerprint": "Arlo_Cam",
+    "lease_hostname": "arlo_cam"
+  },
+  "dns_queries": [
+    "ring.com"
+  ],
+  "flows": [
+    {
+      "destination": "85.94.235.22",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "219.224.20.10",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "162.126.206.98",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "199.1.2.254",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "176.48.32.151",
+      "port": 80,
+      "protocol": 6
+    },
+    {
+      "destination": "99.212.40.253",
+      "port": 443,
+      "protocol": 17
+    }
+  ],
+  "label": "Security Camera"
+}

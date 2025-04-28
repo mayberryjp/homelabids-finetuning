@@ -1,0 +1,43 @@
+{
+  "ip_address": "192.168.150.89",
+  "export_date": "2025-04-01T09:28:23",
+  "host_info": {
+    "ip_address": "192.168.141.188",
+    "mac_address": "4a:6e:93:29:46:66",
+    "mac_vendor": "Miller-Skinner",
+    "dhcp_hostname": "hp_laserjet",
+    "os_fingerprint": "HP_LaserJet",
+    "lease_hostname": "hp_laserjet"
+  },
+  "dns_queries": [
+    "hp.com"
+  ],
+  "flows": [
+    {
+      "destination": "186.225.1.239",
+      "port": 123,
+      "protocol": 17
+    },
+    {
+      "destination": "206.237.67.157",
+      "port": 80,
+      "protocol": 6
+    },
+    {
+      "destination": "36.81.137.248",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "197.207.182.209",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "212.233.5.55",
+      "port": 53,
+      "protocol": 17
+    }
+  ],
+  "label": "Printer"
+}

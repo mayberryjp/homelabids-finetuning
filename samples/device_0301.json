@@ -1,0 +1,38 @@
+{
+  "ip_address": "192.168.30.9",
+  "export_date": "2025-04-01T18:42:22",
+  "host_info": {
+    "ip_address": "192.168.100.237",
+    "mac_address": "b5:3e:ee:8e:4d:94",
+    "mac_vendor": "Wood Group",
+    "dhcp_hostname": "lg_smarttv",
+    "os_fingerprint": "LG_SmartTV",
+    "lease_hostname": "lg_smarttv"
+  },
+  "dns_queries": [
+    "youtube.com"
+  ],
+  "flows": [
+    {
+      "destination": "152.154.99.241",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "69.244.228.68",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "109.53.153.124",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "120.145.210.226",
+      "port": 443,
+      "protocol": 17
+    }
+  ],
+  "label": "Smart TV"
+}

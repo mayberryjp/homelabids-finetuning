@@ -1,0 +1,35 @@
+{
+  "ip_address": "10.204.236.33",
+  "export_date": "2025-03-30T03:44:22",
+  "host_info": {
+    "ip_address": "192.168.113.254",
+    "mac_address": "4f:08:03:16:3c:70",
+    "mac_vendor": "Anderson, Aguirre and Poole",
+    "dhcp_hostname": "ecobee_thermostat",
+    "os_fingerprint": "Ecobee_Thermostat",
+    "lease_hostname": "ecobee_thermostat"
+  },
+  "dns_queries": [
+    "nest.com",
+    "ecobee.com",
+    "googleapis.com"
+  ],
+  "flows": [
+    {
+      "destination": "47.179.31.158",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "98.56.218.128",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "21.132.205.199",
+      "port": 8883,
+      "protocol": 6
+    }
+  ],
+  "label": "Smart Thermostat"
+}

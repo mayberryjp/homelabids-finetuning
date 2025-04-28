@@ -1,0 +1,48 @@
+{
+  "ip_address": "172.28.129.122",
+  "export_date": "2025-02-25T01:17:33",
+  "host_info": {
+    "ip_address": "172.22.194.241",
+    "mac_address": "27:97:e4:59:be:80",
+    "mac_vendor": "Ramirez, Lewis and Scott",
+    "dhcp_hostname": "lg_smarttv",
+    "os_fingerprint": "LG_SmartTV",
+    "lease_hostname": "lg_smarttv"
+  },
+  "dns_queries": [
+    "youtube.com"
+  ],
+  "flows": [
+    {
+      "destination": "209.249.188.203",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "218.29.111.148",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "15.53.9.95",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "153.125.249.141",
+      "port": 5000,
+      "protocol": 6
+    },
+    {
+      "destination": "217.233.205.63",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "103.56.205.103",
+      "port": 123,
+      "protocol": 6
+    }
+  ],
+  "label": "Smart TV"
+}

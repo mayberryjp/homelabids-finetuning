@@ -1,0 +1,44 @@
+{
+  "ip_address": "192.168.37.226",
+  "export_date": "2025-02-07T15:50:25",
+  "host_info": {
+    "ip_address": "192.168.247.225",
+    "mac_address": "48:fa:97:55:2c:61",
+    "mac_vendor": "Mayer Group",
+    "dhcp_hostname": "canon_pixma",
+    "os_fingerprint": "Canon_PIXMA",
+    "lease_hostname": "canon_pixma"
+  },
+  "dns_queries": [
+    "hp.com",
+    "canon.com"
+  ],
+  "flows": [
+    {
+      "destination": "178.237.99.248",
+      "port": 123,
+      "protocol": 17
+    },
+    {
+      "destination": "192.221.144.100",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "134.118.40.125",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "128.182.17.224",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "196.42.95.116",
+      "port": 80,
+      "protocol": 17
+    }
+  ],
+  "label": "Printer"
+}

@@ -1,0 +1,40 @@
+{
+  "ip_address": "172.21.223.214",
+  "export_date": "2025-04-03T05:47:43",
+  "host_info": {
+    "ip_address": "172.22.82.134",
+    "mac_address": "d4:4e:87:4c:8b:bc",
+    "mac_vendor": "Henderson LLC",
+    "dhcp_hostname": "brother_hl",
+    "os_fingerprint": "Brother_HL",
+    "lease_hostname": "brother_hl"
+  },
+  "dns_queries": [
+    "hp.com",
+    "brother.com",
+    "canon.com"
+  ],
+  "flows": [
+    {
+      "destination": "69.234.119.131",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "146.234.71.22",
+      "port": 123,
+      "protocol": 17
+    },
+    {
+      "destination": "179.214.224.61",
+      "port": 80,
+      "protocol": 6
+    },
+    {
+      "destination": "117.237.29.109",
+      "port": 5000,
+      "protocol": 17
+    }
+  ],
+  "label": "Printer"
+}

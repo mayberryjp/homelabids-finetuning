@@ -1,0 +1,38 @@
+{
+  "ip_address": "10.104.27.252",
+  "export_date": "2025-03-10T03:34:03",
+  "host_info": {
+    "ip_address": "172.31.75.146",
+    "mac_address": "d3:5d:64:9f:00:12",
+    "mac_vendor": "White, Guerrero and Parker",
+    "dhcp_hostname": "canon_pixma",
+    "os_fingerprint": "Canon_PIXMA",
+    "lease_hostname": "canon_pixma"
+  },
+  "dns_queries": [
+    "hp.com"
+  ],
+  "flows": [
+    {
+      "destination": "17.164.209.6",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "196.239.62.235",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "170.81.150.75",
+      "port": 5000,
+      "protocol": 6
+    },
+    {
+      "destination": "222.85.237.225",
+      "port": 8883,
+      "protocol": 6
+    }
+  ],
+  "label": "Printer"
+}

@@ -1,0 +1,43 @@
+{
+  "ip_address": "10.51.30.123",
+  "export_date": "2025-03-12T00:12:12",
+  "host_info": {
+    "ip_address": "172.26.41.69",
+    "mac_address": "59:f5:b4:bb:e9:7b",
+    "mac_vendor": "Walker Inc",
+    "dhcp_hostname": "pixel",
+    "os_fingerprint": "Pixel",
+    "lease_hostname": "pixel"
+  },
+  "dns_queries": [
+    "whatsapp.com"
+  ],
+  "flows": [
+    {
+      "destination": "62.55.172.14",
+      "port": 80,
+      "protocol": 6
+    },
+    {
+      "destination": "135.82.38.183",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "219.213.153.74",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "162.151.194.53",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "60.245.110.163",
+      "port": 53,
+      "protocol": 17
+    }
+  ],
+  "label": "Smartphone"
+}

@@ -1,0 +1,38 @@
+{
+  "ip_address": "172.28.86.4",
+  "export_date": "2025-03-30T10:12:24",
+  "host_info": {
+    "ip_address": "10.70.118.235",
+    "mac_address": "a6:68:f8:3b:bd:84",
+    "mac_vendor": "Roth, Jones and Martinez",
+    "dhcp_hostname": "ubuntu_linux",
+    "os_fingerprint": "Ubuntu_Linux",
+    "lease_hostname": "ubuntu_linux"
+  },
+  "dns_queries": [
+    "google.com"
+  ],
+  "flows": [
+    {
+      "destination": "215.254.137.127",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "105.95.154.44",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "90.49.161.193",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "220.86.123.204",
+      "port": 123,
+      "protocol": 6
+    }
+  ],
+  "label": "Laptop"
+}

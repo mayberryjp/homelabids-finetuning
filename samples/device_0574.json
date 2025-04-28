@@ -1,0 +1,29 @@
+{
+  "ip_address": "172.24.226.53",
+  "export_date": "2025-04-23T13:49:28",
+  "host_info": {
+    "ip_address": "172.31.181.131",
+    "mac_address": "f5:ae:23:8d:b2:a5",
+    "mac_vendor": "Short PLC",
+    "dhcp_hostname": "xbox_series_x",
+    "os_fingerprint": "Xbox_Series_X",
+    "lease_hostname": "xbox_series_x"
+  },
+  "dns_queries": [
+    "nintendo.com",
+    "playstation.com"
+  ],
+  "flows": [
+    {
+      "destination": "78.163.180.230",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "182.192.112.11",
+      "port": 80,
+      "protocol": 6
+    }
+  ],
+  "label": "Game Console"
+}

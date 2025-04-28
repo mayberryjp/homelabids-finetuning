@@ -1,0 +1,40 @@
+{
+  "ip_address": "10.254.137.35",
+  "export_date": "2025-02-14T21:22:03",
+  "host_info": {
+    "ip_address": "192.168.184.239",
+    "mac_address": "cf:44:04:54:b1:f9",
+    "mac_vendor": "Guzman-Gamble",
+    "dhcp_hostname": "galaxy_tab",
+    "os_fingerprint": "Galaxy_Tab",
+    "lease_hostname": "galaxy_tab"
+  },
+  "dns_queries": [
+    "amazon.com",
+    "apple.com",
+    "samsung.com"
+  ],
+  "flows": [
+    {
+      "destination": "180.41.21.107",
+      "port": 80,
+      "protocol": 6
+    },
+    {
+      "destination": "163.162.192.209",
+      "port": 5000,
+      "protocol": 6
+    },
+    {
+      "destination": "155.178.148.112",
+      "port": 123,
+      "protocol": 17
+    },
+    {
+      "destination": "119.84.53.29",
+      "port": 123,
+      "protocol": 6
+    }
+  ],
+  "label": "Tablet"
+}

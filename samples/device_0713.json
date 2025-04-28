@@ -1,0 +1,35 @@
+{
+  "ip_address": "172.24.230.103",
+  "export_date": "2025-03-19T08:14:31",
+  "host_info": {
+    "ip_address": "192.168.106.47",
+    "mac_address": "0b:c7:6a:54:94:a4",
+    "mac_vendor": "Shepard, Hanna and Williams",
+    "dhcp_hostname": "ipad",
+    "os_fingerprint": "iPad",
+    "lease_hostname": "ipad"
+  },
+  "dns_queries": [
+    "apple.com",
+    "amazon.com",
+    "samsung.com"
+  ],
+  "flows": [
+    {
+      "destination": "201.149.151.105",
+      "port": 123,
+      "protocol": 17
+    },
+    {
+      "destination": "111.187.90.40",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "140.197.136.153",
+      "port": 53,
+      "protocol": 6
+    }
+  ],
+  "label": "Tablet"
+}

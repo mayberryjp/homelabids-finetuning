@@ -1,0 +1,33 @@
+{
+  "ip_address": "172.20.120.193",
+  "export_date": "2025-02-15T03:01:34",
+  "host_info": {
+    "ip_address": "10.98.123.38",
+    "mac_address": "13:e4:01:7d:9c:c7",
+    "mac_vendor": "Griffith, Miller and Christian",
+    "dhcp_hostname": "nest_thermostat",
+    "os_fingerprint": "Nest_Thermostat",
+    "lease_hostname": "nest_thermostat"
+  },
+  "dns_queries": [
+    "googleapis.com"
+  ],
+  "flows": [
+    {
+      "destination": "219.40.106.81",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "155.24.109.150",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "97.140.39.254",
+      "port": 8883,
+      "protocol": 6
+    }
+  ],
+  "label": "Smart Thermostat"
+}

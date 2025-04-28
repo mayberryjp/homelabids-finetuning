@@ -1,0 +1,38 @@
+{
+  "ip_address": "172.21.234.223",
+  "export_date": "2025-03-17T12:41:43",
+  "host_info": {
+    "ip_address": "172.30.195.67",
+    "mac_address": "68:68:8c:22:fc:ac",
+    "mac_vendor": "Mcgee, Bradley and Guerra",
+    "dhcp_hostname": "canon_pixma",
+    "os_fingerprint": "Canon_PIXMA",
+    "lease_hostname": "canon_pixma"
+  },
+  "dns_queries": [
+    "hp.com"
+  ],
+  "flows": [
+    {
+      "destination": "53.235.47.117",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "213.205.215.78",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "50.175.160.48",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "167.239.117.0",
+      "port": 5000,
+      "protocol": 17
+    }
+  ],
+  "label": "Printer"
+}

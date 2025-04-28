@@ -1,0 +1,38 @@
+{
+  "ip_address": "172.25.62.107",
+  "export_date": "2025-03-19T00:21:02",
+  "host_info": {
+    "ip_address": "172.30.185.169",
+    "mac_address": "04:bd:a4:b7:27:3f",
+    "mac_vendor": "Ortiz-Sellers",
+    "dhcp_hostname": "ipad",
+    "os_fingerprint": "iPad",
+    "lease_hostname": "ipad"
+  },
+  "dns_queries": [
+    "amazon.com"
+  ],
+  "flows": [
+    {
+      "destination": "58.246.175.197",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "139.18.57.234",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "204.157.21.232",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "193.226.13.217",
+      "port": 5000,
+      "protocol": 6
+    }
+  ],
+  "label": "Tablet"
+}

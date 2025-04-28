@@ -1,0 +1,38 @@
+{
+  "ip_address": "172.27.34.247",
+  "export_date": "2025-02-23T04:49:15",
+  "host_info": {
+    "ip_address": "192.168.25.54",
+    "mac_address": "98:bf:8d:26:60:fc",
+    "mac_vendor": "Wilkins-Richards",
+    "dhcp_hostname": "ecobee_thermostat",
+    "os_fingerprint": "Ecobee_Thermostat",
+    "lease_hostname": "ecobee_thermostat"
+  },
+  "dns_queries": [
+    "googleapis.com"
+  ],
+  "flows": [
+    {
+      "destination": "112.13.85.58",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "220.184.197.0",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "55.205.42.8",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "95.252.46.232",
+      "port": 6667,
+      "protocol": 17
+    }
+  ],
+  "label": "Smart Thermostat"
+}

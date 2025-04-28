@@ -1,0 +1,45 @@
+{
+  "ip_address": "10.38.203.230",
+  "export_date": "2025-03-03T01:37:15",
+  "host_info": {
+    "ip_address": "172.18.195.39",
+    "mac_address": "e8:4c:87:4f:cf:83",
+    "mac_vendor": "Allen-Robinson",
+    "dhcp_hostname": "android",
+    "os_fingerprint": "Android",
+    "lease_hostname": "android"
+  },
+  "dns_queries": [
+    "apple.com",
+    "facebook.com",
+    "google.com"
+  ],
+  "flows": [
+    {
+      "destination": "181.46.193.61",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "55.68.37.215",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "199.197.201.135",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "82.119.201.208",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "223.29.57.104",
+      "port": 5000,
+      "protocol": 6
+    }
+  ],
+  "label": "Smartphone"
+}

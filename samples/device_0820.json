@@ -1,0 +1,40 @@
+{
+  "ip_address": "172.31.137.79",
+  "export_date": "2025-01-07T13:08:23",
+  "host_info": {
+    "ip_address": "10.197.57.229",
+    "mac_address": "a8:17:43:3f:38:81",
+    "mac_vendor": "Vasquez Group",
+    "dhcp_hostname": "google_home",
+    "os_fingerprint": "Google_Home",
+    "lease_hostname": "google_home"
+  },
+  "dns_queries": [
+    "amazon.com",
+    "google.com",
+    "spotify.com"
+  ],
+  "flows": [
+    {
+      "destination": "213.36.123.129",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "193.182.80.47",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "94.192.174.178",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "130.201.179.41",
+      "port": 5000,
+      "protocol": 17
+    }
+  ],
+  "label": "Smart Speaker"
+}

@@ -1,0 +1,29 @@
+{
+  "ip_address": "192.168.184.15",
+  "export_date": "2025-01-26T19:55:00",
+  "host_info": {
+    "ip_address": "172.29.147.66",
+    "mac_address": "7d:e4:09:26:29:c5",
+    "mac_vendor": "Barton-Willis",
+    "dhcp_hostname": "android",
+    "os_fingerprint": "Android",
+    "lease_hostname": "android"
+  },
+  "dns_queries": [
+    "facebook.com",
+    "google.com"
+  ],
+  "flows": [
+    {
+      "destination": "204.52.195.85",
+      "port": 123,
+      "protocol": 17
+    },
+    {
+      "destination": "211.21.36.126",
+      "port": 53,
+      "protocol": 17
+    }
+  ],
+  "label": "Smartphone"
+}

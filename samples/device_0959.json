@@ -1,0 +1,39 @@
+{
+  "ip_address": "10.135.215.169",
+  "export_date": "2025-03-12T14:12:03",
+  "host_info": {
+    "ip_address": "172.16.68.140",
+    "mac_address": "6c:cd:0e:d3:b4:75",
+    "mac_vendor": "Schroeder, Clark and Williams",
+    "dhcp_hostname": "nintendo_switch",
+    "os_fingerprint": "Nintendo_Switch",
+    "lease_hostname": "nintendo_switch"
+  },
+  "dns_queries": [
+    "nintendo.com",
+    "playstation.com"
+  ],
+  "flows": [
+    {
+      "destination": "213.182.66.9",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "52.16.168.73",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "154.19.244.69",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "101.245.25.248",
+      "port": 443,
+      "protocol": 6
+    }
+  ],
+  "label": "Game Console"
+}

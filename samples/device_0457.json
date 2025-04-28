@@ -1,0 +1,33 @@
+{
+  "ip_address": "172.20.5.8",
+  "export_date": "2025-02-12T09:37:53",
+  "host_info": {
+    "ip_address": "172.20.151.112",
+    "mac_address": "2c:93:9f:12:08:00",
+    "mac_vendor": "Sanchez-Rogers",
+    "dhcp_hostname": "macbook_pro",
+    "os_fingerprint": "MacBook_Pro",
+    "lease_hostname": "macbook_pro"
+  },
+  "dns_queries": [
+    "github.com"
+  ],
+  "flows": [
+    {
+      "destination": "165.227.36.53",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "78.211.126.67",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "48.139.195.106",
+      "port": 8883,
+      "protocol": 6
+    }
+  ],
+  "label": "Laptop"
+}

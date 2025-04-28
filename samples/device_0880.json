@@ -1,0 +1,44 @@
+{
+  "ip_address": "10.232.187.178",
+  "export_date": "2025-01-01T17:23:41",
+  "host_info": {
+    "ip_address": "172.24.225.225",
+    "mac_address": "c3:c8:5c:c3:e6:63",
+    "mac_vendor": "Bell-Delgado",
+    "dhcp_hostname": "playstation_5",
+    "os_fingerprint": "PlayStation_5",
+    "lease_hostname": "playstation_5"
+  },
+  "dns_queries": [
+    "nintendo.com",
+    "playstation.com"
+  ],
+  "flows": [
+    {
+      "destination": "84.146.200.164",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "203.43.161.162",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "139.16.82.209",
+      "port": 123,
+      "protocol": 17
+    },
+    {
+      "destination": "145.40.29.216",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "119.156.195.126",
+      "port": 53,
+      "protocol": 17
+    }
+  ],
+  "label": "Game Console"
+}

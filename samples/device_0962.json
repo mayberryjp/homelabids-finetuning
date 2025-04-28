@@ -1,0 +1,38 @@
+{
+  "ip_address": "172.26.210.60",
+  "export_date": "2025-04-13T09:50:46",
+  "host_info": {
+    "ip_address": "172.22.145.83",
+    "mac_address": "79:3a:48:2c:9b:5b",
+    "mac_vendor": "Weber LLC",
+    "dhcp_hostname": "galaxy",
+    "os_fingerprint": "Galaxy",
+    "lease_hostname": "galaxy"
+  },
+  "dns_queries": [
+    "facebook.com"
+  ],
+  "flows": [
+    {
+      "destination": "163.46.23.125",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "213.6.90.142",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "219.34.131.187",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "189.167.85.61",
+      "port": 5000,
+      "protocol": 6
+    }
+  ],
+  "label": "Smartphone"
+}

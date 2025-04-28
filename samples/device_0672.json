@@ -1,0 +1,28 @@
+{
+  "ip_address": "192.168.44.105",
+  "export_date": "2025-04-16T11:35:38",
+  "host_info": {
+    "ip_address": "172.20.109.199",
+    "mac_address": "38:1f:a1:01:cc:07",
+    "mac_vendor": "Archer-Bonilla",
+    "dhcp_hostname": "sony_bravia",
+    "os_fingerprint": "Sony_Bravia",
+    "lease_hostname": "sony_bravia"
+  },
+  "dns_queries": [
+    "youtube.com"
+  ],
+  "flows": [
+    {
+      "destination": "84.12.77.253",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "8.129.36.160",
+      "port": 123,
+      "protocol": 6
+    }
+  ],
+  "label": "Smart TV"
+}

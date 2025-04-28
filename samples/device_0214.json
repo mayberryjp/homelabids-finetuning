@@ -1,0 +1,33 @@
+{
+  "ip_address": "172.18.131.72",
+  "export_date": "2025-04-23T19:09:55",
+  "host_info": {
+    "ip_address": "192.168.242.77",
+    "mac_address": "0e:eb:64:7e:f4:d2",
+    "mac_vendor": "Smith-Chandler",
+    "dhcp_hostname": "macbook_pro",
+    "os_fingerprint": "MacBook_Pro",
+    "lease_hostname": "macbook_pro"
+  },
+  "dns_queries": [
+    "github.com"
+  ],
+  "flows": [
+    {
+      "destination": "220.49.138.191",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "176.116.34.160",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "57.90.223.98",
+      "port": 6667,
+      "protocol": 6
+    }
+  ],
+  "label": "Laptop"
+}

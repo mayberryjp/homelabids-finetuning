@@ -1,0 +1,33 @@
+{
+  "ip_address": "10.50.214.102",
+  "export_date": "2025-02-26T17:05:49",
+  "host_info": {
+    "ip_address": "192.168.237.25",
+    "mac_address": "f7:4a:c8:24:5d:02",
+    "mac_vendor": "Blair-Johnson",
+    "dhcp_hostname": "windows_10",
+    "os_fingerprint": "Windows_10",
+    "lease_hostname": "windows_10"
+  },
+  "dns_queries": [
+    "github.com"
+  ],
+  "flows": [
+    {
+      "destination": "180.95.33.104",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "221.73.27.185",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "201.43.182.250",
+      "port": 8883,
+      "protocol": 6
+    }
+  ],
+  "label": "Laptop"
+}

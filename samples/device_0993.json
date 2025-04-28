@@ -1,0 +1,48 @@
+{
+  "ip_address": "192.168.225.146",
+  "export_date": "2025-02-04T08:15:11",
+  "host_info": {
+    "ip_address": "172.24.167.78",
+    "mac_address": "e9:7d:17:43:c3:17",
+    "mac_vendor": "Hernandez, Leon and Underwood",
+    "dhcp_hostname": "galaxy",
+    "os_fingerprint": "Galaxy",
+    "lease_hostname": "galaxy"
+  },
+  "dns_queries": [
+    "apple.com"
+  ],
+  "flows": [
+    {
+      "destination": "219.222.211.208",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "199.252.155.183",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "220.10.192.250",
+      "port": 123,
+      "protocol": 17
+    },
+    {
+      "destination": "208.183.25.82",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "202.245.140.143",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "206.242.237.143",
+      "port": 443,
+      "protocol": 6
+    }
+  ],
+  "label": "Smartphone"
+}

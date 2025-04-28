@@ -1,0 +1,49 @@
+{
+  "ip_address": "10.207.171.217",
+  "export_date": "2025-01-08T00:09:24",
+  "host_info": {
+    "ip_address": "192.168.101.233",
+    "mac_address": "41:0c:db:1e:6f:e3",
+    "mac_vendor": "Trevino, Thomas and Nichols",
+    "dhcp_hostname": "nintendo_switch",
+    "os_fingerprint": "Nintendo_Switch",
+    "lease_hostname": "nintendo_switch"
+  },
+  "dns_queries": [
+    "xboxlive.com",
+    "nintendo.com"
+  ],
+  "flows": [
+    {
+      "destination": "134.126.106.250",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "221.3.100.179",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "205.1.69.153",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "157.96.77.157",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "166.241.19.246",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "216.83.63.162",
+      "port": 80,
+      "protocol": 6
+    }
+  ],
+  "label": "Game Console"
+}

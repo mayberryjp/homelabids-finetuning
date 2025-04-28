@@ -1,0 +1,33 @@
+{
+  "ip_address": "192.168.27.48",
+  "export_date": "2025-01-12T05:54:25",
+  "host_info": {
+    "ip_address": "172.31.121.185",
+    "mac_address": "84:4d:3c:74:77:32",
+    "mac_vendor": "Mcdonald, Whitaker and Campbell",
+    "dhcp_hostname": "tp-link_smartbulb",
+    "os_fingerprint": "TP-Link_SmartBulb",
+    "lease_hostname": "tp-link_smartbulb"
+  },
+  "dns_queries": [
+    "philips-hue.com"
+  ],
+  "flows": [
+    {
+      "destination": "92.13.37.9",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "176.116.231.61",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "192.104.164.132",
+      "port": 5000,
+      "protocol": 6
+    }
+  ],
+  "label": "Smart Light"
+}

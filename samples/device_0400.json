@@ -1,0 +1,43 @@
+{
+  "ip_address": "192.168.234.85",
+  "export_date": "2025-02-01T18:38:43",
+  "host_info": {
+    "ip_address": "10.188.48.84",
+    "mac_address": "bf:6d:32:90:3b:b0",
+    "mac_vendor": "Hill, Johnson and Robinson",
+    "dhcp_hostname": "google_home",
+    "os_fingerprint": "Google_Home",
+    "lease_hostname": "google_home"
+  },
+  "dns_queries": [
+    "spotify.com"
+  ],
+  "flows": [
+    {
+      "destination": "88.85.54.27",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "82.42.73.173",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "111.56.181.208",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "172.124.118.60",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "130.118.241.93",
+      "port": 53,
+      "protocol": 17
+    }
+  ],
+  "label": "Smart Speaker"
+}

@@ -1,0 +1,48 @@
+{
+  "ip_address": "172.27.209.101",
+  "export_date": "2025-01-12T12:05:22",
+  "host_info": {
+    "ip_address": "10.223.220.129",
+    "mac_address": "c5:ec:f9:18:9b:ab",
+    "mac_vendor": "Jones Ltd",
+    "dhcp_hostname": "pixel",
+    "os_fingerprint": "Pixel",
+    "lease_hostname": "pixel"
+  },
+  "dns_queries": [
+    "whatsapp.com"
+  ],
+  "flows": [
+    {
+      "destination": "206.55.234.234",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "210.56.122.37",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "73.69.62.227",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "162.97.42.29",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "211.34.201.66",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "129.169.75.15",
+      "port": 5000,
+      "protocol": 6
+    }
+  ],
+  "label": "Smartphone"
+}

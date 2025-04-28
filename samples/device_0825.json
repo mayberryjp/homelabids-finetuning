@@ -1,0 +1,48 @@
+{
+  "ip_address": "10.193.157.239",
+  "export_date": "2025-01-09T10:04:05",
+  "host_info": {
+    "ip_address": "172.21.228.35",
+    "mac_address": "87:f1:cf:f3:d3:88",
+    "mac_vendor": "Keller Group",
+    "dhcp_hostname": "lg_smarttv",
+    "os_fingerprint": "LG_SmartTV",
+    "lease_hostname": "lg_smarttv"
+  },
+  "dns_queries": [
+    "netflix.com"
+  ],
+  "flows": [
+    {
+      "destination": "30.86.174.174",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "153.173.255.97",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "199.114.59.54",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "137.148.242.130",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "59.92.22.218",
+      "port": 5000,
+      "protocol": 6
+    },
+    {
+      "destination": "54.12.43.50",
+      "port": 5000,
+      "protocol": 6
+    }
+  ],
+  "label": "Smart TV"
+}

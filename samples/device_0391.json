@@ -1,0 +1,34 @@
+{
+  "ip_address": "10.136.112.46",
+  "export_date": "2025-03-29T08:35:34",
+  "host_info": {
+    "ip_address": "172.26.172.57",
+    "mac_address": "17:38:c9:ad:c9:e6",
+    "mac_vendor": "Phillips, Edwards and Morris",
+    "dhcp_hostname": "canon_pixma",
+    "os_fingerprint": "Canon_PIXMA",
+    "lease_hostname": "canon_pixma"
+  },
+  "dns_queries": [
+    "brother.com",
+    "canon.com"
+  ],
+  "flows": [
+    {
+      "destination": "49.151.171.227",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "205.194.11.169",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "199.86.80.24",
+      "port": 5000,
+      "protocol": 17
+    }
+  ],
+  "label": "Printer"
+}

@@ -1,0 +1,29 @@
+{
+  "ip_address": "10.152.107.54",
+  "export_date": "2025-01-18T22:16:30",
+  "host_info": {
+    "ip_address": "10.210.182.19",
+    "mac_address": "c6:13:86:f5:9a:a1",
+    "mac_vendor": "Baldwin PLC",
+    "dhcp_hostname": "nest_thermostat",
+    "os_fingerprint": "Nest_Thermostat",
+    "lease_hostname": "nest_thermostat"
+  },
+  "dns_queries": [
+    "googleapis.com",
+    "nest.com"
+  ],
+  "flows": [
+    {
+      "destination": "150.217.206.143",
+      "port": 80,
+      "protocol": 6
+    },
+    {
+      "destination": "199.57.31.135",
+      "port": 53,
+      "protocol": 17
+    }
+  ],
+  "label": "Smart Thermostat"
+}

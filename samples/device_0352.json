@@ -1,0 +1,43 @@
+{
+  "ip_address": "172.28.25.80",
+  "export_date": "2025-03-27T10:25:51",
+  "host_info": {
+    "ip_address": "172.25.63.53",
+    "mac_address": "43:f5:50:cd:ce:40",
+    "mac_vendor": "Jennings-Meyers",
+    "dhcp_hostname": "galaxy_tab",
+    "os_fingerprint": "Galaxy_Tab",
+    "lease_hostname": "galaxy_tab"
+  },
+  "dns_queries": [
+    "samsung.com"
+  ],
+  "flows": [
+    {
+      "destination": "55.141.107.101",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "17.170.101.173",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "188.57.35.33",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "218.14.166.248",
+      "port": 80,
+      "protocol": 6
+    },
+    {
+      "destination": "212.171.157.127",
+      "port": 123,
+      "protocol": 17
+    }
+  ],
+  "label": "Tablet"
+}

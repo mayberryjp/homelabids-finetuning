@@ -1,0 +1,28 @@
+{
+  "ip_address": "10.12.207.25",
+  "export_date": "2025-01-30T21:43:54",
+  "host_info": {
+    "ip_address": "172.24.199.56",
+    "mac_address": "7e:f9:83:20:51:cf",
+    "mac_vendor": "Everett, Nguyen and Herrera",
+    "dhcp_hostname": "windows_10",
+    "os_fingerprint": "Windows_10",
+    "lease_hostname": "windows_10"
+  },
+  "dns_queries": [
+    "microsoft.com"
+  ],
+  "flows": [
+    {
+      "destination": "184.245.220.235",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "171.213.143.25",
+      "port": 80,
+      "protocol": 6
+    }
+  ],
+  "label": "Laptop"
+}

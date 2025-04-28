@@ -1,0 +1,28 @@
+{
+  "ip_address": "192.168.216.209",
+  "export_date": "2025-02-12T14:16:44",
+  "host_info": {
+    "ip_address": "172.18.225.209",
+    "mac_address": "67:8c:05:08:8e:2b",
+    "mac_vendor": "Keller, Kelley and Romero",
+    "dhcp_hostname": "canon_pixma",
+    "os_fingerprint": "Canon_PIXMA",
+    "lease_hostname": "canon_pixma"
+  },
+  "dns_queries": [
+    "brother.com"
+  ],
+  "flows": [
+    {
+      "destination": "107.13.193.206",
+      "port": 123,
+      "protocol": 17
+    },
+    {
+      "destination": "123.53.90.79",
+      "port": 6667,
+      "protocol": 17
+    }
+  ],
+  "label": "Printer"
+}

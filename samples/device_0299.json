@@ -1,0 +1,28 @@
+{
+  "ip_address": "10.20.83.141",
+  "export_date": "2025-01-24T12:47:27",
+  "host_info": {
+    "ip_address": "10.102.200.82",
+    "mac_address": "71:c2:71:b8:65:b9",
+    "mac_vendor": "Hoffman-Green",
+    "dhcp_hostname": "ecobee_thermostat",
+    "os_fingerprint": "Ecobee_Thermostat",
+    "lease_hostname": "ecobee_thermostat"
+  },
+  "dns_queries": [
+    "ecobee.com"
+  ],
+  "flows": [
+    {
+      "destination": "203.206.80.140",
+      "port": 5000,
+      "protocol": 6
+    },
+    {
+      "destination": "158.90.239.244",
+      "port": 5000,
+      "protocol": 6
+    }
+  ],
+  "label": "Smart Thermostat"
+}

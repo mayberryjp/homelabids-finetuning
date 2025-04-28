@@ -1,0 +1,34 @@
+{
+  "ip_address": "172.28.227.251",
+  "export_date": "2025-04-20T08:37:27",
+  "host_info": {
+    "ip_address": "192.168.7.55",
+    "mac_address": "49:51:48:1a:c9:f9",
+    "mac_vendor": "Ali-Richardson",
+    "dhcp_hostname": "philips_hue",
+    "os_fingerprint": "Philips_Hue",
+    "lease_hostname": "philips_hue"
+  },
+  "dns_queries": [
+    "tplinkcloud.com",
+    "philips-hue.com"
+  ],
+  "flows": [
+    {
+      "destination": "197.96.207.115",
+      "port": 5000,
+      "protocol": 6
+    },
+    {
+      "destination": "214.28.161.119",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "73.45.168.207",
+      "port": 80,
+      "protocol": 6
+    }
+  ],
+  "label": "Smart Light"
+}

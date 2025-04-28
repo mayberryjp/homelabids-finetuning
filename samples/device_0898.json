@@ -1,0 +1,44 @@
+{
+  "ip_address": "10.226.25.66",
+  "export_date": "2025-03-01T01:02:51",
+  "host_info": {
+    "ip_address": "192.168.4.41",
+    "mac_address": "96:af:a9:78:81:5f",
+    "mac_vendor": "Robinson-Burch",
+    "dhcp_hostname": "lg_smarttv",
+    "os_fingerprint": "LG_SmartTV",
+    "lease_hostname": "lg_smarttv"
+  },
+  "dns_queries": [
+    "hulu.com",
+    "youtube.com"
+  ],
+  "flows": [
+    {
+      "destination": "158.67.178.186",
+      "port": 80,
+      "protocol": 6
+    },
+    {
+      "destination": "219.98.63.86",
+      "port": 123,
+      "protocol": 17
+    },
+    {
+      "destination": "97.212.18.249",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "180.61.174.183",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "215.69.116.45",
+      "port": 5000,
+      "protocol": 17
+    }
+  ],
+  "label": "Smart TV"
+}

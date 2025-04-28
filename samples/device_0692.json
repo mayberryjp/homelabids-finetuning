@@ -1,0 +1,45 @@
+{
+  "ip_address": "192.168.200.88",
+  "export_date": "2025-01-18T02:47:08",
+  "host_info": {
+    "ip_address": "192.168.65.237",
+    "mac_address": "80:d5:3d:58:23:8c",
+    "mac_vendor": "Fowler and Sons",
+    "dhcp_hostname": "iphone",
+    "os_fingerprint": "iPhone",
+    "lease_hostname": "iphone"
+  },
+  "dns_queries": [
+    "facebook.com",
+    "apple.com",
+    "google.com"
+  ],
+  "flows": [
+    {
+      "destination": "126.48.94.127",
+      "port": 123,
+      "protocol": 17
+    },
+    {
+      "destination": "172.34.246.147",
+      "port": 123,
+      "protocol": 17
+    },
+    {
+      "destination": "97.93.218.95",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "82.237.149.44",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "221.212.137.123",
+      "port": 53,
+      "protocol": 17
+    }
+  ],
+  "label": "Smartphone"
+}

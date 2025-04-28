@@ -1,0 +1,33 @@
+{
+  "ip_address": "10.230.197.136",
+  "export_date": "2025-04-16T22:01:28",
+  "host_info": {
+    "ip_address": "172.22.178.97",
+    "mac_address": "2c:69:d3:f6:90:4d",
+    "mac_vendor": "Hernandez-Richardson",
+    "dhcp_hostname": "pixel",
+    "os_fingerprint": "Pixel",
+    "lease_hostname": "pixel"
+  },
+  "dns_queries": [
+    "apple.com"
+  ],
+  "flows": [
+    {
+      "destination": "58.61.217.2",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "163.172.171.57",
+      "port": 123,
+      "protocol": 17
+    },
+    {
+      "destination": "78.107.254.220",
+      "port": 8883,
+      "protocol": 17
+    }
+  ],
+  "label": "Smartphone"
+}

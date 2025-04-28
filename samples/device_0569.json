@@ -1,0 +1,45 @@
+{
+  "ip_address": "172.17.50.184",
+  "export_date": "2025-02-06T07:33:58",
+  "host_info": {
+    "ip_address": "10.222.13.177",
+    "mac_address": "6e:82:38:24:4a:cb",
+    "mac_vendor": "Mosley Ltd",
+    "dhcp_hostname": "nest_cam",
+    "os_fingerprint": "Nest_Cam",
+    "lease_hostname": "nest_cam"
+  },
+  "dns_queries": [
+    "arlo.com",
+    "ring.com",
+    "cloudflare.com"
+  ],
+  "flows": [
+    {
+      "destination": "59.123.215.242",
+      "port": 5000,
+      "protocol": 6
+    },
+    {
+      "destination": "216.222.145.14",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "200.9.59.98",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "93.218.241.232",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "167.96.162.122",
+      "port": 53,
+      "protocol": 17
+    }
+  ],
+  "label": "Security Camera"
+}

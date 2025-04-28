@@ -1,0 +1,35 @@
+{
+  "ip_address": "10.94.91.181",
+  "export_date": "2025-02-09T11:05:22",
+  "host_info": {
+    "ip_address": "172.22.171.147",
+    "mac_address": "39:53:5e:90:3b:4f",
+    "mac_vendor": "Hansen, Davenport and Ellis",
+    "dhcp_hostname": "galaxy_tab",
+    "os_fingerprint": "Galaxy_Tab",
+    "lease_hostname": "galaxy_tab"
+  },
+  "dns_queries": [
+    "samsung.com",
+    "amazon.com",
+    "apple.com"
+  ],
+  "flows": [
+    {
+      "destination": "44.42.71.207",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "203.137.221.205",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "146.124.54.13",
+      "port": 53,
+      "protocol": 6
+    }
+  ],
+  "label": "Tablet"
+}

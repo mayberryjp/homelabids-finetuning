@@ -1,0 +1,34 @@
+{
+  "ip_address": "10.115.145.108",
+  "export_date": "2025-04-20T17:41:19",
+  "host_info": {
+    "ip_address": "172.23.244.208",
+    "mac_address": "10:ae:d9:c5:97:7f",
+    "mac_vendor": "Long, Lopez and Knox",
+    "dhcp_hostname": "fire_tablet",
+    "os_fingerprint": "Fire_Tablet",
+    "lease_hostname": "fire_tablet"
+  },
+  "dns_queries": [
+    "amazon.com",
+    "apple.com"
+  ],
+  "flows": [
+    {
+      "destination": "147.90.62.202",
+      "port": 80,
+      "protocol": 6
+    },
+    {
+      "destination": "140.16.230.98",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "187.68.27.160",
+      "port": 53,
+      "protocol": 17
+    }
+  ],
+  "label": "Tablet"
+}

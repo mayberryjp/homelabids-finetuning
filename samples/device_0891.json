@@ -1,0 +1,50 @@
+{
+  "ip_address": "192.168.66.6",
+  "export_date": "2025-04-15T23:35:22",
+  "host_info": {
+    "ip_address": "10.83.35.215",
+    "mac_address": "be:2d:27:3a:f4:25",
+    "mac_vendor": "Valencia-Wood",
+    "dhcp_hostname": "canon_pixma",
+    "os_fingerprint": "Canon_PIXMA",
+    "lease_hostname": "canon_pixma"
+  },
+  "dns_queries": [
+    "brother.com",
+    "hp.com",
+    "canon.com"
+  ],
+  "flows": [
+    {
+      "destination": "48.192.105.215",
+      "port": 5000,
+      "protocol": 6
+    },
+    {
+      "destination": "204.88.99.55",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "66.152.151.50",
+      "port": 80,
+      "protocol": 6
+    },
+    {
+      "destination": "220.141.100.129",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "213.16.167.244",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "148.98.89.117",
+      "port": 8883,
+      "protocol": 6
+    }
+  ],
+  "label": "Printer"
+}

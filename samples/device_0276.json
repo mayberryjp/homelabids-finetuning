@@ -1,0 +1,40 @@
+{
+  "ip_address": "10.57.122.209",
+  "export_date": "2025-03-31T07:57:42",
+  "host_info": {
+    "ip_address": "192.168.50.11",
+    "mac_address": "38:9a:55:9c:b2:01",
+    "mac_vendor": "Miller-Graham",
+    "dhcp_hostname": "hp_laserjet",
+    "os_fingerprint": "HP_LaserJet",
+    "lease_hostname": "hp_laserjet"
+  },
+  "dns_queries": [
+    "canon.com",
+    "brother.com",
+    "hp.com"
+  ],
+  "flows": [
+    {
+      "destination": "167.229.21.140",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "94.203.43.20",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "206.78.169.65",
+      "port": 80,
+      "protocol": 6
+    },
+    {
+      "destination": "128.64.185.66",
+      "port": 6667,
+      "protocol": 17
+    }
+  ],
+  "label": "Printer"
+}

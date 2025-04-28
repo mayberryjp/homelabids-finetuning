@@ -1,0 +1,44 @@
+{
+  "ip_address": "172.16.162.105",
+  "export_date": "2025-02-18T16:04:43",
+  "host_info": {
+    "ip_address": "192.168.10.254",
+    "mac_address": "2c:b3:d0:c9:d2:19",
+    "mac_vendor": "Conway-Hardy",
+    "dhcp_hostname": "hp_laserjet",
+    "os_fingerprint": "HP_LaserJet",
+    "lease_hostname": "hp_laserjet"
+  },
+  "dns_queries": [
+    "canon.com",
+    "hp.com"
+  ],
+  "flows": [
+    {
+      "destination": "8.158.65.221",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "1.3.228.197",
+      "port": 123,
+      "protocol": 17
+    },
+    {
+      "destination": "214.144.207.231",
+      "port": 123,
+      "protocol": 17
+    },
+    {
+      "destination": "169.21.70.142",
+      "port": 80,
+      "protocol": 6
+    },
+    {
+      "destination": "82.1.64.197",
+      "port": 5000,
+      "protocol": 6
+    }
+  ],
+  "label": "Printer"
+}

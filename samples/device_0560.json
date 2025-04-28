@@ -1,0 +1,50 @@
+{
+  "ip_address": "172.20.59.76",
+  "export_date": "2025-01-08T01:24:04",
+  "host_info": {
+    "ip_address": "172.29.165.217",
+    "mac_address": "d0:58:e9:65:f3:e1",
+    "mac_vendor": "Osborn, Williams and Scott",
+    "dhcp_hostname": "brother_hl",
+    "os_fingerprint": "Brother_HL",
+    "lease_hostname": "brother_hl"
+  },
+  "dns_queries": [
+    "brother.com",
+    "canon.com",
+    "hp.com"
+  ],
+  "flows": [
+    {
+      "destination": "148.212.143.252",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "187.70.70.132",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "222.206.244.89",
+      "port": 123,
+      "protocol": 17
+    },
+    {
+      "destination": "172.118.27.90",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "209.51.155.90",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "110.144.50.176",
+      "port": 80,
+      "protocol": 17
+    }
+  ],
+  "label": "Printer"
+}

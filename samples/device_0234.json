@@ -1,0 +1,28 @@
+{
+  "ip_address": "172.21.3.159",
+  "export_date": "2025-03-03T04:26:16",
+  "host_info": {
+    "ip_address": "172.30.117.125",
+    "mac_address": "f9:16:33:19:3c:76",
+    "mac_vendor": "Vaughn-Gillespie",
+    "dhcp_hostname": "arlo_cam",
+    "os_fingerprint": "Arlo_Cam",
+    "lease_hostname": "arlo_cam"
+  },
+  "dns_queries": [
+    "ring.com"
+  ],
+  "flows": [
+    {
+      "destination": "215.193.24.217",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "73.204.30.93",
+      "port": 6667,
+      "protocol": 17
+    }
+  ],
+  "label": "Security Camera"
+}

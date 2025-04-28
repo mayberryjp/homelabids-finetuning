@@ -1,0 +1,40 @@
+{
+  "ip_address": "172.26.69.32",
+  "export_date": "2025-02-27T14:21:00",
+  "host_info": {
+    "ip_address": "10.186.144.200",
+    "mac_address": "7f:d9:b8:fc:6a:77",
+    "mac_vendor": "Wheeler-Hale",
+    "dhcp_hostname": "iphone",
+    "os_fingerprint": "iPhone",
+    "lease_hostname": "iphone"
+  },
+  "dns_queries": [
+    "google.com",
+    "apple.com",
+    "whatsapp.com"
+  ],
+  "flows": [
+    {
+      "destination": "206.50.100.148",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "24.77.40.191",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "24.118.235.5",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "172.184.37.244",
+      "port": 53,
+      "protocol": 6
+    }
+  ],
+  "label": "Smartphone"
+}

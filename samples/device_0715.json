@@ -1,0 +1,44 @@
+{
+  "ip_address": "10.137.236.21",
+  "export_date": "2025-03-24T00:23:15",
+  "host_info": {
+    "ip_address": "172.29.203.50",
+    "mac_address": "4b:95:a9:3f:8a:05",
+    "mac_vendor": "Zamora-Smith",
+    "dhcp_hostname": "lg_smarttv",
+    "os_fingerprint": "LG_SmartTV",
+    "lease_hostname": "lg_smarttv"
+  },
+  "dns_queries": [
+    "youtube.com",
+    "hulu.com"
+  ],
+  "flows": [
+    {
+      "destination": "29.59.34.141",
+      "port": 5000,
+      "protocol": 6
+    },
+    {
+      "destination": "217.187.254.196",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "57.135.174.185",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "221.221.21.136",
+      "port": 123,
+      "protocol": 17
+    },
+    {
+      "destination": "172.64.142.254",
+      "port": 123,
+      "protocol": 17
+    }
+  ],
+  "label": "Smart TV"
+}

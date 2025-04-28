@@ -1,0 +1,30 @@
+{
+  "ip_address": "10.58.82.163",
+  "export_date": "2025-02-02T17:10:17",
+  "host_info": {
+    "ip_address": "172.18.1.12",
+    "mac_address": "53:da:ec:3c:54:fc",
+    "mac_vendor": "Robertson, Reid and Webster",
+    "dhcp_hostname": "pixel",
+    "os_fingerprint": "Pixel",
+    "lease_hostname": "pixel"
+  },
+  "dns_queries": [
+    "apple.com",
+    "whatsapp.com",
+    "google.com"
+  ],
+  "flows": [
+    {
+      "destination": "24.193.26.69",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "219.123.226.174",
+      "port": 8883,
+      "protocol": 6
+    }
+  ],
+  "label": "Smartphone"
+}

@@ -1,0 +1,39 @@
+{
+  "ip_address": "192.168.165.204",
+  "export_date": "2025-03-09T03:57:59",
+  "host_info": {
+    "ip_address": "172.23.183.241",
+    "mac_address": "f3:1c:d6:0a:ee:6d",
+    "mac_vendor": "Rodriguez, Chavez and Mathews",
+    "dhcp_hostname": "android",
+    "os_fingerprint": "Android",
+    "lease_hostname": "android"
+  },
+  "dns_queries": [
+    "apple.com",
+    "facebook.com"
+  ],
+  "flows": [
+    {
+      "destination": "118.79.87.97",
+      "port": 123,
+      "protocol": 17
+    },
+    {
+      "destination": "213.242.182.198",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "218.9.223.117",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "198.170.87.111",
+      "port": 123,
+      "protocol": 17
+    }
+  ],
+  "label": "Smartphone"
+}

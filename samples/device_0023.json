@@ -1,0 +1,28 @@
+{
+  "ip_address": "172.20.255.111",
+  "export_date": "2025-04-28T01:30:29",
+  "host_info": {
+    "ip_address": "192.168.27.73",
+    "mac_address": "28:e9:92:8e:1e:f7",
+    "mac_vendor": "Barton, Ferguson and Edwards",
+    "dhcp_hostname": "canon_pixma",
+    "os_fingerprint": "Canon_PIXMA",
+    "lease_hostname": "canon_pixma"
+  },
+  "dns_queries": [
+    "brother.com"
+  ],
+  "flows": [
+    {
+      "destination": "156.133.151.157",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "154.3.122.38",
+      "port": 123,
+      "protocol": 6
+    }
+  ],
+  "label": "Printer"
+}

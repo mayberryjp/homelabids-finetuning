@@ -1,0 +1,28 @@
+{
+  "ip_address": "192.168.157.165",
+  "export_date": "2025-03-05T08:17:17",
+  "host_info": {
+    "ip_address": "10.38.238.28",
+    "mac_address": "a1:82:35:4b:db:ce",
+    "mac_vendor": "Jones, Lopez and Sullivan",
+    "dhcp_hostname": "sony_bravia",
+    "os_fingerprint": "Sony_Bravia",
+    "lease_hostname": "sony_bravia"
+  },
+  "dns_queries": [
+    "youtube.com"
+  ],
+  "flows": [
+    {
+      "destination": "210.44.151.226",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "133.110.60.15",
+      "port": 443,
+      "protocol": 6
+    }
+  ],
+  "label": "Smart TV"
+}

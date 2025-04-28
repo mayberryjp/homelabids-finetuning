@@ -1,0 +1,29 @@
+{
+  "ip_address": "10.143.23.3",
+  "export_date": "2025-03-19T23:11:40",
+  "host_info": {
+    "ip_address": "172.22.203.36",
+    "mac_address": "ad:97:3e:3e:16:df",
+    "mac_vendor": "Munoz-Williams",
+    "dhcp_hostname": "canon_pixma",
+    "os_fingerprint": "Canon_PIXMA",
+    "lease_hostname": "canon_pixma"
+  },
+  "dns_queries": [
+    "hp.com",
+    "brother.com"
+  ],
+  "flows": [
+    {
+      "destination": "132.186.126.9",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "93.73.242.31",
+      "port": 53,
+      "protocol": 17
+    }
+  ],
+  "label": "Printer"
+}

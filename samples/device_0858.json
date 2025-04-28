@@ -1,0 +1,44 @@
+{
+  "ip_address": "10.59.23.12",
+  "export_date": "2025-04-25T12:57:53",
+  "host_info": {
+    "ip_address": "10.93.179.7",
+    "mac_address": "a6:73:16:fd:0d:02",
+    "mac_vendor": "Brock-Lutz",
+    "dhcp_hostname": "google_home",
+    "os_fingerprint": "Google_Home",
+    "lease_hostname": "google_home"
+  },
+  "dns_queries": [
+    "google.com",
+    "amazon.com"
+  ],
+  "flows": [
+    {
+      "destination": "210.49.33.69",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "22.27.215.149",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "101.84.201.201",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "142.197.116.198",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "212.163.230.177",
+      "port": 6667,
+      "protocol": 6
+    }
+  ],
+  "label": "Smart Speaker"
+}

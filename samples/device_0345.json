@@ -1,0 +1,38 @@
+{
+  "ip_address": "192.168.227.58",
+  "export_date": "2025-01-08T19:28:50",
+  "host_info": {
+    "ip_address": "192.168.108.143",
+    "mac_address": "12:1c:b8:66:e4:eb",
+    "mac_vendor": "Patrick LLC",
+    "dhcp_hostname": "brother_hl",
+    "os_fingerprint": "Brother_HL",
+    "lease_hostname": "brother_hl"
+  },
+  "dns_queries": [
+    "hp.com"
+  ],
+  "flows": [
+    {
+      "destination": "216.188.221.104",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "93.111.226.52",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "214.131.178.178",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "202.29.3.159",
+      "port": 443,
+      "protocol": 17
+    }
+  ],
+  "label": "Printer"
+}

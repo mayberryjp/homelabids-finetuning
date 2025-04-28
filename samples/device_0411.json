@@ -1,0 +1,30 @@
+{
+  "ip_address": "10.57.200.111",
+  "export_date": "2025-02-24T00:21:51",
+  "host_info": {
+    "ip_address": "10.8.30.80",
+    "mac_address": "d4:68:37:03:3b:bc",
+    "mac_vendor": "Anderson Inc",
+    "dhcp_hostname": "android",
+    "os_fingerprint": "Android",
+    "lease_hostname": "android"
+  },
+  "dns_queries": [
+    "facebook.com",
+    "google.com",
+    "apple.com"
+  ],
+  "flows": [
+    {
+      "destination": "210.170.253.25",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "55.178.237.179",
+      "port": 5000,
+      "protocol": 6
+    }
+  ],
+  "label": "Smartphone"
+}

@@ -1,0 +1,43 @@
+{
+  "ip_address": "10.157.2.106",
+  "export_date": "2025-03-17T00:20:04",
+  "host_info": {
+    "ip_address": "192.168.76.125",
+    "mac_address": "79:38:f3:81:86:88",
+    "mac_vendor": "Beck, Phelps and Parker",
+    "dhcp_hostname": "ring_camera",
+    "os_fingerprint": "Ring_Camera",
+    "lease_hostname": "ring_camera"
+  },
+  "dns_queries": [
+    "ring.com"
+  ],
+  "flows": [
+    {
+      "destination": "144.87.168.70",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "74.232.80.54",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "189.210.239.223",
+      "port": 5000,
+      "protocol": 6
+    },
+    {
+      "destination": "70.54.133.18",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "125.26.198.50",
+      "port": 443,
+      "protocol": 17
+    }
+  ],
+  "label": "Security Camera"
+}

@@ -1,0 +1,29 @@
+{
+  "ip_address": "192.168.140.255",
+  "export_date": "2025-02-13T09:43:51",
+  "host_info": {
+    "ip_address": "172.21.245.68",
+    "mac_address": "1a:be:de:02:8e:b8",
+    "mac_vendor": "Miller-Anderson",
+    "dhcp_hostname": "homepod",
+    "os_fingerprint": "HomePod",
+    "lease_hostname": "homepod"
+  },
+  "dns_queries": [
+    "google.com",
+    "amazon.com"
+  ],
+  "flows": [
+    {
+      "destination": "209.137.65.29",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "206.0.147.16",
+      "port": 443,
+      "protocol": 6
+    }
+  ],
+  "label": "Smart Speaker"
+}

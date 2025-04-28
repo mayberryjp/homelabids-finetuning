@@ -1,0 +1,28 @@
+{
+  "ip_address": "10.227.144.59",
+  "export_date": "2025-01-29T09:25:39",
+  "host_info": {
+    "ip_address": "10.132.193.95",
+    "mac_address": "8d:87:ec:d1:0e:b7",
+    "mac_vendor": "Morrow, Lee and Middleton",
+    "dhcp_hostname": "nintendo_switch",
+    "os_fingerprint": "Nintendo_Switch",
+    "lease_hostname": "nintendo_switch"
+  },
+  "dns_queries": [
+    "playstation.com"
+  ],
+  "flows": [
+    {
+      "destination": "222.221.59.173",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "211.227.160.198",
+      "port": 5000,
+      "protocol": 17
+    }
+  ],
+  "label": "Game Console"
+}

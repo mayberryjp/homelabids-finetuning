@@ -1,0 +1,28 @@
+{
+  "ip_address": "10.43.204.114",
+  "export_date": "2025-02-15T21:37:09",
+  "host_info": {
+    "ip_address": "192.168.28.64",
+    "mac_address": "e1:e6:3c:bb:fd:86",
+    "mac_vendor": "Ward, Price and Gordon",
+    "dhcp_hostname": "galaxy_tab",
+    "os_fingerprint": "Galaxy_Tab",
+    "lease_hostname": "galaxy_tab"
+  },
+  "dns_queries": [
+    "apple.com"
+  ],
+  "flows": [
+    {
+      "destination": "147.208.222.106",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "26.115.174.200",
+      "port": 80,
+      "protocol": 17
+    }
+  ],
+  "label": "Tablet"
+}

@@ -1,0 +1,33 @@
+{
+  "ip_address": "10.0.136.59",
+  "export_date": "2025-02-13T10:45:50",
+  "host_info": {
+    "ip_address": "10.67.16.86",
+    "mac_address": "7b:b1:00:21:ee:d9",
+    "mac_vendor": "Holland-Roman",
+    "dhcp_hostname": "iphone",
+    "os_fingerprint": "iPhone",
+    "lease_hostname": "iphone"
+  },
+  "dns_queries": [
+    "facebook.com"
+  ],
+  "flows": [
+    {
+      "destination": "202.8.187.109",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "204.43.23.166",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "175.240.99.189",
+      "port": 80,
+      "protocol": 17
+    }
+  ],
+  "label": "Smartphone"
+}

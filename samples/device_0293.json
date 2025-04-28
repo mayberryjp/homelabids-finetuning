@@ -1,0 +1,35 @@
+{
+  "ip_address": "172.20.1.196",
+  "export_date": "2025-03-07T23:13:41",
+  "host_info": {
+    "ip_address": "172.22.134.146",
+    "mac_address": "46:0b:82:7b:f0:4a",
+    "mac_vendor": "King and Sons",
+    "dhcp_hostname": "fire_tablet",
+    "os_fingerprint": "Fire_Tablet",
+    "lease_hostname": "fire_tablet"
+  },
+  "dns_queries": [
+    "apple.com",
+    "samsung.com",
+    "amazon.com"
+  ],
+  "flows": [
+    {
+      "destination": "95.169.231.247",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "209.253.139.69",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "223.200.140.7",
+      "port": 5000,
+      "protocol": 6
+    }
+  ],
+  "label": "Tablet"
+}

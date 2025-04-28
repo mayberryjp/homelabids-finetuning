@@ -1,0 +1,33 @@
+{
+  "ip_address": "10.138.154.78",
+  "export_date": "2025-03-14T07:44:17",
+  "host_info": {
+    "ip_address": "192.168.58.176",
+    "mac_address": "c7:8e:00:c6:26:8b",
+    "mac_vendor": "Alvarado and Sons",
+    "dhcp_hostname": "ipad",
+    "os_fingerprint": "iPad",
+    "lease_hostname": "ipad"
+  },
+  "dns_queries": [
+    "samsung.com"
+  ],
+  "flows": [
+    {
+      "destination": "214.201.68.245",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "222.69.130.156",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "210.8.4.148",
+      "port": 8883,
+      "protocol": 17
+    }
+  ],
+  "label": "Tablet"
+}

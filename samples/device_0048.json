@@ -1,0 +1,50 @@
+{
+  "ip_address": "172.21.47.224",
+  "export_date": "2025-04-14T06:22:29",
+  "host_info": {
+    "ip_address": "10.38.8.185",
+    "mac_address": "0f:d7:f3:c2:92:fc",
+    "mac_vendor": "Guzman and Sons",
+    "dhcp_hostname": "iphone",
+    "os_fingerprint": "iPhone",
+    "lease_hostname": "iphone"
+  },
+  "dns_queries": [
+    "whatsapp.com",
+    "facebook.com",
+    "apple.com"
+  ],
+  "flows": [
+    {
+      "destination": "183.144.242.136",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "160.234.199.254",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "189.24.254.36",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "205.181.91.190",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "195.39.88.61",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "142.47.54.251",
+      "port": 8883,
+      "protocol": 6
+    }
+  ],
+  "label": "Smartphone"
+}

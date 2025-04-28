@@ -1,0 +1,49 @@
+{
+  "ip_address": "192.168.193.107",
+  "export_date": "2025-01-14T07:27:56",
+  "host_info": {
+    "ip_address": "192.168.210.150",
+    "mac_address": "ee:38:49:1d:2c:d3",
+    "mac_vendor": "Moore and Sons",
+    "dhcp_hostname": "tp-link_smartbulb",
+    "os_fingerprint": "TP-Link_SmartBulb",
+    "lease_hostname": "tp-link_smartbulb"
+  },
+  "dns_queries": [
+    "philips-hue.com",
+    "tplinkcloud.com"
+  ],
+  "flows": [
+    {
+      "destination": "74.209.157.180",
+      "port": 123,
+      "protocol": 17
+    },
+    {
+      "destination": "138.77.46.190",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "153.158.34.59",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "143.66.121.250",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "151.182.144.67",
+      "port": 80,
+      "protocol": 6
+    },
+    {
+      "destination": "190.243.135.244",
+      "port": 5000,
+      "protocol": 17
+    }
+  ],
+  "label": "Smart Light"
+}

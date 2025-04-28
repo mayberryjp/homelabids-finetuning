@@ -1,0 +1,34 @@
+{
+  "ip_address": "10.205.141.194",
+  "export_date": "2025-03-25T03:07:02",
+  "host_info": {
+    "ip_address": "172.28.104.192",
+    "mac_address": "56:6a:0a:44:d8:78",
+    "mac_vendor": "Williams, Lewis and Lopez",
+    "dhcp_hostname": "ipad",
+    "os_fingerprint": "iPad",
+    "lease_hostname": "ipad"
+  },
+  "dns_queries": [
+    "amazon.com",
+    "apple.com"
+  ],
+  "flows": [
+    {
+      "destination": "163.103.207.193",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "140.78.102.203",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "162.12.88.119",
+      "port": 443,
+      "protocol": 6
+    }
+  ],
+  "label": "Tablet"
+}

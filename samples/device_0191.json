@@ -1,0 +1,35 @@
+{
+  "ip_address": "172.24.227.148",
+  "export_date": "2025-02-16T08:19:41",
+  "host_info": {
+    "ip_address": "172.24.49.76",
+    "mac_address": "37:82:3b:9f:04:30",
+    "mac_vendor": "Mays, Johnson and Jackson",
+    "dhcp_hostname": "canon_pixma",
+    "os_fingerprint": "Canon_PIXMA",
+    "lease_hostname": "canon_pixma"
+  },
+  "dns_queries": [
+    "hp.com",
+    "canon.com",
+    "brother.com"
+  ],
+  "flows": [
+    {
+      "destination": "218.117.87.42",
+      "port": 5000,
+      "protocol": 6
+    },
+    {
+      "destination": "170.247.7.232",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "217.2.231.15",
+      "port": 8883,
+      "protocol": 17
+    }
+  ],
+  "label": "Printer"
+}

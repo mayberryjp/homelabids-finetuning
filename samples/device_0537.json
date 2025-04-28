@@ -1,0 +1,48 @@
+{
+  "ip_address": "192.168.198.221",
+  "export_date": "2025-02-22T09:04:47",
+  "host_info": {
+    "ip_address": "172.22.134.70",
+    "mac_address": "95:bf:7d:c2:b8:dc",
+    "mac_vendor": "Stewart PLC",
+    "dhcp_hostname": "iphone",
+    "os_fingerprint": "iPhone",
+    "lease_hostname": "iphone"
+  },
+  "dns_queries": [
+    "apple.com"
+  ],
+  "flows": [
+    {
+      "destination": "213.33.151.194",
+      "port": 5000,
+      "protocol": 6
+    },
+    {
+      "destination": "104.95.233.43",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "213.19.130.6",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "214.102.155.49",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "164.254.133.108",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "27.126.168.138",
+      "port": 8883,
+      "protocol": 17
+    }
+  ],
+  "label": "Smartphone"
+}

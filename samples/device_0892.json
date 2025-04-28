@@ -1,0 +1,40 @@
+{
+  "ip_address": "172.21.147.168",
+  "export_date": "2025-01-24T19:16:05",
+  "host_info": {
+    "ip_address": "10.64.76.118",
+    "mac_address": "a0:f7:ef:79:ca:8e",
+    "mac_vendor": "Byrd, Johnson and Johnson",
+    "dhcp_hostname": "lg_smarttv",
+    "os_fingerprint": "LG_SmartTV",
+    "lease_hostname": "lg_smarttv"
+  },
+  "dns_queries": [
+    "youtube.com",
+    "hulu.com",
+    "netflix.com"
+  ],
+  "flows": [
+    {
+      "destination": "217.226.8.192",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "218.210.56.81",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "205.24.116.0",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "31.125.69.128",
+      "port": 123,
+      "protocol": 17
+    }
+  ],
+  "label": "Smart TV"
+}

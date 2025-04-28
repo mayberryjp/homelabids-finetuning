@@ -1,0 +1,48 @@
+{
+  "ip_address": "10.161.74.179",
+  "export_date": "2025-03-12T20:11:28",
+  "host_info": {
+    "ip_address": "10.250.100.94",
+    "mac_address": "d7:03:2f:62:62:e4",
+    "mac_vendor": "Moore-Mcbride",
+    "dhcp_hostname": "windows_10",
+    "os_fingerprint": "Windows_10",
+    "lease_hostname": "windows_10"
+  },
+  "dns_queries": [
+    "google.com"
+  ],
+  "flows": [
+    {
+      "destination": "130.64.64.144",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "4.205.164.184",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "142.36.61.220",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "97.181.106.123",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "89.97.45.211",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "140.34.125.140",
+      "port": 8883,
+      "protocol": 6
+    }
+  ],
+  "label": "Laptop"
+}

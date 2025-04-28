@@ -1,0 +1,48 @@
+{
+  "ip_address": "10.184.46.242",
+  "export_date": "2025-01-14T11:18:44",
+  "host_info": {
+    "ip_address": "10.208.84.207",
+    "mac_address": "8a:13:f5:e8:07:be",
+    "mac_vendor": "Wagner and Sons",
+    "dhcp_hostname": "google_home",
+    "os_fingerprint": "Google_Home",
+    "lease_hostname": "google_home"
+  },
+  "dns_queries": [
+    "google.com"
+  ],
+  "flows": [
+    {
+      "destination": "72.67.52.142",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "220.43.0.43",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "147.102.75.15",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "130.213.177.236",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "97.156.57.90",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "182.208.54.148",
+      "port": 8883,
+      "protocol": 17
+    }
+  ],
+  "label": "Smart Speaker"
+}

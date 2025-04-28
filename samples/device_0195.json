@@ -1,0 +1,48 @@
+{
+  "ip_address": "192.168.108.201",
+  "export_date": "2025-03-10T05:27:44",
+  "host_info": {
+    "ip_address": "192.168.143.53",
+    "mac_address": "16:48:20:12:4f:f6",
+    "mac_vendor": "Frye, Mcmahon and Saunders",
+    "dhcp_hostname": "windows_10",
+    "os_fingerprint": "Windows_10",
+    "lease_hostname": "windows_10"
+  },
+  "dns_queries": [
+    "google.com"
+  ],
+  "flows": [
+    {
+      "destination": "32.80.55.227",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "194.184.60.119",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "165.146.97.75",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "38.106.231.136",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "186.91.68.246",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "219.117.152.6",
+      "port": 6667,
+      "protocol": 6
+    }
+  ],
+  "label": "Laptop"
+}

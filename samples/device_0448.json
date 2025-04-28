@@ -1,0 +1,28 @@
+{
+  "ip_address": "172.23.187.181",
+  "export_date": "2025-04-21T04:57:28",
+  "host_info": {
+    "ip_address": "10.121.1.24",
+    "mac_address": "42:8a:98:65:57:18",
+    "mac_vendor": "Freeman-Porter",
+    "dhcp_hostname": "xbox_series_x",
+    "os_fingerprint": "Xbox_Series_X",
+    "lease_hostname": "xbox_series_x"
+  },
+  "dns_queries": [
+    "nintendo.com"
+  ],
+  "flows": [
+    {
+      "destination": "186.87.18.140",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "198.193.227.252",
+      "port": 123,
+      "protocol": 17
+    }
+  ],
+  "label": "Game Console"
+}

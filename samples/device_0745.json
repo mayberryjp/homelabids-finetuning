@@ -1,0 +1,34 @@
+{
+  "ip_address": "192.168.42.73",
+  "export_date": "2025-03-15T19:07:19",
+  "host_info": {
+    "ip_address": "192.168.5.243",
+    "mac_address": "35:34:ec:5e:3e:6a",
+    "mac_vendor": "Henderson PLC",
+    "dhcp_hostname": "nest_thermostat",
+    "os_fingerprint": "Nest_Thermostat",
+    "lease_hostname": "nest_thermostat"
+  },
+  "dns_queries": [
+    "googleapis.com",
+    "nest.com"
+  ],
+  "flows": [
+    {
+      "destination": "165.5.250.112",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "163.81.191.245",
+      "port": 5000,
+      "protocol": 6
+    },
+    {
+      "destination": "215.142.77.44",
+      "port": 80,
+      "protocol": 6
+    }
+  ],
+  "label": "Smart Thermostat"
+}

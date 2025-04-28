@@ -1,0 +1,34 @@
+{
+  "ip_address": "10.232.7.195",
+  "export_date": "2025-04-05T05:49:48",
+  "host_info": {
+    "ip_address": "10.221.182.150",
+    "mac_address": "ce:c1:07:64:de:00",
+    "mac_vendor": "Warren, Chambers and Morton",
+    "dhcp_hostname": "homepod",
+    "os_fingerprint": "HomePod",
+    "lease_hostname": "homepod"
+  },
+  "dns_queries": [
+    "spotify.com",
+    "amazon.com"
+  ],
+  "flows": [
+    {
+      "destination": "149.168.188.137",
+      "port": 123,
+      "protocol": 17
+    },
+    {
+      "destination": "211.83.183.224",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "209.25.193.228",
+      "port": 8883,
+      "protocol": 6
+    }
+  ],
+  "label": "Smart Speaker"
+}

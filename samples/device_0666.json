@@ -1,0 +1,43 @@
+{
+  "ip_address": "10.221.107.25",
+  "export_date": "2025-01-17T01:38:28",
+  "host_info": {
+    "ip_address": "10.111.240.255",
+    "mac_address": "ff:0e:c8:41:b8:b3",
+    "mac_vendor": "Keller Ltd",
+    "dhcp_hostname": "macbook_pro",
+    "os_fingerprint": "MacBook_Pro",
+    "lease_hostname": "macbook_pro"
+  },
+  "dns_queries": [
+    "google.com"
+  ],
+  "flows": [
+    {
+      "destination": "172.191.93.170",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "222.99.196.10",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "180.13.253.178",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "199.86.223.208",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "161.129.148.135",
+      "port": 123,
+      "protocol": 17
+    }
+  ],
+  "label": "Laptop"
+}

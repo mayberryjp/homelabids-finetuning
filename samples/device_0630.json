@@ -1,0 +1,40 @@
+{
+  "ip_address": "192.168.28.7",
+  "export_date": "2025-01-11T17:30:44",
+  "host_info": {
+    "ip_address": "192.168.13.207",
+    "mac_address": "f4:7b:4b:fa:72:f3",
+    "mac_vendor": "Kelly-Gilbert",
+    "dhcp_hostname": "ubuntu_linux",
+    "os_fingerprint": "Ubuntu_Linux",
+    "lease_hostname": "ubuntu_linux"
+  },
+  "dns_queries": [
+    "github.com",
+    "slack.com",
+    "microsoft.com"
+  ],
+  "flows": [
+    {
+      "destination": "204.218.237.171",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "208.130.203.17",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "213.80.54.136",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "87.94.16.3",
+      "port": 443,
+      "protocol": 17
+    }
+  ],
+  "label": "Laptop"
+}

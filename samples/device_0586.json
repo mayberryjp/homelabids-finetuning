@@ -1,0 +1,34 @@
+{
+  "ip_address": "192.168.151.150",
+  "export_date": "2025-04-03T18:01:44",
+  "host_info": {
+    "ip_address": "10.19.97.60",
+    "mac_address": "ff:b9:77:11:50:ee",
+    "mac_vendor": "Hull Inc",
+    "dhcp_hostname": "android",
+    "os_fingerprint": "Android",
+    "lease_hostname": "android"
+  },
+  "dns_queries": [
+    "facebook.com",
+    "apple.com"
+  ],
+  "flows": [
+    {
+      "destination": "36.201.125.145",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "33.172.235.22",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "158.252.229.118",
+      "port": 5000,
+      "protocol": 17
+    }
+  ],
+  "label": "Smartphone"
+}

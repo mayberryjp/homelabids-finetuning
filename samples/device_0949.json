@@ -1,0 +1,38 @@
+{
+  "ip_address": "172.21.107.130",
+  "export_date": "2025-01-26T13:55:28",
+  "host_info": {
+    "ip_address": "10.218.54.163",
+    "mac_address": "3b:92:b4:e4:63:cf",
+    "mac_vendor": "Conner, Young and Short",
+    "dhcp_hostname": "samsung_smarttv",
+    "os_fingerprint": "Samsung_SmartTV",
+    "lease_hostname": "samsung_smarttv"
+  },
+  "dns_queries": [
+    "hulu.com"
+  ],
+  "flows": [
+    {
+      "destination": "196.202.232.29",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "151.76.220.253",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "173.26.61.109",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "48.70.227.76",
+      "port": 80,
+      "protocol": 17
+    }
+  ],
+  "label": "Smart TV"
+}

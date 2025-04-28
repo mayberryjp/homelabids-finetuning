@@ -1,0 +1,28 @@
+{
+  "ip_address": "192.168.224.209",
+  "export_date": "2025-01-26T10:44:22",
+  "host_info": {
+    "ip_address": "10.6.215.206",
+    "mac_address": "fe:04:85:6a:56:d3",
+    "mac_vendor": "Patterson-Smith",
+    "dhcp_hostname": "ring_camera",
+    "os_fingerprint": "Ring_Camera",
+    "lease_hostname": "ring_camera"
+  },
+  "dns_queries": [
+    "cloudflare.com"
+  ],
+  "flows": [
+    {
+      "destination": "14.97.135.51",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "39.61.187.30",
+      "port": 123,
+      "protocol": 6
+    }
+  ],
+  "label": "Security Camera"
+}

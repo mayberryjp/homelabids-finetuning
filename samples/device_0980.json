@@ -1,0 +1,34 @@
+{
+  "ip_address": "192.168.38.13",
+  "export_date": "2025-03-20T07:39:39",
+  "host_info": {
+    "ip_address": "10.203.235.75",
+    "mac_address": "e3:79:e2:59:be:af",
+    "mac_vendor": "Simon-Caldwell",
+    "dhcp_hostname": "pixel",
+    "os_fingerprint": "Pixel",
+    "lease_hostname": "pixel"
+  },
+  "dns_queries": [
+    "apple.com",
+    "facebook.com"
+  ],
+  "flows": [
+    {
+      "destination": "195.197.150.17",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "50.51.97.186",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "99.116.130.202",
+      "port": 123,
+      "protocol": 17
+    }
+  ],
+  "label": "Smartphone"
+}

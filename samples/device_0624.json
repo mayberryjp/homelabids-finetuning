@@ -1,0 +1,40 @@
+{
+  "ip_address": "192.168.133.55",
+  "export_date": "2025-01-04T21:18:52",
+  "host_info": {
+    "ip_address": "10.144.10.142",
+    "mac_address": "bc:f2:c1:b4:bc:bf",
+    "mac_vendor": "White-Miller",
+    "dhcp_hostname": "google_home",
+    "os_fingerprint": "Google_Home",
+    "lease_hostname": "google_home"
+  },
+  "dns_queries": [
+    "spotify.com",
+    "google.com",
+    "amazon.com"
+  ],
+  "flows": [
+    {
+      "destination": "204.168.78.66",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "199.12.1.31",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "196.131.178.126",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "201.98.193.193",
+      "port": 6667,
+      "protocol": 6
+    }
+  ],
+  "label": "Smart Speaker"
+}

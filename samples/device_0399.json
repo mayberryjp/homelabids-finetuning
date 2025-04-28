@@ -1,0 +1,39 @@
+{
+  "ip_address": "192.168.202.20",
+  "export_date": "2025-03-18T11:31:27",
+  "host_info": {
+    "ip_address": "172.20.185.126",
+    "mac_address": "9c:4f:80:8a:07:92",
+    "mac_vendor": "Rivera Group",
+    "dhcp_hostname": "hp_laserjet",
+    "os_fingerprint": "HP_LaserJet",
+    "lease_hostname": "hp_laserjet"
+  },
+  "dns_queries": [
+    "hp.com",
+    "brother.com"
+  ],
+  "flows": [
+    {
+      "destination": "98.99.247.149",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "201.147.198.189",
+      "port": 80,
+      "protocol": 6
+    },
+    {
+      "destination": "167.191.216.238",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "136.146.94.200",
+      "port": 123,
+      "protocol": 17
+    }
+  ],
+  "label": "Printer"
+}

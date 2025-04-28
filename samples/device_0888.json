@@ -1,0 +1,33 @@
+{
+  "ip_address": "10.161.10.170",
+  "export_date": "2025-01-27T01:54:13",
+  "host_info": {
+    "ip_address": "172.18.147.94",
+    "mac_address": "68:33:f8:20:ef:81",
+    "mac_vendor": "Newton-Oliver",
+    "dhcp_hostname": "macbook_pro",
+    "os_fingerprint": "MacBook_Pro",
+    "lease_hostname": "macbook_pro"
+  },
+  "dns_queries": [
+    "google.com"
+  ],
+  "flows": [
+    {
+      "destination": "104.24.153.167",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "23.77.145.244",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "218.5.195.94",
+      "port": 80,
+      "protocol": 6
+    }
+  ],
+  "label": "Laptop"
+}

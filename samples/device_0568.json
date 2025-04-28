@@ -1,0 +1,39 @@
+{
+  "ip_address": "172.16.17.59",
+  "export_date": "2025-01-01T16:40:24",
+  "host_info": {
+    "ip_address": "172.27.137.203",
+    "mac_address": "4a:2e:ae:56:b0:5b",
+    "mac_vendor": "Simpson-Anderson",
+    "dhcp_hostname": "pixel",
+    "os_fingerprint": "Pixel",
+    "lease_hostname": "pixel"
+  },
+  "dns_queries": [
+    "apple.com",
+    "google.com"
+  ],
+  "flows": [
+    {
+      "destination": "151.159.207.11",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "199.153.140.35",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "201.71.58.190",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "128.172.80.131",
+      "port": 443,
+      "protocol": 17
+    }
+  ],
+  "label": "Smartphone"
+}

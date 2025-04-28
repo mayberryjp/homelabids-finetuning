@@ -1,0 +1,50 @@
+{
+  "ip_address": "192.168.13.14",
+  "export_date": "2025-02-09T19:33:03",
+  "host_info": {
+    "ip_address": "10.173.245.0",
+    "mac_address": "9c:19:ed:60:66:8a",
+    "mac_vendor": "Jensen-Salas",
+    "dhcp_hostname": "android",
+    "os_fingerprint": "Android",
+    "lease_hostname": "android"
+  },
+  "dns_queries": [
+    "apple.com",
+    "google.com",
+    "whatsapp.com"
+  ],
+  "flows": [
+    {
+      "destination": "90.20.202.170",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "101.121.206.232",
+      "port": 80,
+      "protocol": 6
+    },
+    {
+      "destination": "223.138.114.103",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "199.58.152.250",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "214.118.90.126",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "223.14.125.193",
+      "port": 8883,
+      "protocol": 6
+    }
+  ],
+  "label": "Smartphone"
+}

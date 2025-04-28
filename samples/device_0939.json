@@ -1,0 +1,38 @@
+{
+  "ip_address": "172.23.188.146",
+  "export_date": "2025-04-08T13:39:05",
+  "host_info": {
+    "ip_address": "192.168.196.241",
+    "mac_address": "8d:33:0c:42:0f:d9",
+    "mac_vendor": "Lucas-Wall",
+    "dhcp_hostname": "brother_hl",
+    "os_fingerprint": "Brother_HL",
+    "lease_hostname": "brother_hl"
+  },
+  "dns_queries": [
+    "brother.com"
+  ],
+  "flows": [
+    {
+      "destination": "198.166.154.9",
+      "port": 80,
+      "protocol": 6
+    },
+    {
+      "destination": "197.110.73.18",
+      "port": 80,
+      "protocol": 6
+    },
+    {
+      "destination": "166.154.89.181",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "2.189.144.182",
+      "port": 8883,
+      "protocol": 6
+    }
+  ],
+  "label": "Printer"
+}

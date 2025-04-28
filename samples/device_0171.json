@@ -1,0 +1,44 @@
+{
+  "ip_address": "192.168.8.91",
+  "export_date": "2025-02-10T00:19:25",
+  "host_info": {
+    "ip_address": "172.17.106.224",
+    "mac_address": "2a:53:63:0e:c7:57",
+    "mac_vendor": "Benson-Rojas",
+    "dhcp_hostname": "galaxy_tab",
+    "os_fingerprint": "Galaxy_Tab",
+    "lease_hostname": "galaxy_tab"
+  },
+  "dns_queries": [
+    "samsung.com",
+    "amazon.com"
+  ],
+  "flows": [
+    {
+      "destination": "139.121.200.173",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "41.252.251.85",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "176.209.145.225",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "193.31.81.113",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "30.74.97.189",
+      "port": 8883,
+      "protocol": 17
+    }
+  ],
+  "label": "Tablet"
+}

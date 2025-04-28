@@ -1,0 +1,45 @@
+{
+  "ip_address": "172.22.180.155",
+  "export_date": "2025-04-04T00:13:21",
+  "host_info": {
+    "ip_address": "192.168.71.134",
+    "mac_address": "4f:a0:fc:77:fb:80",
+    "mac_vendor": "Pearson-Allen",
+    "dhcp_hostname": "canon_pixma",
+    "os_fingerprint": "Canon_PIXMA",
+    "lease_hostname": "canon_pixma"
+  },
+  "dns_queries": [
+    "hp.com",
+    "brother.com",
+    "canon.com"
+  ],
+  "flows": [
+    {
+      "destination": "4.33.145.157",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "99.22.140.152",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "178.136.7.185",
+      "port": 80,
+      "protocol": 6
+    },
+    {
+      "destination": "46.230.1.9",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "211.9.184.220",
+      "port": 80,
+      "protocol": 17
+    }
+  ],
+  "label": "Printer"
+}

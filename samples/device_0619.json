@@ -1,0 +1,44 @@
+{
+  "ip_address": "172.19.201.233",
+  "export_date": "2025-01-23T12:43:14",
+  "host_info": {
+    "ip_address": "172.31.159.205",
+    "mac_address": "6e:77:1c:e3:89:ea",
+    "mac_vendor": "Frederick Inc",
+    "dhcp_hostname": "ubuntu_linux",
+    "os_fingerprint": "Ubuntu_Linux",
+    "lease_hostname": "ubuntu_linux"
+  },
+  "dns_queries": [
+    "github.com",
+    "slack.com"
+  ],
+  "flows": [
+    {
+      "destination": "31.6.3.181",
+      "port": 80,
+      "protocol": 6
+    },
+    {
+      "destination": "59.61.128.73",
+      "port": 123,
+      "protocol": 17
+    },
+    {
+      "destination": "216.105.69.4",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "37.244.185.41",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "208.175.2.249",
+      "port": 123,
+      "protocol": 17
+    }
+  ],
+  "label": "Laptop"
+}

@@ -1,0 +1,48 @@
+{
+  "ip_address": "172.21.220.206",
+  "export_date": "2025-02-14T06:15:43",
+  "host_info": {
+    "ip_address": "172.26.103.7",
+    "mac_address": "90:d9:6d:c6:cc:9b",
+    "mac_vendor": "Rogers, Murphy and Lee",
+    "dhcp_hostname": "fire_tablet",
+    "os_fingerprint": "Fire_Tablet",
+    "lease_hostname": "fire_tablet"
+  },
+  "dns_queries": [
+    "amazon.com"
+  ],
+  "flows": [
+    {
+      "destination": "138.98.122.125",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "15.167.65.170",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "124.64.141.51",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "55.152.200.216",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "223.178.9.7",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "66.224.248.143",
+      "port": 53,
+      "protocol": 17
+    }
+  ],
+  "label": "Tablet"
+}

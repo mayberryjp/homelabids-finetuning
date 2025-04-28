@@ -1,0 +1,28 @@
+{
+  "ip_address": "172.19.128.135",
+  "export_date": "2025-02-11T15:42:44",
+  "host_info": {
+    "ip_address": "10.206.243.194",
+    "mac_address": "c4:2b:f5:ad:e6:c1",
+    "mac_vendor": "Mclaughlin, Lopez and Wade",
+    "dhcp_hostname": "android",
+    "os_fingerprint": "Android",
+    "lease_hostname": "android"
+  },
+  "dns_queries": [
+    "whatsapp.com"
+  ],
+  "flows": [
+    {
+      "destination": "172.251.223.60",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "154.187.215.42",
+      "port": 123,
+      "protocol": 6
+    }
+  ],
+  "label": "Smartphone"
+}

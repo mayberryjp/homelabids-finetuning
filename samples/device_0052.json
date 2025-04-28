@@ -1,0 +1,50 @@
+{
+  "ip_address": "10.5.136.167",
+  "export_date": "2025-02-27T15:41:47",
+  "host_info": {
+    "ip_address": "10.97.10.72",
+    "mac_address": "0f:8e:40:9e:92:70",
+    "mac_vendor": "Hoffman-Green",
+    "dhcp_hostname": "amazon_echo",
+    "os_fingerprint": "Amazon_Echo",
+    "lease_hostname": "amazon_echo"
+  },
+  "dns_queries": [
+    "spotify.com",
+    "google.com",
+    "amazon.com"
+  ],
+  "flows": [
+    {
+      "destination": "222.134.107.13",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "28.26.252.125",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "31.27.32.82",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "30.144.224.157",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "196.141.89.17",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "170.106.33.117",
+      "port": 6667,
+      "protocol": 6
+    }
+  ],
+  "label": "Smart Speaker"
+}

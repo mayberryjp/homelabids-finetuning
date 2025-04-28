@@ -1,0 +1,50 @@
+{
+  "ip_address": "192.168.205.31",
+  "export_date": "2025-04-16T21:40:24",
+  "host_info": {
+    "ip_address": "172.21.238.54",
+    "mac_address": "81:2f:98:7b:d1:7e",
+    "mac_vendor": "Hall LLC",
+    "dhcp_hostname": "ubuntu_linux",
+    "os_fingerprint": "Ubuntu_Linux",
+    "lease_hostname": "ubuntu_linux"
+  },
+  "dns_queries": [
+    "google.com",
+    "github.com",
+    "slack.com"
+  ],
+  "flows": [
+    {
+      "destination": "126.249.196.227",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "214.78.79.169",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "159.132.96.234",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "200.64.212.79",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "147.168.103.239",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "104.54.103.108",
+      "port": 443,
+      "protocol": 17
+    }
+  ],
+  "label": "Laptop"
+}

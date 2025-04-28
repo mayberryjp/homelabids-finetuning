@@ -1,0 +1,29 @@
+{
+  "ip_address": "10.46.124.193",
+  "export_date": "2025-02-20T16:07:31",
+  "host_info": {
+    "ip_address": "10.90.21.190",
+    "mac_address": "7f:a5:db:2e:68:90",
+    "mac_vendor": "Richmond-Mason",
+    "dhcp_hostname": "nest_thermostat",
+    "os_fingerprint": "Nest_Thermostat",
+    "lease_hostname": "nest_thermostat"
+  },
+  "dns_queries": [
+    "ecobee.com",
+    "nest.com"
+  ],
+  "flows": [
+    {
+      "destination": "150.111.64.69",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "131.110.0.69",
+      "port": 443,
+      "protocol": 6
+    }
+  ],
+  "label": "Smart Thermostat"
+}

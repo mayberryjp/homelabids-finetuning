@@ -1,0 +1,50 @@
+{
+  "ip_address": "10.169.249.86",
+  "export_date": "2025-03-19T00:26:00",
+  "host_info": {
+    "ip_address": "10.131.133.201",
+    "mac_address": "a1:c3:10:cd:25:3a",
+    "mac_vendor": "Calderon Inc",
+    "dhcp_hostname": "google_home",
+    "os_fingerprint": "Google_Home",
+    "lease_hostname": "google_home"
+  },
+  "dns_queries": [
+    "spotify.com",
+    "google.com",
+    "amazon.com"
+  ],
+  "flows": [
+    {
+      "destination": "19.104.109.159",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "223.76.66.81",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "48.243.13.0",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "217.245.159.90",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "157.42.179.8",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "17.177.203.130",
+      "port": 80,
+      "protocol": 6
+    }
+  ],
+  "label": "Smart Speaker"
+}

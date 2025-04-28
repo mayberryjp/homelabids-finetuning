@@ -1,0 +1,43 @@
+{
+  "ip_address": "172.23.226.216",
+  "export_date": "2025-01-01T08:33:25",
+  "host_info": {
+    "ip_address": "10.220.19.186",
+    "mac_address": "14:9a:d0:08:6c:3a",
+    "mac_vendor": "Wilson-Weaver",
+    "dhcp_hostname": "lifx_bulb",
+    "os_fingerprint": "LIFX_Bulb",
+    "lease_hostname": "lifx_bulb"
+  },
+  "dns_queries": [
+    "tplinkcloud.com"
+  ],
+  "flows": [
+    {
+      "destination": "105.188.54.227",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "21.24.225.239",
+      "port": 80,
+      "protocol": 6
+    },
+    {
+      "destination": "172.129.175.13",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "161.27.193.233",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "207.173.62.106",
+      "port": 443,
+      "protocol": 17
+    }
+  ],
+  "label": "Smart Light"
+}

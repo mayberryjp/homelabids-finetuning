@@ -1,0 +1,39 @@
+{
+  "ip_address": "10.23.175.242",
+  "export_date": "2025-04-16T22:50:39",
+  "host_info": {
+    "ip_address": "10.152.70.245",
+    "mac_address": "0c:61:f5:20:f7:57",
+    "mac_vendor": "Gonzalez, Sullivan and Martinez",
+    "dhcp_hostname": "nest_thermostat",
+    "os_fingerprint": "Nest_Thermostat",
+    "lease_hostname": "nest_thermostat"
+  },
+  "dns_queries": [
+    "nest.com",
+    "ecobee.com"
+  ],
+  "flows": [
+    {
+      "destination": "200.99.109.171",
+      "port": 80,
+      "protocol": 6
+    },
+    {
+      "destination": "61.112.130.136",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "191.174.190.73",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "140.247.201.167",
+      "port": 80,
+      "protocol": 17
+    }
+  ],
+  "label": "Smart Thermostat"
+}

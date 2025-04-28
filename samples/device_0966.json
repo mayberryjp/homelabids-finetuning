@@ -1,0 +1,44 @@
+{
+  "ip_address": "172.21.91.100",
+  "export_date": "2025-03-29T06:57:31",
+  "host_info": {
+    "ip_address": "172.24.220.2",
+    "mac_address": "6c:a8:ce:cd:78:23",
+    "mac_vendor": "Burgess-Adams",
+    "dhcp_hostname": "google_home",
+    "os_fingerprint": "Google_Home",
+    "lease_hostname": "google_home"
+  },
+  "dns_queries": [
+    "google.com",
+    "spotify.com"
+  ],
+  "flows": [
+    {
+      "destination": "173.162.128.186",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "141.108.104.9",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "82.111.205.176",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "136.243.237.217",
+      "port": 5000,
+      "protocol": 6
+    },
+    {
+      "destination": "164.95.201.55",
+      "port": 5000,
+      "protocol": 6
+    }
+  ],
+  "label": "Smart Speaker"
+}

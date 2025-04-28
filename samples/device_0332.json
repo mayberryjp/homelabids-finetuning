@@ -1,0 +1,45 @@
+{
+  "ip_address": "172.23.71.225",
+  "export_date": "2025-02-15T18:34:46",
+  "host_info": {
+    "ip_address": "172.29.222.217",
+    "mac_address": "13:a4:24:0f:f8:13",
+    "mac_vendor": "Peterson and Sons",
+    "dhcp_hostname": "ipad",
+    "os_fingerprint": "iPad",
+    "lease_hostname": "ipad"
+  },
+  "dns_queries": [
+    "samsung.com",
+    "apple.com",
+    "amazon.com"
+  ],
+  "flows": [
+    {
+      "destination": "165.157.98.205",
+      "port": 5000,
+      "protocol": 6
+    },
+    {
+      "destination": "84.241.206.216",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "41.142.116.145",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "152.104.44.103",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "66.38.29.81",
+      "port": 53,
+      "protocol": 17
+    }
+  ],
+  "label": "Tablet"
+}

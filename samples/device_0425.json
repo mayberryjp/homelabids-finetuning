@@ -1,0 +1,29 @@
+{
+  "ip_address": "172.21.170.235",
+  "export_date": "2025-03-24T14:48:39",
+  "host_info": {
+    "ip_address": "10.61.31.25",
+    "mac_address": "00:8f:e4:82:ac:f6",
+    "mac_vendor": "Macdonald-Mendoza",
+    "dhcp_hostname": "galaxy_tab",
+    "os_fingerprint": "Galaxy_Tab",
+    "lease_hostname": "galaxy_tab"
+  },
+  "dns_queries": [
+    "samsung.com",
+    "apple.com"
+  ],
+  "flows": [
+    {
+      "destination": "151.231.162.174",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "132.8.140.38",
+      "port": 6667,
+      "protocol": 6
+    }
+  ],
+  "label": "Tablet"
+}

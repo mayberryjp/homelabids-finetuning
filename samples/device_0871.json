@@ -1,0 +1,28 @@
+{
+  "ip_address": "10.115.140.115",
+  "export_date": "2025-04-12T07:05:06",
+  "host_info": {
+    "ip_address": "192.168.153.21",
+    "mac_address": "e9:5f:51:1f:52:8d",
+    "mac_vendor": "Ruiz-Mitchell",
+    "dhcp_hostname": "ubuntu_linux",
+    "os_fingerprint": "Ubuntu_Linux",
+    "lease_hostname": "ubuntu_linux"
+  },
+  "dns_queries": [
+    "google.com"
+  ],
+  "flows": [
+    {
+      "destination": "7.47.142.131",
+      "port": 123,
+      "protocol": 17
+    },
+    {
+      "destination": "161.122.255.223",
+      "port": 5000,
+      "protocol": 6
+    }
+  ],
+  "label": "Laptop"
+}

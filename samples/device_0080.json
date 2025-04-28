@@ -1,0 +1,39 @@
+{
+  "ip_address": "192.168.160.79",
+  "export_date": "2025-04-28T07:21:41",
+  "host_info": {
+    "ip_address": "10.178.252.166",
+    "mac_address": "4a:45:7d:3d:6e:3b",
+    "mac_vendor": "Taylor LLC",
+    "dhcp_hostname": "ubuntu_linux",
+    "os_fingerprint": "Ubuntu_Linux",
+    "lease_hostname": "ubuntu_linux"
+  },
+  "dns_queries": [
+    "github.com",
+    "slack.com"
+  ],
+  "flows": [
+    {
+      "destination": "45.214.87.93",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "213.57.117.107",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "223.33.96.244",
+      "port": 80,
+      "protocol": 6
+    },
+    {
+      "destination": "35.147.97.202",
+      "port": 443,
+      "protocol": 17
+    }
+  ],
+  "label": "Laptop"
+}

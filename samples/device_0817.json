@@ -1,0 +1,35 @@
+{
+  "ip_address": "10.95.227.232",
+  "export_date": "2025-03-22T01:30:44",
+  "host_info": {
+    "ip_address": "10.118.117.81",
+    "mac_address": "86:c4:24:d2:55:1d",
+    "mac_vendor": "Hawkins-Cardenas",
+    "dhcp_hostname": "android",
+    "os_fingerprint": "Android",
+    "lease_hostname": "android"
+  },
+  "dns_queries": [
+    "apple.com",
+    "google.com",
+    "facebook.com"
+  ],
+  "flows": [
+    {
+      "destination": "195.48.253.236",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "139.8.37.126",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "198.128.215.196",
+      "port": 123,
+      "protocol": 6
+    }
+  ],
+  "label": "Smartphone"
+}

@@ -1,0 +1,50 @@
+{
+  "ip_address": "192.168.110.52",
+  "export_date": "2025-01-31T18:05:06",
+  "host_info": {
+    "ip_address": "10.21.59.88",
+    "mac_address": "4d:29:ff:d6:fe:38",
+    "mac_vendor": "Lee, Torres and Scott",
+    "dhcp_hostname": "amazon_echo",
+    "os_fingerprint": "Amazon_Echo",
+    "lease_hostname": "amazon_echo"
+  },
+  "dns_queries": [
+    "spotify.com",
+    "google.com",
+    "amazon.com"
+  ],
+  "flows": [
+    {
+      "destination": "148.163.99.195",
+      "port": 123,
+      "protocol": 17
+    },
+    {
+      "destination": "201.242.194.192",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "149.71.160.86",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "223.147.205.235",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "218.200.205.63",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "102.194.160.207",
+      "port": 123,
+      "protocol": 6
+    }
+  ],
+  "label": "Smart Speaker"
+}

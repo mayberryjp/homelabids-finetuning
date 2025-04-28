@@ -1,0 +1,38 @@
+{
+  "ip_address": "192.168.164.74",
+  "export_date": "2025-01-01T18:37:52",
+  "host_info": {
+    "ip_address": "172.25.91.209",
+    "mac_address": "ea:98:f4:b3:86:02",
+    "mac_vendor": "Bowers-Hunter",
+    "dhcp_hostname": "nest_cam",
+    "os_fingerprint": "Nest_Cam",
+    "lease_hostname": "nest_cam"
+  },
+  "dns_queries": [
+    "cloudflare.com"
+  ],
+  "flows": [
+    {
+      "destination": "46.16.180.179",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "14.159.133.185",
+      "port": 5000,
+      "protocol": 6
+    },
+    {
+      "destination": "201.80.103.20",
+      "port": 123,
+      "protocol": 17
+    },
+    {
+      "destination": "162.148.135.115",
+      "port": 80,
+      "protocol": 6
+    }
+  ],
+  "label": "Security Camera"
+}

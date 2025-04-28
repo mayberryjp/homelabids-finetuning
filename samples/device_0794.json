@@ -1,0 +1,40 @@
+{
+  "ip_address": "10.169.54.81",
+  "export_date": "2025-03-24T21:09:06",
+  "host_info": {
+    "ip_address": "172.19.113.122",
+    "mac_address": "6b:bd:38:05:0a:e4",
+    "mac_vendor": "Bell Inc",
+    "dhcp_hostname": "macbook_pro",
+    "os_fingerprint": "MacBook_Pro",
+    "lease_hostname": "macbook_pro"
+  },
+  "dns_queries": [
+    "google.com",
+    "github.com",
+    "slack.com"
+  ],
+  "flows": [
+    {
+      "destination": "122.139.152.126",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "214.218.68.127",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "158.21.11.35",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "33.183.100.234",
+      "port": 6667,
+      "protocol": 17
+    }
+  ],
+  "label": "Laptop"
+}

@@ -1,0 +1,48 @@
+{
+  "ip_address": "172.28.211.67",
+  "export_date": "2025-02-28T10:00:55",
+  "host_info": {
+    "ip_address": "172.29.81.114",
+    "mac_address": "8f:eb:84:69:71:75",
+    "mac_vendor": "Harrison, Lee and Skinner",
+    "dhcp_hostname": "iphone",
+    "os_fingerprint": "iPhone",
+    "lease_hostname": "iphone"
+  },
+  "dns_queries": [
+    "facebook.com"
+  ],
+  "flows": [
+    {
+      "destination": "213.158.138.104",
+      "port": 5000,
+      "protocol": 6
+    },
+    {
+      "destination": "221.35.243.59",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "176.43.9.21",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "200.154.201.206",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "164.202.57.153",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "214.33.218.185",
+      "port": 6667,
+      "protocol": 6
+    }
+  ],
+  "label": "Smartphone"
+}

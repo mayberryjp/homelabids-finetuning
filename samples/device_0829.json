@@ -1,0 +1,39 @@
+{
+  "ip_address": "172.18.252.131",
+  "export_date": "2025-03-25T23:40:43",
+  "host_info": {
+    "ip_address": "192.168.188.49",
+    "mac_address": "58:72:c4:b2:39:33",
+    "mac_vendor": "Hawkins-Price",
+    "dhcp_hostname": "amazon_echo",
+    "os_fingerprint": "Amazon_Echo",
+    "lease_hostname": "amazon_echo"
+  },
+  "dns_queries": [
+    "spotify.com",
+    "google.com"
+  ],
+  "flows": [
+    {
+      "destination": "141.46.131.233",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "81.182.27.10",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "193.49.104.177",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "117.69.81.25",
+      "port": 443,
+      "protocol": 6
+    }
+  ],
+  "label": "Smart Speaker"
+}

@@ -1,0 +1,30 @@
+{
+  "ip_address": "10.195.232.63",
+  "export_date": "2025-04-03T03:01:39",
+  "host_info": {
+    "ip_address": "172.25.251.214",
+    "mac_address": "44:7d:81:eb:3b:29",
+    "mac_vendor": "Martinez Ltd",
+    "dhcp_hostname": "ring_camera",
+    "os_fingerprint": "Ring_Camera",
+    "lease_hostname": "ring_camera"
+  },
+  "dns_queries": [
+    "cloudflare.com",
+    "ring.com",
+    "arlo.com"
+  ],
+  "flows": [
+    {
+      "destination": "137.184.143.227",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "204.152.162.153",
+      "port": 80,
+      "protocol": 17
+    }
+  ],
+  "label": "Security Camera"
+}

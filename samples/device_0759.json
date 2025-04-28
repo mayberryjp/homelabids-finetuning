@@ -1,0 +1,30 @@
+{
+  "ip_address": "10.73.181.83",
+  "export_date": "2025-02-26T14:14:31",
+  "host_info": {
+    "ip_address": "192.168.113.178",
+    "mac_address": "40:49:3c:b3:11:be",
+    "mac_vendor": "Freeman Inc",
+    "dhcp_hostname": "android",
+    "os_fingerprint": "Android",
+    "lease_hostname": "android"
+  },
+  "dns_queries": [
+    "apple.com",
+    "whatsapp.com",
+    "facebook.com"
+  ],
+  "flows": [
+    {
+      "destination": "131.19.93.255",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "135.16.34.66",
+      "port": 8883,
+      "protocol": 17
+    }
+  ],
+  "label": "Smartphone"
+}

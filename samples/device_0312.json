@@ -1,0 +1,45 @@
+{
+  "ip_address": "10.43.50.150",
+  "export_date": "2025-03-23T03:38:10",
+  "host_info": {
+    "ip_address": "172.16.147.4",
+    "mac_address": "01:b9:52:15:a9:8e",
+    "mac_vendor": "Heath Inc",
+    "dhcp_hostname": "macbook_pro",
+    "os_fingerprint": "MacBook_Pro",
+    "lease_hostname": "macbook_pro"
+  },
+  "dns_queries": [
+    "github.com",
+    "slack.com",
+    "microsoft.com"
+  ],
+  "flows": [
+    {
+      "destination": "201.102.132.194",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "163.30.160.26",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "110.119.112.73",
+      "port": 5000,
+      "protocol": 6
+    },
+    {
+      "destination": "140.179.232.158",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "118.132.2.165",
+      "port": 8883,
+      "protocol": 17
+    }
+  ],
+  "label": "Laptop"
+}

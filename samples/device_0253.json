@@ -1,0 +1,30 @@
+{
+  "ip_address": "10.144.162.5",
+  "export_date": "2025-03-30T18:13:09",
+  "host_info": {
+    "ip_address": "192.168.237.253",
+    "mac_address": "d0:78:dc:eb:6b:bd",
+    "mac_vendor": "Ryan-Cisneros",
+    "dhcp_hostname": "pixel",
+    "os_fingerprint": "Pixel",
+    "lease_hostname": "pixel"
+  },
+  "dns_queries": [
+    "whatsapp.com",
+    "facebook.com",
+    "apple.com"
+  ],
+  "flows": [
+    {
+      "destination": "163.2.79.113",
+      "port": 123,
+      "protocol": 17
+    },
+    {
+      "destination": "162.117.84.135",
+      "port": 443,
+      "protocol": 17
+    }
+  ],
+  "label": "Smartphone"
+}

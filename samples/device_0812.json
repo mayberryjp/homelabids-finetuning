@@ -1,0 +1,35 @@
+{
+  "ip_address": "192.168.100.52",
+  "export_date": "2025-03-23T00:35:38",
+  "host_info": {
+    "ip_address": "172.20.251.221",
+    "mac_address": "fe:46:c8:de:67:49",
+    "mac_vendor": "Campos Inc",
+    "dhcp_hostname": "galaxy_tab",
+    "os_fingerprint": "Galaxy_Tab",
+    "lease_hostname": "galaxy_tab"
+  },
+  "dns_queries": [
+    "apple.com",
+    "samsung.com",
+    "amazon.com"
+  ],
+  "flows": [
+    {
+      "destination": "223.155.86.145",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "206.146.26.212",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "16.254.204.32",
+      "port": 443,
+      "protocol": 6
+    }
+  ],
+  "label": "Tablet"
+}

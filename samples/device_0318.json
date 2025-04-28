@@ -1,0 +1,29 @@
+{
+  "ip_address": "172.31.44.203",
+  "export_date": "2025-01-21T03:12:36",
+  "host_info": {
+    "ip_address": "192.168.24.76",
+    "mac_address": "8d:b4:c7:e2:d9:75",
+    "mac_vendor": "Arnold Group",
+    "dhcp_hostname": "fire_tablet",
+    "os_fingerprint": "Fire_Tablet",
+    "lease_hostname": "fire_tablet"
+  },
+  "dns_queries": [
+    "samsung.com",
+    "apple.com"
+  ],
+  "flows": [
+    {
+      "destination": "109.121.220.231",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "218.141.106.10",
+      "port": 123,
+      "protocol": 17
+    }
+  ],
+  "label": "Tablet"
+}

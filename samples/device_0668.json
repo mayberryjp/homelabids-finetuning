@@ -1,0 +1,33 @@
+{
+  "ip_address": "10.204.154.166",
+  "export_date": "2025-01-10T16:43:55",
+  "host_info": {
+    "ip_address": "10.161.149.41",
+    "mac_address": "f8:99:5f:f2:3f:3c",
+    "mac_vendor": "Davis LLC",
+    "dhcp_hostname": "brother_hl",
+    "os_fingerprint": "Brother_HL",
+    "lease_hostname": "brother_hl"
+  },
+  "dns_queries": [
+    "brother.com"
+  ],
+  "flows": [
+    {
+      "destination": "209.152.29.168",
+      "port": 5000,
+      "protocol": 6
+    },
+    {
+      "destination": "196.210.35.54",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "67.21.186.102",
+      "port": 80,
+      "protocol": 6
+    }
+  ],
+  "label": "Printer"
+}

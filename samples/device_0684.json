@@ -1,0 +1,44 @@
+{
+  "ip_address": "172.20.119.114",
+  "export_date": "2025-01-29T04:30:40",
+  "host_info": {
+    "ip_address": "192.168.22.28",
+    "mac_address": "c3:3e:2f:55:58:68",
+    "mac_vendor": "Jones-Hines",
+    "dhcp_hostname": "canon_pixma",
+    "os_fingerprint": "Canon_PIXMA",
+    "lease_hostname": "canon_pixma"
+  },
+  "dns_queries": [
+    "brother.com",
+    "hp.com"
+  ],
+  "flows": [
+    {
+      "destination": "217.187.29.149",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "146.115.51.74",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "182.189.166.13",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "208.176.99.170",
+      "port": 123,
+      "protocol": 17
+    },
+    {
+      "destination": "136.113.213.44",
+      "port": 443,
+      "protocol": 6
+    }
+  ],
+  "label": "Printer"
+}

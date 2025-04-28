@@ -1,0 +1,45 @@
+{
+  "ip_address": "192.168.202.53",
+  "export_date": "2025-02-21T17:01:53",
+  "host_info": {
+    "ip_address": "10.203.248.196",
+    "mac_address": "6e:f3:49:cd:83:cc",
+    "mac_vendor": "Middleton, Anderson and Le",
+    "dhcp_hostname": "amazon_echo",
+    "os_fingerprint": "Amazon_Echo",
+    "lease_hostname": "amazon_echo"
+  },
+  "dns_queries": [
+    "google.com",
+    "spotify.com",
+    "amazon.com"
+  ],
+  "flows": [
+    {
+      "destination": "65.242.19.167",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "25.64.248.195",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "20.100.46.184",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "218.228.105.114",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "143.88.172.151",
+      "port": 80,
+      "protocol": 6
+    }
+  ],
+  "label": "Smart Speaker"
+}

@@ -1,0 +1,29 @@
+{
+  "ip_address": "172.16.241.53",
+  "export_date": "2025-02-06T13:37:48",
+  "host_info": {
+    "ip_address": "192.168.185.52",
+    "mac_address": "a6:08:74:59:a9:af",
+    "mac_vendor": "Lewis, Evans and Fletcher",
+    "dhcp_hostname": "amazon_echo",
+    "os_fingerprint": "Amazon_Echo",
+    "lease_hostname": "amazon_echo"
+  },
+  "dns_queries": [
+    "spotify.com",
+    "amazon.com"
+  ],
+  "flows": [
+    {
+      "destination": "142.102.30.85",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "23.168.100.196",
+      "port": 6667,
+      "protocol": 17
+    }
+  ],
+  "label": "Smart Speaker"
+}

@@ -1,0 +1,43 @@
+{
+  "ip_address": "10.132.238.173",
+  "export_date": "2025-04-05T02:21:17",
+  "host_info": {
+    "ip_address": "192.168.133.136",
+    "mac_address": "f9:ea:ac:a1:d6:bb",
+    "mac_vendor": "Garner Ltd",
+    "dhcp_hostname": "nest_cam",
+    "os_fingerprint": "Nest_Cam",
+    "lease_hostname": "nest_cam"
+  },
+  "dns_queries": [
+    "ring.com"
+  ],
+  "flows": [
+    {
+      "destination": "215.1.237.190",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "29.185.249.228",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "204.219.176.231",
+      "port": 123,
+      "protocol": 17
+    },
+    {
+      "destination": "174.62.12.20",
+      "port": 80,
+      "protocol": 6
+    },
+    {
+      "destination": "202.11.174.121",
+      "port": 6667,
+      "protocol": 6
+    }
+  ],
+  "label": "Security Camera"
+}

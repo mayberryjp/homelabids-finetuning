@@ -1,0 +1,44 @@
+{
+  "ip_address": "192.168.38.197",
+  "export_date": "2025-01-24T16:07:56",
+  "host_info": {
+    "ip_address": "172.25.219.167",
+    "mac_address": "c9:a1:1f:73:53:29",
+    "mac_vendor": "Sanchez-Mason",
+    "dhcp_hostname": "homepod",
+    "os_fingerprint": "HomePod",
+    "lease_hostname": "homepod"
+  },
+  "dns_queries": [
+    "amazon.com",
+    "google.com"
+  ],
+  "flows": [
+    {
+      "destination": "147.128.181.168",
+      "port": 5000,
+      "protocol": 6
+    },
+    {
+      "destination": "155.83.62.245",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "218.247.222.72",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "214.177.44.95",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "17.58.92.28",
+      "port": 123,
+      "protocol": 17
+    }
+  ],
+  "label": "Smart Speaker"
+}

@@ -1,0 +1,33 @@
+{
+  "ip_address": "172.20.169.158",
+  "export_date": "2025-02-16T12:05:22",
+  "host_info": {
+    "ip_address": "10.235.225.117",
+    "mac_address": "3b:26:f5:b1:ac:92",
+    "mac_vendor": "Ballard-Tran",
+    "dhcp_hostname": "homepod",
+    "os_fingerprint": "HomePod",
+    "lease_hostname": "homepod"
+  },
+  "dns_queries": [
+    "google.com"
+  ],
+  "flows": [
+    {
+      "destination": "45.163.114.156",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "161.201.153.35",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "126.16.56.195",
+      "port": 443,
+      "protocol": 6
+    }
+  ],
+  "label": "Smart Speaker"
+}

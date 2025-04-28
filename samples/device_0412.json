@@ -1,0 +1,39 @@
+{
+  "ip_address": "172.20.158.204",
+  "export_date": "2025-02-03T01:32:57",
+  "host_info": {
+    "ip_address": "172.18.28.188",
+    "mac_address": "99:3f:a0:b4:db:89",
+    "mac_vendor": "Miller, Sanchez and Garrison",
+    "dhcp_hostname": "macbook_pro",
+    "os_fingerprint": "MacBook_Pro",
+    "lease_hostname": "macbook_pro"
+  },
+  "dns_queries": [
+    "microsoft.com",
+    "github.com"
+  ],
+  "flows": [
+    {
+      "destination": "222.211.0.41",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "140.206.157.243",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "205.251.43.123",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "174.184.49.9",
+      "port": 6667,
+      "protocol": 6
+    }
+  ],
+  "label": "Laptop"
+}

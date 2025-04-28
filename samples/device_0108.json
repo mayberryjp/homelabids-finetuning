@@ -1,0 +1,44 @@
+{
+  "ip_address": "10.81.187.194",
+  "export_date": "2025-03-26T03:56:16",
+  "host_info": {
+    "ip_address": "192.168.48.193",
+    "mac_address": "1e:1e:39:12:2a:c9",
+    "mac_vendor": "Good, Singh and Rodriguez",
+    "dhcp_hostname": "windows_10",
+    "os_fingerprint": "Windows_10",
+    "lease_hostname": "windows_10"
+  },
+  "dns_queries": [
+    "slack.com",
+    "google.com"
+  ],
+  "flows": [
+    {
+      "destination": "143.15.151.82",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "51.40.185.31",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "46.19.86.194",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "183.4.215.208",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "197.143.238.174",
+      "port": 6667,
+      "protocol": 6
+    }
+  ],
+  "label": "Laptop"
+}

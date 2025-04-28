@@ -1,0 +1,43 @@
+{
+  "ip_address": "10.45.129.179",
+  "export_date": "2025-03-31T12:13:45",
+  "host_info": {
+    "ip_address": "192.168.131.183",
+    "mac_address": "12:90:79:3e:37:4a",
+    "mac_vendor": "Roach-Elliott",
+    "dhcp_hostname": "canon_pixma",
+    "os_fingerprint": "Canon_PIXMA",
+    "lease_hostname": "canon_pixma"
+  },
+  "dns_queries": [
+    "canon.com"
+  ],
+  "flows": [
+    {
+      "destination": "192.150.106.238",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "100.205.86.209",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "43.113.156.225",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "168.88.87.178",
+      "port": 123,
+      "protocol": 17
+    },
+    {
+      "destination": "34.109.242.158",
+      "port": 6667,
+      "protocol": 6
+    }
+  ],
+  "label": "Printer"
+}

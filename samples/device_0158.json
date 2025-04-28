@@ -1,0 +1,48 @@
+{
+  "ip_address": "10.1.176.210",
+  "export_date": "2025-01-04T10:43:08",
+  "host_info": {
+    "ip_address": "192.168.227.143",
+    "mac_address": "1d:e0:a4:74:e3:be",
+    "mac_vendor": "Carr, Parker and Jones",
+    "dhcp_hostname": "brother_hl",
+    "os_fingerprint": "Brother_HL",
+    "lease_hostname": "brother_hl"
+  },
+  "dns_queries": [
+    "brother.com"
+  ],
+  "flows": [
+    {
+      "destination": "103.166.63.222",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "151.91.216.4",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "218.70.146.55",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "56.38.137.251",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "212.97.12.27",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "221.42.107.193",
+      "port": 5000,
+      "protocol": 6
+    }
+  ],
+  "label": "Printer"
+}

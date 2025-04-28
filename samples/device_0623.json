@@ -1,0 +1,30 @@
+{
+  "ip_address": "10.231.56.69",
+  "export_date": "2025-02-20T13:34:37",
+  "host_info": {
+    "ip_address": "10.246.57.35",
+    "mac_address": "e9:0f:88:0e:63:fa",
+    "mac_vendor": "Green LLC",
+    "dhcp_hostname": "ubuntu_linux",
+    "os_fingerprint": "Ubuntu_Linux",
+    "lease_hostname": "ubuntu_linux"
+  },
+  "dns_queries": [
+    "github.com",
+    "slack.com",
+    "google.com"
+  ],
+  "flows": [
+    {
+      "destination": "213.153.31.179",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "65.112.180.235",
+      "port": 80,
+      "protocol": 6
+    }
+  ],
+  "label": "Laptop"
+}

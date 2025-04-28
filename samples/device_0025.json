@@ -1,0 +1,38 @@
+{
+  "ip_address": "10.132.231.93",
+  "export_date": "2025-03-07T02:17:39",
+  "host_info": {
+    "ip_address": "10.94.112.161",
+    "mac_address": "10:bf:27:83:12:7b",
+    "mac_vendor": "Suarez and Sons",
+    "dhcp_hostname": "sony_bravia",
+    "os_fingerprint": "Sony_Bravia",
+    "lease_hostname": "sony_bravia"
+  },
+  "dns_queries": [
+    "hulu.com"
+  ],
+  "flows": [
+    {
+      "destination": "46.19.121.160",
+      "port": 80,
+      "protocol": 6
+    },
+    {
+      "destination": "83.204.13.132",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "187.25.148.217",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "3.173.95.136",
+      "port": 8883,
+      "protocol": 17
+    }
+  ],
+  "label": "Smart TV"
+}

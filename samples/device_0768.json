@@ -1,0 +1,30 @@
+{
+  "ip_address": "172.26.35.226",
+  "export_date": "2025-01-12T08:22:25",
+  "host_info": {
+    "ip_address": "10.14.235.208",
+    "mac_address": "3c:17:99:45:8d:91",
+    "mac_vendor": "Hamilton Group",
+    "dhcp_hostname": "ubuntu_linux",
+    "os_fingerprint": "Ubuntu_Linux",
+    "lease_hostname": "ubuntu_linux"
+  },
+  "dns_queries": [
+    "microsoft.com",
+    "google.com",
+    "slack.com"
+  ],
+  "flows": [
+    {
+      "destination": "192.129.59.136",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "169.219.210.207",
+      "port": 53,
+      "protocol": 6
+    }
+  ],
+  "label": "Laptop"
+}

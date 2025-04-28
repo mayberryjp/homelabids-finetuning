@@ -1,0 +1,44 @@
+{
+  "ip_address": "10.52.40.184",
+  "export_date": "2025-01-09T00:49:07",
+  "host_info": {
+    "ip_address": "192.168.151.148",
+    "mac_address": "5e:34:59:ca:9e:20",
+    "mac_vendor": "Ramsey Inc",
+    "dhcp_hostname": "galaxy_tab",
+    "os_fingerprint": "Galaxy_Tab",
+    "lease_hostname": "galaxy_tab"
+  },
+  "dns_queries": [
+    "apple.com",
+    "amazon.com"
+  ],
+  "flows": [
+    {
+      "destination": "196.245.44.105",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "11.192.78.14",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "193.225.240.50",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "159.77.221.197",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "200.176.0.21",
+      "port": 8883,
+      "protocol": 17
+    }
+  ],
+  "label": "Tablet"
+}

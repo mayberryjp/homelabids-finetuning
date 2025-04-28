@@ -1,0 +1,28 @@
+{
+  "ip_address": "192.168.229.179",
+  "export_date": "2025-03-22T01:52:08",
+  "host_info": {
+    "ip_address": "172.19.221.170",
+    "mac_address": "ad:34:a2:d4:10:2c",
+    "mac_vendor": "Chapman, Booth and Maddox",
+    "dhcp_hostname": "lifx_bulb",
+    "os_fingerprint": "LIFX_Bulb",
+    "lease_hostname": "lifx_bulb"
+  },
+  "dns_queries": [
+    "tplinkcloud.com"
+  ],
+  "flows": [
+    {
+      "destination": "90.161.130.157",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "147.124.157.72",
+      "port": 443,
+      "protocol": 6
+    }
+  ],
+  "label": "Smart Light"
+}

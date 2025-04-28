@@ -1,0 +1,35 @@
+{
+  "ip_address": "172.21.167.102",
+  "export_date": "2025-01-30T07:36:49",
+  "host_info": {
+    "ip_address": "10.210.230.108",
+    "mac_address": "de:27:c4:8c:c9:80",
+    "mac_vendor": "Vaughn, Quinn and Key",
+    "dhcp_hostname": "brother_hl",
+    "os_fingerprint": "Brother_HL",
+    "lease_hostname": "brother_hl"
+  },
+  "dns_queries": [
+    "hp.com",
+    "canon.com",
+    "brother.com"
+  ],
+  "flows": [
+    {
+      "destination": "188.192.102.228",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "187.93.51.51",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "198.170.38.183",
+      "port": 8883,
+      "protocol": 6
+    }
+  ],
+  "label": "Printer"
+}

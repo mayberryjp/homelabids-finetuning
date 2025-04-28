@@ -1,0 +1,49 @@
+{
+  "ip_address": "192.168.160.193",
+  "export_date": "2025-04-26T14:09:32",
+  "host_info": {
+    "ip_address": "172.19.91.72",
+    "mac_address": "0b:a2:7e:f3:c8:6b",
+    "mac_vendor": "King LLC",
+    "dhcp_hostname": "ubuntu_linux",
+    "os_fingerprint": "Ubuntu_Linux",
+    "lease_hostname": "ubuntu_linux"
+  },
+  "dns_queries": [
+    "google.com",
+    "github.com"
+  ],
+  "flows": [
+    {
+      "destination": "135.188.24.164",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "171.93.4.197",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "8.37.20.80",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "78.41.161.31",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "211.120.22.74",
+      "port": 80,
+      "protocol": 6
+    },
+    {
+      "destination": "62.147.46.39",
+      "port": 8883,
+      "protocol": 6
+    }
+  ],
+  "label": "Laptop"
+}

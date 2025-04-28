@@ -1,0 +1,43 @@
+{
+  "ip_address": "192.168.116.0",
+  "export_date": "2025-03-29T13:33:13",
+  "host_info": {
+    "ip_address": "10.177.118.29",
+    "mac_address": "ad:b8:e6:73:13:a7",
+    "mac_vendor": "Wilson, Santos and Johnson",
+    "dhcp_hostname": "brother_hl",
+    "os_fingerprint": "Brother_HL",
+    "lease_hostname": "brother_hl"
+  },
+  "dns_queries": [
+    "canon.com"
+  ],
+  "flows": [
+    {
+      "destination": "199.101.224.181",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "157.199.28.70",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "222.177.252.153",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "213.82.253.165",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "208.73.59.125",
+      "port": 123,
+      "protocol": 6
+    }
+  ],
+  "label": "Printer"
+}

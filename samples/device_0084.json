@@ -1,0 +1,43 @@
+{
+  "ip_address": "172.30.56.191",
+  "export_date": "2025-01-09T17:49:05",
+  "host_info": {
+    "ip_address": "172.29.241.210",
+    "mac_address": "c6:67:6c:e6:10:d2",
+    "mac_vendor": "Kelley-Pierce",
+    "dhcp_hostname": "android",
+    "os_fingerprint": "Android",
+    "lease_hostname": "android"
+  },
+  "dns_queries": [
+    "apple.com"
+  ],
+  "flows": [
+    {
+      "destination": "186.186.244.172",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "71.131.253.60",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "4.71.209.80",
+      "port": 80,
+      "protocol": 6
+    },
+    {
+      "destination": "189.23.246.108",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "207.20.124.184",
+      "port": 80,
+      "protocol": 17
+    }
+  ],
+  "label": "Smartphone"
+}

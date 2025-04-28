@@ -1,0 +1,40 @@
+{
+  "ip_address": "172.22.115.157",
+  "export_date": "2025-01-16T18:03:00",
+  "host_info": {
+    "ip_address": "172.28.115.114",
+    "mac_address": "33:3d:71:75:10:ac",
+    "mac_vendor": "Mosley-Elliott",
+    "dhcp_hostname": "ipad",
+    "os_fingerprint": "iPad",
+    "lease_hostname": "ipad"
+  },
+  "dns_queries": [
+    "samsung.com",
+    "apple.com",
+    "amazon.com"
+  ],
+  "flows": [
+    {
+      "destination": "207.149.189.95",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "156.14.179.207",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "198.152.14.51",
+      "port": 123,
+      "protocol": 17
+    },
+    {
+      "destination": "188.220.205.87",
+      "port": 443,
+      "protocol": 17
+    }
+  ],
+  "label": "Tablet"
+}

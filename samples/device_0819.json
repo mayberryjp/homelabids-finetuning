@@ -1,0 +1,40 @@
+{
+  "ip_address": "172.27.14.195",
+  "export_date": "2025-04-21T09:32:02",
+  "host_info": {
+    "ip_address": "172.22.253.136",
+    "mac_address": "60:06:ca:db:97:26",
+    "mac_vendor": "Anderson, Lee and Boyd",
+    "dhcp_hostname": "galaxy_tab",
+    "os_fingerprint": "Galaxy_Tab",
+    "lease_hostname": "galaxy_tab"
+  },
+  "dns_queries": [
+    "samsung.com",
+    "amazon.com",
+    "apple.com"
+  ],
+  "flows": [
+    {
+      "destination": "53.25.108.167",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "43.51.47.33",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "57.176.168.148",
+      "port": 80,
+      "protocol": 6
+    },
+    {
+      "destination": "11.131.120.254",
+      "port": 123,
+      "protocol": 17
+    }
+  ],
+  "label": "Tablet"
+}

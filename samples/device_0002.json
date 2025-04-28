@@ -1,0 +1,48 @@
+{
+  "ip_address": "192.168.226.15",
+  "export_date": "2025-01-24T17:06:59",
+  "host_info": {
+    "ip_address": "10.224.0.7",
+    "mac_address": "7e:4b:0a:5d:df:d5",
+    "mac_vendor": "Woods, Schmidt and Gentry",
+    "dhcp_hostname": "galaxy_tab",
+    "os_fingerprint": "Galaxy_Tab",
+    "lease_hostname": "galaxy_tab"
+  },
+  "dns_queries": [
+    "samsung.com"
+  ],
+  "flows": [
+    {
+      "destination": "151.120.83.90",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "119.9.9.245",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "211.111.51.169",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "218.99.214.152",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "213.142.223.5",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "196.79.145.130",
+      "port": 8883,
+      "protocol": 6
+    }
+  ],
+  "label": "Tablet"
+}

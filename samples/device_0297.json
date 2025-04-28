@@ -1,0 +1,40 @@
+{
+  "ip_address": "10.120.97.14",
+  "export_date": "2025-01-26T15:27:53",
+  "host_info": {
+    "ip_address": "192.168.220.104",
+    "mac_address": "cf:64:4f:80:2b:2a",
+    "mac_vendor": "Stevens, Foster and Jacobs",
+    "dhcp_hostname": "ring_camera",
+    "os_fingerprint": "Ring_Camera",
+    "lease_hostname": "ring_camera"
+  },
+  "dns_queries": [
+    "cloudflare.com",
+    "arlo.com",
+    "ring.com"
+  ],
+  "flows": [
+    {
+      "destination": "72.79.179.39",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "154.243.232.156",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "3.99.135.35",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "60.77.26.205",
+      "port": 80,
+      "protocol": 6
+    }
+  ],
+  "label": "Security Camera"
+}

@@ -1,0 +1,44 @@
+{
+  "ip_address": "192.168.207.62",
+  "export_date": "2025-01-04T14:24:42",
+  "host_info": {
+    "ip_address": "192.168.227.0",
+    "mac_address": "cc:6b:f3:7f:6e:f6",
+    "mac_vendor": "Williamson Group",
+    "dhcp_hostname": "ecobee_thermostat",
+    "os_fingerprint": "Ecobee_Thermostat",
+    "lease_hostname": "ecobee_thermostat"
+  },
+  "dns_queries": [
+    "googleapis.com",
+    "ecobee.com"
+  ],
+  "flows": [
+    {
+      "destination": "161.6.231.105",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "46.171.147.70",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "110.162.182.40",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "165.60.228.30",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "67.154.165.32",
+      "port": 443,
+      "protocol": 6
+    }
+  ],
+  "label": "Smart Thermostat"
+}

@@ -1,0 +1,43 @@
+{
+  "ip_address": "192.168.3.232",
+  "export_date": "2025-01-14T12:07:57",
+  "host_info": {
+    "ip_address": "192.168.34.79",
+    "mac_address": "99:1f:87:cb:3e:56",
+    "mac_vendor": "Huffman, Kirby and Garcia",
+    "dhcp_hostname": "macbook_pro",
+    "os_fingerprint": "MacBook_Pro",
+    "lease_hostname": "macbook_pro"
+  },
+  "dns_queries": [
+    "google.com"
+  ],
+  "flows": [
+    {
+      "destination": "162.253.141.114",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "145.84.125.177",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "190.27.226.80",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "62.197.196.88",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "200.228.12.168",
+      "port": 443,
+      "protocol": 17
+    }
+  ],
+  "label": "Laptop"
+}

@@ -1,0 +1,39 @@
+{
+  "ip_address": "192.168.127.247",
+  "export_date": "2025-03-08T00:03:16",
+  "host_info": {
+    "ip_address": "172.31.111.119",
+    "mac_address": "0e:dd:6d:b1:f0:2a",
+    "mac_vendor": "Forbes, Mcdaniel and Hoffman",
+    "dhcp_hostname": "brother_hl",
+    "os_fingerprint": "Brother_HL",
+    "lease_hostname": "brother_hl"
+  },
+  "dns_queries": [
+    "canon.com",
+    "brother.com"
+  ],
+  "flows": [
+    {
+      "destination": "43.9.4.162",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "134.229.109.215",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "198.57.186.171",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "139.224.145.201",
+      "port": 80,
+      "protocol": 6
+    }
+  ],
+  "label": "Printer"
+}

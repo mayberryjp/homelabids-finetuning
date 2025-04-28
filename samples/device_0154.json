@@ -1,0 +1,45 @@
+{
+  "ip_address": "192.168.195.188",
+  "export_date": "2025-04-26T15:52:21",
+  "host_info": {
+    "ip_address": "10.42.157.23",
+    "mac_address": "eb:01:ba:54:52:cb",
+    "mac_vendor": "Beard Ltd",
+    "dhcp_hostname": "xbox_series_x",
+    "os_fingerprint": "Xbox_Series_X",
+    "lease_hostname": "xbox_series_x"
+  },
+  "dns_queries": [
+    "playstation.com",
+    "xboxlive.com",
+    "nintendo.com"
+  ],
+  "flows": [
+    {
+      "destination": "143.13.32.32",
+      "port": 5000,
+      "protocol": 6
+    },
+    {
+      "destination": "76.20.174.91",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "166.151.69.121",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "129.13.32.239",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "173.143.113.165",
+      "port": 443,
+      "protocol": 17
+    }
+  ],
+  "label": "Game Console"
+}

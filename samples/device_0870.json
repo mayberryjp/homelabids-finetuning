@@ -1,0 +1,40 @@
+{
+  "ip_address": "192.168.235.94",
+  "export_date": "2025-03-08T18:24:34",
+  "host_info": {
+    "ip_address": "172.25.35.26",
+    "mac_address": "36:ac:3b:2d:4d:f5",
+    "mac_vendor": "Roth-Cortez",
+    "dhcp_hostname": "galaxy_tab",
+    "os_fingerprint": "Galaxy_Tab",
+    "lease_hostname": "galaxy_tab"
+  },
+  "dns_queries": [
+    "apple.com",
+    "samsung.com",
+    "amazon.com"
+  ],
+  "flows": [
+    {
+      "destination": "73.85.167.229",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "195.54.95.232",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "176.128.101.127",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "192.2.118.143",
+      "port": 5000,
+      "protocol": 17
+    }
+  ],
+  "label": "Tablet"
+}

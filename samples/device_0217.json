@@ -1,0 +1,33 @@
+{
+  "ip_address": "172.24.223.179",
+  "export_date": "2025-04-04T20:14:52",
+  "host_info": {
+    "ip_address": "192.168.20.142",
+    "mac_address": "c5:4a:30:71:c1:96",
+    "mac_vendor": "Garcia, Valentine and Coleman",
+    "dhcp_hostname": "google_home",
+    "os_fingerprint": "Google_Home",
+    "lease_hostname": "google_home"
+  },
+  "dns_queries": [
+    "google.com"
+  ],
+  "flows": [
+    {
+      "destination": "137.102.34.146",
+      "port": 80,
+      "protocol": 6
+    },
+    {
+      "destination": "215.201.244.207",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "52.78.82.49",
+      "port": 8883,
+      "protocol": 6
+    }
+  ],
+  "label": "Smart Speaker"
+}

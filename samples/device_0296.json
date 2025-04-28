@@ -1,0 +1,45 @@
+{
+  "ip_address": "10.117.17.33",
+  "export_date": "2025-02-28T21:22:22",
+  "host_info": {
+    "ip_address": "10.40.246.254",
+    "mac_address": "77:ec:d8:4a:fa:bc",
+    "mac_vendor": "Everett and Sons",
+    "dhcp_hostname": "canon_pixma",
+    "os_fingerprint": "Canon_PIXMA",
+    "lease_hostname": "canon_pixma"
+  },
+  "dns_queries": [
+    "hp.com",
+    "canon.com",
+    "brother.com"
+  ],
+  "flows": [
+    {
+      "destination": "131.221.12.138",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "187.255.3.43",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "141.53.214.27",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "209.203.16.170",
+      "port": 80,
+      "protocol": 6
+    },
+    {
+      "destination": "207.116.64.120",
+      "port": 443,
+      "protocol": 6
+    }
+  ],
+  "label": "Printer"
+}

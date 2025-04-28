@@ -1,0 +1,40 @@
+{
+  "ip_address": "10.217.96.199",
+  "export_date": "2025-01-23T08:35:41",
+  "host_info": {
+    "ip_address": "172.21.127.93",
+    "mac_address": "27:f9:1a:d6:17:d6",
+    "mac_vendor": "Mcconnell Group",
+    "dhcp_hostname": "lg_smarttv",
+    "os_fingerprint": "LG_SmartTV",
+    "lease_hostname": "lg_smarttv"
+  },
+  "dns_queries": [
+    "youtube.com",
+    "hulu.com",
+    "netflix.com"
+  ],
+  "flows": [
+    {
+      "destination": "199.216.100.177",
+      "port": 5000,
+      "protocol": 6
+    },
+    {
+      "destination": "152.49.121.64",
+      "port": 123,
+      "protocol": 17
+    },
+    {
+      "destination": "184.92.169.86",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "129.148.91.200",
+      "port": 5000,
+      "protocol": 17
+    }
+  ],
+  "label": "Smart TV"
+}

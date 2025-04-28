@@ -1,0 +1,50 @@
+{
+  "ip_address": "192.168.185.64",
+  "export_date": "2025-02-23T05:11:25",
+  "host_info": {
+    "ip_address": "172.19.78.187",
+    "mac_address": "22:7b:53:f0:45:4a",
+    "mac_vendor": "Mata-Burgess",
+    "dhcp_hostname": "canon_pixma",
+    "os_fingerprint": "Canon_PIXMA",
+    "lease_hostname": "canon_pixma"
+  },
+  "dns_queries": [
+    "canon.com",
+    "brother.com",
+    "hp.com"
+  ],
+  "flows": [
+    {
+      "destination": "221.141.56.112",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "43.236.176.33",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "221.231.60.121",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "132.139.184.150",
+      "port": 80,
+      "protocol": 6
+    },
+    {
+      "destination": "205.229.155.101",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "158.9.187.44",
+      "port": 53,
+      "protocol": 6
+    }
+  ],
+  "label": "Printer"
+}

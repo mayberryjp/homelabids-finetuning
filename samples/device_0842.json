@@ -1,0 +1,49 @@
+{
+  "ip_address": "192.168.157.16",
+  "export_date": "2025-04-07T22:15:30",
+  "host_info": {
+    "ip_address": "192.168.213.71",
+    "mac_address": "f1:23:2f:3e:c3:84",
+    "mac_vendor": "Camacho, Shannon and Wallace",
+    "dhcp_hostname": "android",
+    "os_fingerprint": "Android",
+    "lease_hostname": "android"
+  },
+  "dns_queries": [
+    "apple.com",
+    "google.com"
+  ],
+  "flows": [
+    {
+      "destination": "217.43.160.25",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "214.106.163.15",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "38.217.225.52",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "4.119.199.159",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "208.41.168.228",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "137.26.104.75",
+      "port": 5000,
+      "protocol": 17
+    }
+  ],
+  "label": "Smartphone"
+}

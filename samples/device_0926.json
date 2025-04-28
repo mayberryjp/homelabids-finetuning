@@ -1,0 +1,30 @@
+{
+  "ip_address": "10.178.134.40",
+  "export_date": "2025-01-25T11:49:10",
+  "host_info": {
+    "ip_address": "172.22.93.59",
+    "mac_address": "a3:c0:12:02:75:f0",
+    "mac_vendor": "Cruz-Conrad",
+    "dhcp_hostname": "ipad",
+    "os_fingerprint": "iPad",
+    "lease_hostname": "ipad"
+  },
+  "dns_queries": [
+    "apple.com",
+    "samsung.com",
+    "amazon.com"
+  ],
+  "flows": [
+    {
+      "destination": "167.79.210.236",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "212.233.115.201",
+      "port": 6667,
+      "protocol": 17
+    }
+  ],
+  "label": "Tablet"
+}

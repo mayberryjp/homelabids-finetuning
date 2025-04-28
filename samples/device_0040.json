@@ -1,0 +1,50 @@
+{
+  "ip_address": "10.18.73.14",
+  "export_date": "2025-02-13T20:04:16",
+  "host_info": {
+    "ip_address": "172.24.215.160",
+    "mac_address": "2b:b8:0b:2a:80:e2",
+    "mac_vendor": "Moore-Mccann",
+    "dhcp_hostname": "brother_hl",
+    "os_fingerprint": "Brother_HL",
+    "lease_hostname": "brother_hl"
+  },
+  "dns_queries": [
+    "hp.com",
+    "brother.com",
+    "canon.com"
+  ],
+  "flows": [
+    {
+      "destination": "74.179.133.166",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "203.144.238.213",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "37.51.147.250",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "223.174.232.70",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "200.164.4.175",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "128.10.179.12",
+      "port": 53,
+      "protocol": 6
+    }
+  ],
+  "label": "Printer"
+}

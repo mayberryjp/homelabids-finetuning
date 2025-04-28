@@ -1,0 +1,34 @@
+{
+  "ip_address": "172.28.145.3",
+  "export_date": "2025-02-17T13:33:26",
+  "host_info": {
+    "ip_address": "192.168.194.57",
+    "mac_address": "bb:28:0e:bd:43:33",
+    "mac_vendor": "Ward-Cox",
+    "dhcp_hostname": "lg_smarttv",
+    "os_fingerprint": "LG_SmartTV",
+    "lease_hostname": "lg_smarttv"
+  },
+  "dns_queries": [
+    "youtube.com",
+    "hulu.com"
+  ],
+  "flows": [
+    {
+      "destination": "106.198.157.165",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "206.65.52.99",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "177.124.161.99",
+      "port": 53,
+      "protocol": 17
+    }
+  ],
+  "label": "Smart TV"
+}

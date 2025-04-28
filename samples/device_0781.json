@@ -1,0 +1,39 @@
+{
+  "ip_address": "10.73.11.22",
+  "export_date": "2025-01-24T00:40:18",
+  "host_info": {
+    "ip_address": "10.171.41.192",
+    "mac_address": "97:82:fd:6c:bd:8d",
+    "mac_vendor": "Francis-Irwin",
+    "dhcp_hostname": "hp_laserjet",
+    "os_fingerprint": "HP_LaserJet",
+    "lease_hostname": "hp_laserjet"
+  },
+  "dns_queries": [
+    "brother.com",
+    "canon.com"
+  ],
+  "flows": [
+    {
+      "destination": "181.141.108.36",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "135.220.17.92",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "203.7.157.90",
+      "port": 80,
+      "protocol": 6
+    },
+    {
+      "destination": "196.123.207.110",
+      "port": 80,
+      "protocol": 6
+    }
+  ],
+  "label": "Printer"
+}

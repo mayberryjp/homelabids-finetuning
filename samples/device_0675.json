@@ -1,0 +1,38 @@
+{
+  "ip_address": "10.154.230.127",
+  "export_date": "2025-02-04T19:01:31",
+  "host_info": {
+    "ip_address": "10.125.173.87",
+    "mac_address": "cf:95:8f:37:95:b9",
+    "mac_vendor": "Huff-Parrish",
+    "dhcp_hostname": "samsung_smarttv",
+    "os_fingerprint": "Samsung_SmartTV",
+    "lease_hostname": "samsung_smarttv"
+  },
+  "dns_queries": [
+    "youtube.com"
+  ],
+  "flows": [
+    {
+      "destination": "193.97.242.38",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "152.26.103.137",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "217.28.248.181",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "53.190.108.166",
+      "port": 80,
+      "protocol": 6
+    }
+  ],
+  "label": "Smart TV"
+}

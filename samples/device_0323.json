@@ -1,0 +1,39 @@
+{
+  "ip_address": "172.25.239.153",
+  "export_date": "2025-02-16T23:21:21",
+  "host_info": {
+    "ip_address": "172.18.198.171",
+    "mac_address": "2c:75:4b:4e:ce:92",
+    "mac_vendor": "Dennis, Daugherty and Parks",
+    "dhcp_hostname": "macbook_pro",
+    "os_fingerprint": "MacBook_Pro",
+    "lease_hostname": "macbook_pro"
+  },
+  "dns_queries": [
+    "github.com",
+    "microsoft.com"
+  ],
+  "flows": [
+    {
+      "destination": "201.117.99.240",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "148.98.18.198",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "162.39.79.229",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "171.237.42.230",
+      "port": 443,
+      "protocol": 17
+    }
+  ],
+  "label": "Laptop"
+}

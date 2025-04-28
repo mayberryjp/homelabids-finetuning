@@ -1,0 +1,28 @@
+{
+  "ip_address": "10.2.105.37",
+  "export_date": "2025-01-19T16:09:20",
+  "host_info": {
+    "ip_address": "192.168.232.133",
+    "mac_address": "d9:6e:3d:68:c5:4c",
+    "mac_vendor": "Melton Ltd",
+    "dhcp_hostname": "galaxy",
+    "os_fingerprint": "Galaxy",
+    "lease_hostname": "galaxy"
+  },
+  "dns_queries": [
+    "google.com"
+  ],
+  "flows": [
+    {
+      "destination": "105.110.89.211",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "102.26.243.223",
+      "port": 443,
+      "protocol": 6
+    }
+  ],
+  "label": "Smartphone"
+}

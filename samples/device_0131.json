@@ -1,0 +1,30 @@
+{
+  "ip_address": "10.131.193.119",
+  "export_date": "2025-01-03T15:46:58",
+  "host_info": {
+    "ip_address": "10.255.32.29",
+    "mac_address": "80:70:2f:35:94:a0",
+    "mac_vendor": "Buckley, Kirby and Freeman",
+    "dhcp_hostname": "ubuntu_linux",
+    "os_fingerprint": "Ubuntu_Linux",
+    "lease_hostname": "ubuntu_linux"
+  },
+  "dns_queries": [
+    "google.com",
+    "microsoft.com",
+    "slack.com"
+  ],
+  "flows": [
+    {
+      "destination": "121.47.203.250",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "142.47.176.134",
+      "port": 5000,
+      "protocol": 6
+    }
+  ],
+  "label": "Laptop"
+}

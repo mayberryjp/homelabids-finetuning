@@ -1,0 +1,48 @@
+{
+  "ip_address": "192.168.101.47",
+  "export_date": "2025-02-12T04:14:30",
+  "host_info": {
+    "ip_address": "192.168.169.184",
+    "mac_address": "10:fc:9b:21:5f:a3",
+    "mac_vendor": "Ross-Boyd",
+    "dhcp_hostname": "hp_laserjet",
+    "os_fingerprint": "HP_LaserJet",
+    "lease_hostname": "hp_laserjet"
+  },
+  "dns_queries": [
+    "brother.com"
+  ],
+  "flows": [
+    {
+      "destination": "218.222.71.231",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "214.222.245.3",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "216.32.30.155",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "201.173.3.149",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "211.242.35.228",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "73.76.158.6",
+      "port": 80,
+      "protocol": 6
+    }
+  ],
+  "label": "Printer"
+}

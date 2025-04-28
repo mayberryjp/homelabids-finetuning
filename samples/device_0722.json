@@ -1,0 +1,48 @@
+{
+  "ip_address": "172.27.228.38",
+  "export_date": "2025-01-16T23:35:47",
+  "host_info": {
+    "ip_address": "172.23.9.147",
+    "mac_address": "33:0c:75:cb:35:3b",
+    "mac_vendor": "Parker, Li and Thomas",
+    "dhcp_hostname": "nest_cam",
+    "os_fingerprint": "Nest_Cam",
+    "lease_hostname": "nest_cam"
+  },
+  "dns_queries": [
+    "ring.com"
+  ],
+  "flows": [
+    {
+      "destination": "188.32.115.10",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "32.185.131.74",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "212.250.235.76",
+      "port": 123,
+      "protocol": 17
+    },
+    {
+      "destination": "196.230.89.68",
+      "port": 5000,
+      "protocol": 6
+    },
+    {
+      "destination": "151.49.119.85",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "145.255.127.21",
+      "port": 5000,
+      "protocol": 17
+    }
+  ],
+  "label": "Security Camera"
+}

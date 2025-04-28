@@ -1,0 +1,50 @@
+{
+  "ip_address": "10.1.107.77",
+  "export_date": "2025-04-18T13:01:12",
+  "host_info": {
+    "ip_address": "10.232.192.232",
+    "mac_address": "d1:0a:fc:fa:b8:69",
+    "mac_vendor": "Hayes, Castillo and Fisher",
+    "dhcp_hostname": "windows_10",
+    "os_fingerprint": "Windows_10",
+    "lease_hostname": "windows_10"
+  },
+  "dns_queries": [
+    "google.com",
+    "slack.com",
+    "github.com"
+  ],
+  "flows": [
+    {
+      "destination": "183.120.187.53",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "55.109.47.4",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "217.186.20.15",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "125.200.211.70",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "112.132.195.45",
+      "port": 5000,
+      "protocol": 6
+    },
+    {
+      "destination": "203.79.198.188",
+      "port": 5000,
+      "protocol": 6
+    }
+  ],
+  "label": "Laptop"
+}

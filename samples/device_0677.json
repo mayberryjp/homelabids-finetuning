@@ -1,0 +1,49 @@
+{
+  "ip_address": "172.23.183.236",
+  "export_date": "2025-02-01T14:04:41",
+  "host_info": {
+    "ip_address": "192.168.155.16",
+    "mac_address": "83:44:95:dd:f0:5b",
+    "mac_vendor": "Guerrero and Sons",
+    "dhcp_hostname": "tp-link_smartbulb",
+    "os_fingerprint": "TP-Link_SmartBulb",
+    "lease_hostname": "tp-link_smartbulb"
+  },
+  "dns_queries": [
+    "philips-hue.com",
+    "tplinkcloud.com"
+  ],
+  "flows": [
+    {
+      "destination": "97.216.108.113",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "202.235.29.177",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "170.89.213.222",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "15.34.21.130",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "209.167.3.248",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "169.27.50.39",
+      "port": 443,
+      "protocol": 6
+    }
+  ],
+  "label": "Smart Light"
+}

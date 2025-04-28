@@ -1,0 +1,44 @@
+{
+  "ip_address": "172.26.198.129",
+  "export_date": "2025-01-01T20:02:41",
+  "host_info": {
+    "ip_address": "172.23.175.110",
+    "mac_address": "c4:3e:7a:cc:a4:81",
+    "mac_vendor": "Brown and Sons",
+    "dhcp_hostname": "ecobee_thermostat",
+    "os_fingerprint": "Ecobee_Thermostat",
+    "lease_hostname": "ecobee_thermostat"
+  },
+  "dns_queries": [
+    "nest.com",
+    "ecobee.com"
+  ],
+  "flows": [
+    {
+      "destination": "210.33.144.25",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "222.146.61.166",
+      "port": 80,
+      "protocol": 6
+    },
+    {
+      "destination": "214.119.153.133",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "68.205.158.208",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "80.241.184.10",
+      "port": 443,
+      "protocol": 17
+    }
+  ],
+  "label": "Smart Thermostat"
+}

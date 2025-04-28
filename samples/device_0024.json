@@ -1,0 +1,35 @@
+{
+  "ip_address": "172.24.168.146",
+  "export_date": "2025-02-22T15:19:28",
+  "host_info": {
+    "ip_address": "192.168.188.221",
+    "mac_address": "ec:f8:16:3d:fb:66",
+    "mac_vendor": "Stein, Marsh and Silva",
+    "dhcp_hostname": "google_home",
+    "os_fingerprint": "Google_Home",
+    "lease_hostname": "google_home"
+  },
+  "dns_queries": [
+    "spotify.com",
+    "amazon.com",
+    "google.com"
+  ],
+  "flows": [
+    {
+      "destination": "99.88.122.51",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "92.73.42.92",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "196.122.207.206",
+      "port": 6667,
+      "protocol": 17
+    }
+  ],
+  "label": "Smart Speaker"
+}

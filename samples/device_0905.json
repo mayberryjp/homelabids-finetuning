@@ -1,0 +1,29 @@
+{
+  "ip_address": "10.61.18.50",
+  "export_date": "2025-01-16T22:34:35",
+  "host_info": {
+    "ip_address": "192.168.160.204",
+    "mac_address": "5c:0b:f8:d8:86:28",
+    "mac_vendor": "Jacobs Group",
+    "dhcp_hostname": "pixel",
+    "os_fingerprint": "Pixel",
+    "lease_hostname": "pixel"
+  },
+  "dns_queries": [
+    "whatsapp.com",
+    "facebook.com"
+  ],
+  "flows": [
+    {
+      "destination": "194.56.122.77",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "200.159.207.112",
+      "port": 443,
+      "protocol": 6
+    }
+  ],
+  "label": "Smartphone"
+}

@@ -1,0 +1,40 @@
+{
+  "ip_address": "10.4.51.124",
+  "export_date": "2025-01-31T05:41:08",
+  "host_info": {
+    "ip_address": "10.40.88.10",
+    "mac_address": "33:9a:90:84:2d:f7",
+    "mac_vendor": "Potter, Perez and Cannon",
+    "dhcp_hostname": "fire_tablet",
+    "os_fingerprint": "Fire_Tablet",
+    "lease_hostname": "fire_tablet"
+  },
+  "dns_queries": [
+    "apple.com",
+    "samsung.com",
+    "amazon.com"
+  ],
+  "flows": [
+    {
+      "destination": "122.41.82.56",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "165.94.253.28",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "55.66.16.146",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "83.100.152.60",
+      "port": 443,
+      "protocol": 6
+    }
+  ],
+  "label": "Tablet"
+}

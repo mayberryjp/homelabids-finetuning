@@ -1,0 +1,29 @@
+{
+  "ip_address": "172.28.126.26",
+  "export_date": "2025-02-27T08:37:49",
+  "host_info": {
+    "ip_address": "192.168.41.189",
+    "mac_address": "55:1e:e3:4e:e3:f4",
+    "mac_vendor": "Oliver, Mata and Sanchez",
+    "dhcp_hostname": "playstation_5",
+    "os_fingerprint": "PlayStation_5",
+    "lease_hostname": "playstation_5"
+  },
+  "dns_queries": [
+    "playstation.com",
+    "nintendo.com"
+  ],
+  "flows": [
+    {
+      "destination": "193.143.30.204",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "176.144.55.102",
+      "port": 53,
+      "protocol": 6
+    }
+  ],
+  "label": "Game Console"
+}

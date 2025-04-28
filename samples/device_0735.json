@@ -1,0 +1,38 @@
+{
+  "ip_address": "172.30.6.40",
+  "export_date": "2025-04-01T01:34:12",
+  "host_info": {
+    "ip_address": "192.168.193.169",
+    "mac_address": "09:8b:71:91:9f:27",
+    "mac_vendor": "Cummings LLC",
+    "dhcp_hostname": "lifx_bulb",
+    "os_fingerprint": "LIFX_Bulb",
+    "lease_hostname": "lifx_bulb"
+  },
+  "dns_queries": [
+    "tplinkcloud.com"
+  ],
+  "flows": [
+    {
+      "destination": "132.169.206.80",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "183.209.30.136",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "204.219.84.36",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "136.228.237.211",
+      "port": 443,
+      "protocol": 17
+    }
+  ],
+  "label": "Smart Light"
+}

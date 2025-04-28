@@ -1,0 +1,44 @@
+{
+  "ip_address": "172.24.129.172",
+  "export_date": "2025-02-09T23:10:16",
+  "host_info": {
+    "ip_address": "172.17.238.100",
+    "mac_address": "fa:00:e5:90:87:f5",
+    "mac_vendor": "Brown, Freeman and Morris",
+    "dhcp_hostname": "lifx_bulb",
+    "os_fingerprint": "LIFX_Bulb",
+    "lease_hostname": "lifx_bulb"
+  },
+  "dns_queries": [
+    "philips-hue.com",
+    "tplinkcloud.com"
+  ],
+  "flows": [
+    {
+      "destination": "216.109.39.132",
+      "port": 123,
+      "protocol": 17
+    },
+    {
+      "destination": "82.10.34.167",
+      "port": 80,
+      "protocol": 6
+    },
+    {
+      "destination": "82.143.51.158",
+      "port": 80,
+      "protocol": 6
+    },
+    {
+      "destination": "179.225.31.14",
+      "port": 123,
+      "protocol": 17
+    },
+    {
+      "destination": "170.102.233.50",
+      "port": 53,
+      "protocol": 6
+    }
+  ],
+  "label": "Smart Light"
+}

@@ -1,0 +1,35 @@
+{
+  "ip_address": "172.20.5.204",
+  "export_date": "2025-04-22T07:14:04",
+  "host_info": {
+    "ip_address": "10.88.236.146",
+    "mac_address": "22:92:34:22:8d:6b",
+    "mac_vendor": "Garza-Duncan",
+    "dhcp_hostname": "galaxy_tab",
+    "os_fingerprint": "Galaxy_Tab",
+    "lease_hostname": "galaxy_tab"
+  },
+  "dns_queries": [
+    "amazon.com",
+    "apple.com",
+    "samsung.com"
+  ],
+  "flows": [
+    {
+      "destination": "190.220.173.67",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "67.111.217.237",
+      "port": 80,
+      "protocol": 6
+    },
+    {
+      "destination": "190.13.242.203",
+      "port": 8883,
+      "protocol": 17
+    }
+  ],
+  "label": "Tablet"
+}

@@ -1,0 +1,45 @@
+{
+  "ip_address": "10.159.222.212",
+  "export_date": "2025-03-13T06:33:46",
+  "host_info": {
+    "ip_address": "192.168.152.88",
+    "mac_address": "b9:84:b2:0d:67:76",
+    "mac_vendor": "Hill-Jones",
+    "dhcp_hostname": "samsung_smarttv",
+    "os_fingerprint": "Samsung_SmartTV",
+    "lease_hostname": "samsung_smarttv"
+  },
+  "dns_queries": [
+    "hulu.com",
+    "youtube.com",
+    "netflix.com"
+  ],
+  "flows": [
+    {
+      "destination": "13.123.92.77",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "192.244.166.131",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "189.169.26.245",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "120.134.146.154",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "35.63.134.62",
+      "port": 123,
+      "protocol": 17
+    }
+  ],
+  "label": "Smart TV"
+}

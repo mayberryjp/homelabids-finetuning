@@ -1,0 +1,30 @@
+{
+  "ip_address": "10.135.207.110",
+  "export_date": "2025-04-16T08:55:00",
+  "host_info": {
+    "ip_address": "10.175.252.210",
+    "mac_address": "1a:e5:13:28:b2:21",
+    "mac_vendor": "Santana-Davis",
+    "dhcp_hostname": "hp_laserjet",
+    "os_fingerprint": "HP_LaserJet",
+    "lease_hostname": "hp_laserjet"
+  },
+  "dns_queries": [
+    "hp.com",
+    "brother.com",
+    "canon.com"
+  ],
+  "flows": [
+    {
+      "destination": "55.95.42.193",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "223.20.252.20",
+      "port": 5000,
+      "protocol": 17
+    }
+  ],
+  "label": "Printer"
+}

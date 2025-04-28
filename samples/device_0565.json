@@ -1,0 +1,33 @@
+{
+  "ip_address": "192.168.94.7",
+  "export_date": "2025-01-04T01:28:19",
+  "host_info": {
+    "ip_address": "192.168.62.227",
+    "mac_address": "9b:f8:81:31:6b:52",
+    "mac_vendor": "Castillo Inc",
+    "dhcp_hostname": "lifx_bulb",
+    "os_fingerprint": "LIFX_Bulb",
+    "lease_hostname": "lifx_bulb"
+  },
+  "dns_queries": [
+    "tplinkcloud.com"
+  ],
+  "flows": [
+    {
+      "destination": "196.84.28.214",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "168.191.29.106",
+      "port": 80,
+      "protocol": 6
+    },
+    {
+      "destination": "9.228.255.74",
+      "port": 123,
+      "protocol": 17
+    }
+  ],
+  "label": "Smart Light"
+}

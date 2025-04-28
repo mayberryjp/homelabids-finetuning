@@ -1,0 +1,38 @@
+{
+  "ip_address": "192.168.224.250",
+  "export_date": "2025-03-23T13:16:34",
+  "host_info": {
+    "ip_address": "10.55.91.93",
+    "mac_address": "80:9a:30:9e:76:36",
+    "mac_vendor": "Woodward-Howard",
+    "dhcp_hostname": "galaxy_tab",
+    "os_fingerprint": "Galaxy_Tab",
+    "lease_hostname": "galaxy_tab"
+  },
+  "dns_queries": [
+    "amazon.com"
+  ],
+  "flows": [
+    {
+      "destination": "170.240.44.6",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "76.131.169.245",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "6.154.109.91",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "172.33.248.54",
+      "port": 5000,
+      "protocol": 6
+    }
+  ],
+  "label": "Tablet"
+}

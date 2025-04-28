@@ -1,0 +1,30 @@
+{
+  "ip_address": "192.168.134.28",
+  "export_date": "2025-01-26T18:23:16",
+  "host_info": {
+    "ip_address": "10.249.74.209",
+    "mac_address": "77:b1:2c:cf:b3:b8",
+    "mac_vendor": "Brown PLC",
+    "dhcp_hostname": "galaxy",
+    "os_fingerprint": "Galaxy",
+    "lease_hostname": "galaxy"
+  },
+  "dns_queries": [
+    "google.com",
+    "apple.com",
+    "facebook.com"
+  ],
+  "flows": [
+    {
+      "destination": "77.173.185.152",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "157.149.62.26",
+      "port": 123,
+      "protocol": 6
+    }
+  ],
+  "label": "Smartphone"
+}

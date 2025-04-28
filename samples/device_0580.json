@@ -1,0 +1,35 @@
+{
+  "ip_address": "10.211.249.0",
+  "export_date": "2025-03-14T12:40:00",
+  "host_info": {
+    "ip_address": "172.24.160.36",
+    "mac_address": "4d:ba:69:ed:91:57",
+    "mac_vendor": "Rogers, Jackson and Anthony",
+    "dhcp_hostname": "nest_cam",
+    "os_fingerprint": "Nest_Cam",
+    "lease_hostname": "nest_cam"
+  },
+  "dns_queries": [
+    "ring.com",
+    "arlo.com",
+    "cloudflare.com"
+  ],
+  "flows": [
+    {
+      "destination": "51.22.99.182",
+      "port": 123,
+      "protocol": 17
+    },
+    {
+      "destination": "218.29.50.81",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "19.49.57.225",
+      "port": 5000,
+      "protocol": 17
+    }
+  ],
+  "label": "Security Camera"
+}

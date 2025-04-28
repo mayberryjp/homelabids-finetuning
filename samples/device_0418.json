@@ -1,0 +1,39 @@
+{
+  "ip_address": "192.168.27.161",
+  "export_date": "2025-01-28T04:45:30",
+  "host_info": {
+    "ip_address": "10.111.161.187",
+    "mac_address": "89:bf:32:84:00:cb",
+    "mac_vendor": "Cardenas Ltd",
+    "dhcp_hostname": "windows_10",
+    "os_fingerprint": "Windows_10",
+    "lease_hostname": "windows_10"
+  },
+  "dns_queries": [
+    "slack.com",
+    "google.com"
+  ],
+  "flows": [
+    {
+      "destination": "180.158.234.208",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "70.26.174.33",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "179.32.24.9",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "167.11.202.164",
+      "port": 53,
+      "protocol": 17
+    }
+  ],
+  "label": "Laptop"
+}

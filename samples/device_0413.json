@@ -1,0 +1,33 @@
+{
+  "ip_address": "10.122.177.23",
+  "export_date": "2025-01-10T15:30:30",
+  "host_info": {
+    "ip_address": "192.168.148.6",
+    "mac_address": "93:d6:97:3c:a2:06",
+    "mac_vendor": "Wong PLC",
+    "dhcp_hostname": "google_home",
+    "os_fingerprint": "Google_Home",
+    "lease_hostname": "google_home"
+  },
+  "dns_queries": [
+    "spotify.com"
+  ],
+  "flows": [
+    {
+      "destination": "163.252.74.61",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "180.73.117.218",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "131.176.60.205",
+      "port": 80,
+      "protocol": 17
+    }
+  ],
+  "label": "Smart Speaker"
+}

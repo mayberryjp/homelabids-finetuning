@@ -1,0 +1,44 @@
+{
+  "ip_address": "192.168.204.24",
+  "export_date": "2025-01-10T17:25:38",
+  "host_info": {
+    "ip_address": "172.16.155.240",
+    "mac_address": "89:f1:2e:fd:90:b9",
+    "mac_vendor": "Reeves Ltd",
+    "dhcp_hostname": "playstation_5",
+    "os_fingerprint": "PlayStation_5",
+    "lease_hostname": "playstation_5"
+  },
+  "dns_queries": [
+    "xboxlive.com",
+    "nintendo.com"
+  ],
+  "flows": [
+    {
+      "destination": "143.82.1.96",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "43.88.194.18",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "125.194.206.247",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "89.138.63.85",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "211.249.84.172",
+      "port": 8883,
+      "protocol": 6
+    }
+  ],
+  "label": "Game Console"
+}

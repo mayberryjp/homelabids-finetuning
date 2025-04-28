@@ -1,0 +1,30 @@
+{
+  "ip_address": "10.185.188.25",
+  "export_date": "2025-01-29T05:28:09",
+  "host_info": {
+    "ip_address": "172.19.222.41",
+    "mac_address": "f1:56:09:64:8f:b8",
+    "mac_vendor": "Carter, Fletcher and Dudley",
+    "dhcp_hostname": "brother_hl",
+    "os_fingerprint": "Brother_HL",
+    "lease_hostname": "brother_hl"
+  },
+  "dns_queries": [
+    "hp.com",
+    "brother.com",
+    "canon.com"
+  ],
+  "flows": [
+    {
+      "destination": "61.130.136.60",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "8.160.184.36",
+      "port": 443,
+      "protocol": 17
+    }
+  ],
+  "label": "Printer"
+}

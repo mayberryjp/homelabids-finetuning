@@ -1,0 +1,44 @@
+{
+  "ip_address": "172.25.211.111",
+  "export_date": "2025-02-12T20:51:19",
+  "host_info": {
+    "ip_address": "172.25.209.197",
+    "mac_address": "ca:e2:65:4e:69:28",
+    "mac_vendor": "Rodriguez, Wilson and Morris",
+    "dhcp_hostname": "ubuntu_linux",
+    "os_fingerprint": "Ubuntu_Linux",
+    "lease_hostname": "ubuntu_linux"
+  },
+  "dns_queries": [
+    "github.com",
+    "slack.com"
+  ],
+  "flows": [
+    {
+      "destination": "205.68.147.146",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "176.125.47.39",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "156.228.4.44",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "186.158.3.88",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "49.216.28.123",
+      "port": 5000,
+      "protocol": 6
+    }
+  ],
+  "label": "Laptop"
+}

@@ -1,0 +1,50 @@
+{
+  "ip_address": "192.168.6.73",
+  "export_date": "2025-02-22T22:05:55",
+  "host_info": {
+    "ip_address": "10.16.82.189",
+    "mac_address": "5f:f7:d7:21:76:bb",
+    "mac_vendor": "Allen, Romero and Thompson",
+    "dhcp_hostname": "galaxy_tab",
+    "os_fingerprint": "Galaxy_Tab",
+    "lease_hostname": "galaxy_tab"
+  },
+  "dns_queries": [
+    "apple.com",
+    "samsung.com",
+    "amazon.com"
+  ],
+  "flows": [
+    {
+      "destination": "203.230.243.223",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "205.171.72.179",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "202.33.79.139",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "182.208.71.115",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "95.111.57.17",
+      "port": 80,
+      "protocol": 6
+    },
+    {
+      "destination": "200.138.125.113",
+      "port": 443,
+      "protocol": 6
+    }
+  ],
+  "label": "Tablet"
+}

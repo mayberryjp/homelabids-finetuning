@@ -1,0 +1,35 @@
+{
+  "ip_address": "10.26.227.251",
+  "export_date": "2025-01-04T10:53:41",
+  "host_info": {
+    "ip_address": "172.28.134.165",
+    "mac_address": "65:51:ce:11:ed:50",
+    "mac_vendor": "Romero Group",
+    "dhcp_hostname": "iphone",
+    "os_fingerprint": "iPhone",
+    "lease_hostname": "iphone"
+  },
+  "dns_queries": [
+    "apple.com",
+    "whatsapp.com",
+    "google.com"
+  ],
+  "flows": [
+    {
+      "destination": "104.60.57.231",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "178.203.214.146",
+      "port": 123,
+      "protocol": 17
+    },
+    {
+      "destination": "153.49.227.121",
+      "port": 6667,
+      "protocol": 17
+    }
+  ],
+  "label": "Smartphone"
+}

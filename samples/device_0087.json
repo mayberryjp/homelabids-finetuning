@@ -1,0 +1,30 @@
+{
+  "ip_address": "10.153.238.217",
+  "export_date": "2025-01-01T02:18:39",
+  "host_info": {
+    "ip_address": "10.253.223.243",
+    "mac_address": "2a:f8:87:78:0b:f3",
+    "mac_vendor": "Rose, Waters and Oneill",
+    "dhcp_hostname": "macbook_pro",
+    "os_fingerprint": "MacBook_Pro",
+    "lease_hostname": "macbook_pro"
+  },
+  "dns_queries": [
+    "microsoft.com",
+    "google.com",
+    "github.com"
+  ],
+  "flows": [
+    {
+      "destination": "192.1.171.53",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "58.181.28.133",
+      "port": 53,
+      "protocol": 17
+    }
+  ],
+  "label": "Laptop"
+}

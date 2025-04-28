@@ -1,0 +1,29 @@
+{
+  "ip_address": "10.82.246.5",
+  "export_date": "2025-03-17T13:09:40",
+  "host_info": {
+    "ip_address": "192.168.26.204",
+    "mac_address": "dd:5d:64:b5:77:9e",
+    "mac_vendor": "Garcia LLC",
+    "dhcp_hostname": "galaxy",
+    "os_fingerprint": "Galaxy",
+    "lease_hostname": "galaxy"
+  },
+  "dns_queries": [
+    "facebook.com",
+    "whatsapp.com"
+  ],
+  "flows": [
+    {
+      "destination": "214.214.102.218",
+      "port": 5000,
+      "protocol": 6
+    },
+    {
+      "destination": "19.214.18.9",
+      "port": 443,
+      "protocol": 17
+    }
+  ],
+  "label": "Smartphone"
+}

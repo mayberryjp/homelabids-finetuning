@@ -1,0 +1,40 @@
+{
+  "ip_address": "10.69.66.103",
+  "export_date": "2025-03-17T02:57:51",
+  "host_info": {
+    "ip_address": "10.61.24.8",
+    "mac_address": "8d:28:e4:b3:c4:55",
+    "mac_vendor": "Arias and Sons",
+    "dhcp_hostname": "brother_hl",
+    "os_fingerprint": "Brother_HL",
+    "lease_hostname": "brother_hl"
+  },
+  "dns_queries": [
+    "hp.com",
+    "brother.com",
+    "canon.com"
+  ],
+  "flows": [
+    {
+      "destination": "106.68.177.125",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "209.245.149.101",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "220.38.76.106",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "194.130.205.171",
+      "port": 443,
+      "protocol": 17
+    }
+  ],
+  "label": "Printer"
+}

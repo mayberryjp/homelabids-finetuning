@@ -1,0 +1,33 @@
+{
+  "ip_address": "172.21.146.113",
+  "export_date": "2025-04-18T10:43:27",
+  "host_info": {
+    "ip_address": "172.28.62.73",
+    "mac_address": "53:83:bf:65:cb:81",
+    "mac_vendor": "Romero Group",
+    "dhcp_hostname": "nest_thermostat",
+    "os_fingerprint": "Nest_Thermostat",
+    "lease_hostname": "nest_thermostat"
+  },
+  "dns_queries": [
+    "ecobee.com"
+  ],
+  "flows": [
+    {
+      "destination": "194.129.92.73",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "206.69.144.240",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "186.229.94.165",
+      "port": 53,
+      "protocol": 6
+    }
+  ],
+  "label": "Smart Thermostat"
+}

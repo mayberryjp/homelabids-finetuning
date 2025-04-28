@@ -1,0 +1,28 @@
+{
+  "ip_address": "10.90.44.62",
+  "export_date": "2025-02-23T04:13:08",
+  "host_info": {
+    "ip_address": "172.27.210.227",
+    "mac_address": "50:36:16:5e:05:d0",
+    "mac_vendor": "Day-Blankenship",
+    "dhcp_hostname": "nest_thermostat",
+    "os_fingerprint": "Nest_Thermostat",
+    "lease_hostname": "nest_thermostat"
+  },
+  "dns_queries": [
+    "googleapis.com"
+  ],
+  "flows": [
+    {
+      "destination": "135.1.41.212",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "57.254.251.252",
+      "port": 5000,
+      "protocol": 6
+    }
+  ],
+  "label": "Smart Thermostat"
+}

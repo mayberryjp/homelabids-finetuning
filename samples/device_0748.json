@@ -1,0 +1,43 @@
+{
+  "ip_address": "192.168.217.72",
+  "export_date": "2025-03-06T22:10:25",
+  "host_info": {
+    "ip_address": "10.106.90.9",
+    "mac_address": "24:ef:11:bf:ae:a4",
+    "mac_vendor": "Swanson-Lopez",
+    "dhcp_hostname": "windows_10",
+    "os_fingerprint": "Windows_10",
+    "lease_hostname": "windows_10"
+  },
+  "dns_queries": [
+    "microsoft.com"
+  ],
+  "flows": [
+    {
+      "destination": "83.194.104.177",
+      "port": 123,
+      "protocol": 17
+    },
+    {
+      "destination": "203.121.218.234",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "135.40.206.180",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "194.57.153.75",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "89.170.66.159",
+      "port": 8883,
+      "protocol": 17
+    }
+  ],
+  "label": "Laptop"
+}

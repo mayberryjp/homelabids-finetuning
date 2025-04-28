@@ -1,0 +1,43 @@
+{
+  "ip_address": "10.148.244.32",
+  "export_date": "2025-03-08T20:51:58",
+  "host_info": {
+    "ip_address": "192.168.227.168",
+    "mac_address": "0f:29:47:d4:3b:5b",
+    "mac_vendor": "Gutierrez and Sons",
+    "dhcp_hostname": "fire_tablet",
+    "os_fingerprint": "Fire_Tablet",
+    "lease_hostname": "fire_tablet"
+  },
+  "dns_queries": [
+    "amazon.com"
+  ],
+  "flows": [
+    {
+      "destination": "208.109.115.27",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "192.118.223.12",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "120.89.68.86",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "43.91.63.137",
+      "port": 80,
+      "protocol": 6
+    },
+    {
+      "destination": "66.149.216.243",
+      "port": 123,
+      "protocol": 6
+    }
+  ],
+  "label": "Tablet"
+}

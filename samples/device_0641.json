@@ -1,0 +1,49 @@
+{
+  "ip_address": "172.31.239.25",
+  "export_date": "2025-04-01T15:41:35",
+  "host_info": {
+    "ip_address": "192.168.140.91",
+    "mac_address": "ca:4f:44:07:ca:0d",
+    "mac_vendor": "Rice Ltd",
+    "dhcp_hostname": "samsung_smarttv",
+    "os_fingerprint": "Samsung_SmartTV",
+    "lease_hostname": "samsung_smarttv"
+  },
+  "dns_queries": [
+    "hulu.com",
+    "youtube.com"
+  ],
+  "flows": [
+    {
+      "destination": "14.219.91.32",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "21.164.13.72",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "190.18.232.204",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "202.32.196.27",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "201.110.117.174",
+      "port": 5000,
+      "protocol": 6
+    },
+    {
+      "destination": "126.193.44.100",
+      "port": 443,
+      "protocol": 6
+    }
+  ],
+  "label": "Smart TV"
+}

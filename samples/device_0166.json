@@ -1,0 +1,30 @@
+{
+  "ip_address": "192.168.4.149",
+  "export_date": "2025-04-04T07:16:02",
+  "host_info": {
+    "ip_address": "192.168.89.137",
+    "mac_address": "4f:d9:7a:ae:54:ea",
+    "mac_vendor": "Thomas Ltd",
+    "dhcp_hostname": "amazon_echo",
+    "os_fingerprint": "Amazon_Echo",
+    "lease_hostname": "amazon_echo"
+  },
+  "dns_queries": [
+    "spotify.com",
+    "amazon.com",
+    "google.com"
+  ],
+  "flows": [
+    {
+      "destination": "121.106.99.60",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "48.224.51.34",
+      "port": 8883,
+      "protocol": 17
+    }
+  ],
+  "label": "Smart Speaker"
+}

@@ -1,0 +1,39 @@
+{
+  "ip_address": "10.12.45.89",
+  "export_date": "2025-03-03T00:29:01",
+  "host_info": {
+    "ip_address": "172.25.215.24",
+    "mac_address": "cd:e7:de:d0:47:b9",
+    "mac_vendor": "Price-Erickson",
+    "dhcp_hostname": "google_home",
+    "os_fingerprint": "Google_Home",
+    "lease_hostname": "google_home"
+  },
+  "dns_queries": [
+    "spotify.com",
+    "amazon.com"
+  ],
+  "flows": [
+    {
+      "destination": "170.141.242.119",
+      "port": 123,
+      "protocol": 17
+    },
+    {
+      "destination": "220.229.119.117",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "222.82.148.58",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "79.240.138.97",
+      "port": 6667,
+      "protocol": 6
+    }
+  ],
+  "label": "Smart Speaker"
+}

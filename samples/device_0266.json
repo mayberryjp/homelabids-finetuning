@@ -1,0 +1,43 @@
+{
+  "ip_address": "172.18.41.160",
+  "export_date": "2025-04-27T09:14:14",
+  "host_info": {
+    "ip_address": "10.219.43.198",
+    "mac_address": "02:f9:44:84:66:af",
+    "mac_vendor": "Peterson-Richardson",
+    "dhcp_hostname": "windows_10",
+    "os_fingerprint": "Windows_10",
+    "lease_hostname": "windows_10"
+  },
+  "dns_queries": [
+    "slack.com"
+  ],
+  "flows": [
+    {
+      "destination": "209.130.73.170",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "165.164.215.182",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "186.202.234.81",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "220.30.166.165",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "212.149.1.127",
+      "port": 53,
+      "protocol": 17
+    }
+  ],
+  "label": "Laptop"
+}

@@ -1,0 +1,44 @@
+{
+  "ip_address": "192.168.46.164",
+  "export_date": "2025-03-07T16:34:02",
+  "host_info": {
+    "ip_address": "10.147.21.150",
+    "mac_address": "a1:8e:9e:c4:63:bc",
+    "mac_vendor": "Adams and Sons",
+    "dhcp_hostname": "windows_10",
+    "os_fingerprint": "Windows_10",
+    "lease_hostname": "windows_10"
+  },
+  "dns_queries": [
+    "slack.com",
+    "microsoft.com"
+  ],
+  "flows": [
+    {
+      "destination": "161.86.28.171",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "222.194.107.129",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "205.180.13.194",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "200.18.188.175",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "17.247.241.234",
+      "port": 123,
+      "protocol": 6
+    }
+  ],
+  "label": "Laptop"
+}

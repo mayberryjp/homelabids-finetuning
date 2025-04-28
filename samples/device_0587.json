@@ -1,0 +1,44 @@
+{
+  "ip_address": "10.98.243.180",
+  "export_date": "2025-04-10T15:58:32",
+  "host_info": {
+    "ip_address": "10.184.233.5",
+    "mac_address": "19:7d:e7:68:4c:d4",
+    "mac_vendor": "Durham LLC",
+    "dhcp_hostname": "samsung_smarttv",
+    "os_fingerprint": "Samsung_SmartTV",
+    "lease_hostname": "samsung_smarttv"
+  },
+  "dns_queries": [
+    "youtube.com",
+    "netflix.com"
+  ],
+  "flows": [
+    {
+      "destination": "162.104.178.179",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "203.107.187.46",
+      "port": 5000,
+      "protocol": 6
+    },
+    {
+      "destination": "168.5.229.55",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "116.62.199.98",
+      "port": 80,
+      "protocol": 6
+    },
+    {
+      "destination": "196.123.201.236",
+      "port": 8883,
+      "protocol": 17
+    }
+  ],
+  "label": "Smart TV"
+}

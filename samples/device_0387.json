@@ -1,0 +1,29 @@
+{
+  "ip_address": "172.23.242.221",
+  "export_date": "2025-02-06T23:21:06",
+  "host_info": {
+    "ip_address": "192.168.205.81",
+    "mac_address": "1b:72:ef:8e:40:e2",
+    "mac_vendor": "Miller, Miller and Smith",
+    "dhcp_hostname": "google_home",
+    "os_fingerprint": "Google_Home",
+    "lease_hostname": "google_home"
+  },
+  "dns_queries": [
+    "amazon.com",
+    "google.com"
+  ],
+  "flows": [
+    {
+      "destination": "161.240.3.209",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "13.244.69.213",
+      "port": 8883,
+      "protocol": 6
+    }
+  ],
+  "label": "Smart Speaker"
+}

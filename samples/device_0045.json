@@ -1,0 +1,35 @@
+{
+  "ip_address": "172.25.251.146",
+  "export_date": "2025-03-20T00:31:17",
+  "host_info": {
+    "ip_address": "172.31.160.243",
+    "mac_address": "f7:12:64:2b:a3:58",
+    "mac_vendor": "Daniels Inc",
+    "dhcp_hostname": "amazon_echo",
+    "os_fingerprint": "Amazon_Echo",
+    "lease_hostname": "amazon_echo"
+  },
+  "dns_queries": [
+    "amazon.com",
+    "google.com",
+    "spotify.com"
+  ],
+  "flows": [
+    {
+      "destination": "24.126.212.176",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "30.78.55.209",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "20.5.177.202",
+      "port": 123,
+      "protocol": 6
+    }
+  ],
+  "label": "Smart Speaker"
+}

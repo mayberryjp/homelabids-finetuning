@@ -1,0 +1,49 @@
+{
+  "ip_address": "172.31.50.55",
+  "export_date": "2025-04-17T02:46:46",
+  "host_info": {
+    "ip_address": "172.18.107.238",
+    "mac_address": "e9:82:ff:90:46:03",
+    "mac_vendor": "Ewing PLC",
+    "dhcp_hostname": "lg_smarttv",
+    "os_fingerprint": "LG_SmartTV",
+    "lease_hostname": "lg_smarttv"
+  },
+  "dns_queries": [
+    "netflix.com",
+    "youtube.com"
+  ],
+  "flows": [
+    {
+      "destination": "155.182.204.57",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "130.160.234.109",
+      "port": 5000,
+      "protocol": 6
+    },
+    {
+      "destination": "23.159.68.159",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "146.41.44.238",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "78.192.32.15",
+      "port": 123,
+      "protocol": 17
+    },
+    {
+      "destination": "146.99.106.228",
+      "port": 80,
+      "protocol": 17
+    }
+  ],
+  "label": "Smart TV"
+}

@@ -1,0 +1,48 @@
+{
+  "ip_address": "172.18.222.43",
+  "export_date": "2025-04-28T08:19:13",
+  "host_info": {
+    "ip_address": "10.125.128.112",
+    "mac_address": "94:36:f0:0f:73:48",
+    "mac_vendor": "Taylor-Moreno",
+    "dhcp_hostname": "homepod",
+    "os_fingerprint": "HomePod",
+    "lease_hostname": "homepod"
+  },
+  "dns_queries": [
+    "spotify.com"
+  ],
+  "flows": [
+    {
+      "destination": "195.154.3.86",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "219.217.60.7",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "115.250.195.66",
+      "port": 5000,
+      "protocol": 6
+    },
+    {
+      "destination": "56.198.195.131",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "210.194.185.176",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "9.75.41.130",
+      "port": 80,
+      "protocol": 6
+    }
+  ],
+  "label": "Smart Speaker"
+}

@@ -1,0 +1,44 @@
+{
+  "ip_address": "10.236.226.91",
+  "export_date": "2025-03-19T13:03:38",
+  "host_info": {
+    "ip_address": "10.84.57.173",
+    "mac_address": "e1:9e:8f:0a:d0:82",
+    "mac_vendor": "Jensen PLC",
+    "dhcp_hostname": "nest_cam",
+    "os_fingerprint": "Nest_Cam",
+    "lease_hostname": "nest_cam"
+  },
+  "dns_queries": [
+    "arlo.com",
+    "ring.com"
+  ],
+  "flows": [
+    {
+      "destination": "138.27.232.180",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "19.92.150.177",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "161.171.190.201",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "218.179.1.183",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "213.224.43.114",
+      "port": 6667,
+      "protocol": 6
+    }
+  ],
+  "label": "Security Camera"
+}

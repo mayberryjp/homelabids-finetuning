@@ -1,0 +1,39 @@
+{
+  "ip_address": "192.168.235.234",
+  "export_date": "2025-04-16T21:54:58",
+  "host_info": {
+    "ip_address": "192.168.202.236",
+    "mac_address": "18:45:1e:47:bd:ba",
+    "mac_vendor": "Mcclain-Young",
+    "dhcp_hostname": "galaxy_tab",
+    "os_fingerprint": "Galaxy_Tab",
+    "lease_hostname": "galaxy_tab"
+  },
+  "dns_queries": [
+    "samsung.com",
+    "amazon.com"
+  ],
+  "flows": [
+    {
+      "destination": "213.205.78.152",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "220.187.255.82",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "15.210.114.52",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "37.104.203.102",
+      "port": 53,
+      "protocol": 17
+    }
+  ],
+  "label": "Tablet"
+}

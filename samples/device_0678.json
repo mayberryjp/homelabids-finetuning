@@ -1,0 +1,48 @@
+{
+  "ip_address": "172.22.108.248",
+  "export_date": "2025-03-09T03:03:08",
+  "host_info": {
+    "ip_address": "192.168.118.145",
+    "mac_address": "d6:79:8a:b6:d3:5e",
+    "mac_vendor": "Kim, Hensley and Bell",
+    "dhcp_hostname": "ipad",
+    "os_fingerprint": "iPad",
+    "lease_hostname": "ipad"
+  },
+  "dns_queries": [
+    "samsung.com"
+  ],
+  "flows": [
+    {
+      "destination": "201.169.38.7",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "135.125.213.40",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "9.56.11.254",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "5.28.149.71",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "119.204.127.196",
+      "port": 123,
+      "protocol": 17
+    },
+    {
+      "destination": "207.19.255.118",
+      "port": 443,
+      "protocol": 6
+    }
+  ],
+  "label": "Tablet"
+}

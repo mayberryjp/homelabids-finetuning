@@ -1,0 +1,44 @@
+{
+  "ip_address": "172.19.78.192",
+  "export_date": "2025-02-13T06:42:52",
+  "host_info": {
+    "ip_address": "172.26.181.153",
+    "mac_address": "75:49:34:5b:af:48",
+    "mac_vendor": "Foster LLC",
+    "dhcp_hostname": "galaxy_tab",
+    "os_fingerprint": "Galaxy_Tab",
+    "lease_hostname": "galaxy_tab"
+  },
+  "dns_queries": [
+    "samsung.com",
+    "apple.com"
+  ],
+  "flows": [
+    {
+      "destination": "72.38.12.67",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "156.216.59.14",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "221.133.198.7",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "147.184.195.226",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "201.26.209.174",
+      "port": 6667,
+      "protocol": 17
+    }
+  ],
+  "label": "Tablet"
+}

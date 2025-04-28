@@ -1,0 +1,35 @@
+{
+  "ip_address": "172.18.25.193",
+  "export_date": "2025-02-27T20:10:33",
+  "host_info": {
+    "ip_address": "172.20.171.11",
+    "mac_address": "ac:69:00:7c:c8:7a",
+    "mac_vendor": "Moon-Moran",
+    "dhcp_hostname": "nest_cam",
+    "os_fingerprint": "Nest_Cam",
+    "lease_hostname": "nest_cam"
+  },
+  "dns_queries": [
+    "arlo.com",
+    "ring.com",
+    "cloudflare.com"
+  ],
+  "flows": [
+    {
+      "destination": "148.26.110.252",
+      "port": 123,
+      "protocol": 17
+    },
+    {
+      "destination": "13.42.189.22",
+      "port": 5000,
+      "protocol": 6
+    },
+    {
+      "destination": "4.216.165.174",
+      "port": 6667,
+      "protocol": 6
+    }
+  ],
+  "label": "Security Camera"
+}

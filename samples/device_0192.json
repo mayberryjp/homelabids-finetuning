@@ -1,0 +1,38 @@
+{
+  "ip_address": "172.21.141.232",
+  "export_date": "2025-01-13T02:55:09",
+  "host_info": {
+    "ip_address": "192.168.176.225",
+    "mac_address": "c8:34:81:db:85:81",
+    "mac_vendor": "Williams, Lee and Boone",
+    "dhcp_hostname": "samsung_smarttv",
+    "os_fingerprint": "Samsung_SmartTV",
+    "lease_hostname": "samsung_smarttv"
+  },
+  "dns_queries": [
+    "netflix.com"
+  ],
+  "flows": [
+    {
+      "destination": "21.249.146.95",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "78.216.68.73",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "15.57.128.15",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "129.196.112.183",
+      "port": 6667,
+      "protocol": 17
+    }
+  ],
+  "label": "Smart TV"
+}

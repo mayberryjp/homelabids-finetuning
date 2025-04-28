@@ -1,0 +1,38 @@
+{
+  "ip_address": "192.168.86.217",
+  "export_date": "2025-03-13T03:21:22",
+  "host_info": {
+    "ip_address": "192.168.0.51",
+    "mac_address": "8a:1b:c5:3b:d1:b2",
+    "mac_vendor": "Castro-Garcia",
+    "dhcp_hostname": "hp_laserjet",
+    "os_fingerprint": "HP_LaserJet",
+    "lease_hostname": "hp_laserjet"
+  },
+  "dns_queries": [
+    "hp.com"
+  ],
+  "flows": [
+    {
+      "destination": "211.173.104.68",
+      "port": 123,
+      "protocol": 17
+    },
+    {
+      "destination": "189.75.220.191",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "204.186.133.250",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "106.129.202.215",
+      "port": 6667,
+      "protocol": 17
+    }
+  ],
+  "label": "Printer"
+}

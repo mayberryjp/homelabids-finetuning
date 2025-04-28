@@ -1,0 +1,49 @@
+{
+  "ip_address": "172.26.194.251",
+  "export_date": "2025-04-28T05:33:18",
+  "host_info": {
+    "ip_address": "10.80.43.216",
+    "mac_address": "95:e1:5d:24:f8:08",
+    "mac_vendor": "Daniels-Mccormick",
+    "dhcp_hostname": "sony_bravia",
+    "os_fingerprint": "Sony_Bravia",
+    "lease_hostname": "sony_bravia"
+  },
+  "dns_queries": [
+    "youtube.com",
+    "hulu.com"
+  ],
+  "flows": [
+    {
+      "destination": "111.18.128.45",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "194.230.101.52",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "64.0.7.221",
+      "port": 5000,
+      "protocol": 6
+    },
+    {
+      "destination": "149.222.71.0",
+      "port": 5000,
+      "protocol": 6
+    },
+    {
+      "destination": "188.132.12.146",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "186.73.10.115",
+      "port": 6667,
+      "protocol": 17
+    }
+  ],
+  "label": "Smart TV"
+}

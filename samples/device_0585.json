@@ -1,0 +1,38 @@
+{
+  "ip_address": "10.244.240.67",
+  "export_date": "2025-01-19T16:37:29",
+  "host_info": {
+    "ip_address": "10.86.205.232",
+    "mac_address": "38:4c:6c:31:d5:e0",
+    "mac_vendor": "Anderson-Ballard",
+    "dhcp_hostname": "google_home",
+    "os_fingerprint": "Google_Home",
+    "lease_hostname": "google_home"
+  },
+  "dns_queries": [
+    "amazon.com"
+  ],
+  "flows": [
+    {
+      "destination": "199.255.192.238",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "176.38.224.149",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "169.7.196.47",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "128.12.63.205",
+      "port": 8883,
+      "protocol": 17
+    }
+  ],
+  "label": "Smart Speaker"
+}

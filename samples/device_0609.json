@@ -1,0 +1,45 @@
+{
+  "ip_address": "10.91.224.38",
+  "export_date": "2025-04-25T07:49:18",
+  "host_info": {
+    "ip_address": "172.26.223.196",
+    "mac_address": "e2:45:25:6f:c0:59",
+    "mac_vendor": "Melton Ltd",
+    "dhcp_hostname": "ipad",
+    "os_fingerprint": "iPad",
+    "lease_hostname": "ipad"
+  },
+  "dns_queries": [
+    "apple.com",
+    "samsung.com",
+    "amazon.com"
+  ],
+  "flows": [
+    {
+      "destination": "135.188.53.67",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "49.226.203.234",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "34.147.97.16",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "74.1.94.170",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "89.129.49.149",
+      "port": 123,
+      "protocol": 6
+    }
+  ],
+  "label": "Tablet"
+}

@@ -1,0 +1,35 @@
+{
+  "ip_address": "192.168.234.130",
+  "export_date": "2025-03-25T19:21:57",
+  "host_info": {
+    "ip_address": "172.31.3.63",
+    "mac_address": "5c:e3:ce:50:32:47",
+    "mac_vendor": "Little PLC",
+    "dhcp_hostname": "amazon_echo",
+    "os_fingerprint": "Amazon_Echo",
+    "lease_hostname": "amazon_echo"
+  },
+  "dns_queries": [
+    "google.com",
+    "amazon.com",
+    "spotify.com"
+  ],
+  "flows": [
+    {
+      "destination": "130.48.227.5",
+      "port": 80,
+      "protocol": 6
+    },
+    {
+      "destination": "183.187.96.136",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "205.11.217.204",
+      "port": 80,
+      "protocol": 6
+    }
+  ],
+  "label": "Smart Speaker"
+}

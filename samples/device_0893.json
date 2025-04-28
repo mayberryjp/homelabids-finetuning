@@ -1,0 +1,43 @@
+{
+  "ip_address": "192.168.205.61",
+  "export_date": "2025-02-13T16:53:05",
+  "host_info": {
+    "ip_address": "192.168.78.81",
+    "mac_address": "b9:68:b0:a1:7f:94",
+    "mac_vendor": "Bryant, Gonzalez and Martinez",
+    "dhcp_hostname": "ecobee_thermostat",
+    "os_fingerprint": "Ecobee_Thermostat",
+    "lease_hostname": "ecobee_thermostat"
+  },
+  "dns_queries": [
+    "ecobee.com"
+  ],
+  "flows": [
+    {
+      "destination": "185.95.14.166",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "120.141.127.147",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "103.190.235.43",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "160.74.231.82",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "213.242.129.74",
+      "port": 5000,
+      "protocol": 6
+    }
+  ],
+  "label": "Smart Thermostat"
+}

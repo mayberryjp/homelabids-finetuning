@@ -1,0 +1,35 @@
+{
+  "ip_address": "192.168.185.119",
+  "export_date": "2025-03-26T14:15:25",
+  "host_info": {
+    "ip_address": "10.43.139.63",
+    "mac_address": "4e:77:87:e8:37:a1",
+    "mac_vendor": "Holt Ltd",
+    "dhcp_hostname": "nintendo_switch",
+    "os_fingerprint": "Nintendo_Switch",
+    "lease_hostname": "nintendo_switch"
+  },
+  "dns_queries": [
+    "playstation.com",
+    "xboxlive.com",
+    "nintendo.com"
+  ],
+  "flows": [
+    {
+      "destination": "50.184.25.92",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "186.151.161.148",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "205.174.230.39",
+      "port": 123,
+      "protocol": 17
+    }
+  ],
+  "label": "Game Console"
+}

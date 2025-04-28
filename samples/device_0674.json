@@ -1,0 +1,29 @@
+{
+  "ip_address": "192.168.77.25",
+  "export_date": "2025-02-16T17:01:26",
+  "host_info": {
+    "ip_address": "172.17.51.247",
+    "mac_address": "df:db:ad:c4:ce:81",
+    "mac_vendor": "Collins PLC",
+    "dhcp_hostname": "galaxy_tab",
+    "os_fingerprint": "Galaxy_Tab",
+    "lease_hostname": "galaxy_tab"
+  },
+  "dns_queries": [
+    "amazon.com",
+    "apple.com"
+  ],
+  "flows": [
+    {
+      "destination": "101.40.100.68",
+      "port": 123,
+      "protocol": 17
+    },
+    {
+      "destination": "86.162.149.166",
+      "port": 6667,
+      "protocol": 6
+    }
+  ],
+  "label": "Tablet"
+}

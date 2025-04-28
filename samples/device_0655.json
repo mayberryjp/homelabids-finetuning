@@ -1,0 +1,38 @@
+{
+  "ip_address": "192.168.195.253",
+  "export_date": "2025-04-16T18:12:43",
+  "host_info": {
+    "ip_address": "10.157.50.107",
+    "mac_address": "7d:41:ee:ea:19:70",
+    "mac_vendor": "Torres, Sanders and Holt",
+    "dhcp_hostname": "ipad",
+    "os_fingerprint": "iPad",
+    "lease_hostname": "ipad"
+  },
+  "dns_queries": [
+    "amazon.com"
+  ],
+  "flows": [
+    {
+      "destination": "63.39.201.191",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "206.93.176.67",
+      "port": 5000,
+      "protocol": 6
+    },
+    {
+      "destination": "54.147.127.69",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "223.5.51.145",
+      "port": 80,
+      "protocol": 6
+    }
+  ],
+  "label": "Tablet"
+}

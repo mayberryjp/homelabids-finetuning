@@ -1,0 +1,40 @@
+{
+  "ip_address": "192.168.176.54",
+  "export_date": "2025-02-18T23:38:04",
+  "host_info": {
+    "ip_address": "10.51.229.110",
+    "mac_address": "9e:a6:06:77:aa:df",
+    "mac_vendor": "Johnson, Frazier and Wilson",
+    "dhcp_hostname": "iphone",
+    "os_fingerprint": "iPhone",
+    "lease_hostname": "iphone"
+  },
+  "dns_queries": [
+    "apple.com",
+    "google.com",
+    "whatsapp.com"
+  ],
+  "flows": [
+    {
+      "destination": "212.76.108.25",
+      "port": 5000,
+      "protocol": 6
+    },
+    {
+      "destination": "160.159.92.134",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "211.178.251.39",
+      "port": 80,
+      "protocol": 6
+    },
+    {
+      "destination": "164.143.13.6",
+      "port": 8883,
+      "protocol": 17
+    }
+  ],
+  "label": "Smartphone"
+}

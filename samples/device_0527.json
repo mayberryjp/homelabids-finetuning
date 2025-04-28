@@ -1,0 +1,29 @@
+{
+  "ip_address": "10.3.29.53",
+  "export_date": "2025-03-18T13:18:28",
+  "host_info": {
+    "ip_address": "10.246.89.74",
+    "mac_address": "2d:e1:bc:1c:61:37",
+    "mac_vendor": "Parrish-Knight",
+    "dhcp_hostname": "playstation_5",
+    "os_fingerprint": "PlayStation_5",
+    "lease_hostname": "playstation_5"
+  },
+  "dns_queries": [
+    "xboxlive.com",
+    "nintendo.com"
+  ],
+  "flows": [
+    {
+      "destination": "134.110.212.3",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "124.49.152.172",
+      "port": 123,
+      "protocol": 6
+    }
+  ],
+  "label": "Game Console"
+}

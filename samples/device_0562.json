@@ -1,0 +1,33 @@
+{
+  "ip_address": "192.168.0.48",
+  "export_date": "2025-03-21T02:35:37",
+  "host_info": {
+    "ip_address": "172.17.27.7",
+    "mac_address": "54:44:59:7c:b0:f1",
+    "mac_vendor": "Brooks, Snyder and Brewer",
+    "dhcp_hostname": "canon_pixma",
+    "os_fingerprint": "Canon_PIXMA",
+    "lease_hostname": "canon_pixma"
+  },
+  "dns_queries": [
+    "hp.com"
+  ],
+  "flows": [
+    {
+      "destination": "199.93.181.188",
+      "port": 5000,
+      "protocol": 6
+    },
+    {
+      "destination": "203.209.204.239",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "204.122.47.173",
+      "port": 5000,
+      "protocol": 17
+    }
+  ],
+  "label": "Printer"
+}

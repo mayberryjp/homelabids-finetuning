@@ -1,0 +1,38 @@
+{
+  "ip_address": "192.168.42.41",
+  "export_date": "2025-03-08T19:51:02",
+  "host_info": {
+    "ip_address": "172.31.206.29",
+    "mac_address": "ec:53:84:32:70:de",
+    "mac_vendor": "Erickson, Fisher and Mcclain",
+    "dhcp_hostname": "galaxy_tab",
+    "os_fingerprint": "Galaxy_Tab",
+    "lease_hostname": "galaxy_tab"
+  },
+  "dns_queries": [
+    "samsung.com"
+  ],
+  "flows": [
+    {
+      "destination": "61.245.97.21",
+      "port": 5000,
+      "protocol": 6
+    },
+    {
+      "destination": "192.141.51.130",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "113.158.175.125",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "206.248.127.132",
+      "port": 5000,
+      "protocol": 17
+    }
+  ],
+  "label": "Tablet"
+}

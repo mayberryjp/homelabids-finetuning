@@ -1,0 +1,28 @@
+{
+  "ip_address": "192.168.217.29",
+  "export_date": "2025-01-24T20:09:03",
+  "host_info": {
+    "ip_address": "10.140.22.174",
+    "mac_address": "b2:42:d8:79:75:ce",
+    "mac_vendor": "Klein-Freeman",
+    "dhcp_hostname": "ubuntu_linux",
+    "os_fingerprint": "Ubuntu_Linux",
+    "lease_hostname": "ubuntu_linux"
+  },
+  "dns_queries": [
+    "microsoft.com"
+  ],
+  "flows": [
+    {
+      "destination": "194.199.105.202",
+      "port": 123,
+      "protocol": 17
+    },
+    {
+      "destination": "124.131.193.94",
+      "port": 80,
+      "protocol": 6
+    }
+  ],
+  "label": "Laptop"
+}

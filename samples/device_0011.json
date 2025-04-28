@@ -1,0 +1,28 @@
+{
+  "ip_address": "172.17.106.85",
+  "export_date": "2025-04-26T04:42:28",
+  "host_info": {
+    "ip_address": "172.27.122.172",
+    "mac_address": "ad:f4:bc:f0:21:9a",
+    "mac_vendor": "Willis-Scott",
+    "dhcp_hostname": "canon_pixma",
+    "os_fingerprint": "Canon_PIXMA",
+    "lease_hostname": "canon_pixma"
+  },
+  "dns_queries": [
+    "canon.com"
+  ],
+  "flows": [
+    {
+      "destination": "156.249.235.170",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "77.183.183.128",
+      "port": 8883,
+      "protocol": 6
+    }
+  ],
+  "label": "Printer"
+}

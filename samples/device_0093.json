@@ -1,0 +1,38 @@
+{
+  "ip_address": "172.21.158.195",
+  "export_date": "2025-04-23T03:35:08",
+  "host_info": {
+    "ip_address": "172.23.18.123",
+    "mac_address": "1e:11:1f:8e:ca:26",
+    "mac_vendor": "Hamilton, Wilcox and Summers",
+    "dhcp_hostname": "pixel",
+    "os_fingerprint": "Pixel",
+    "lease_hostname": "pixel"
+  },
+  "dns_queries": [
+    "facebook.com"
+  ],
+  "flows": [
+    {
+      "destination": "32.199.140.180",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "3.218.31.58",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "213.145.208.190",
+      "port": 123,
+      "protocol": 17
+    },
+    {
+      "destination": "38.65.77.74",
+      "port": 123,
+      "protocol": 6
+    }
+  ],
+  "label": "Smartphone"
+}

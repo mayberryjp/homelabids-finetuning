@@ -1,0 +1,28 @@
+{
+  "ip_address": "10.165.210.123",
+  "export_date": "2025-04-20T04:15:20",
+  "host_info": {
+    "ip_address": "172.22.190.95",
+    "mac_address": "12:a9:93:31:19:30",
+    "mac_vendor": "Martin, Soto and Morris",
+    "dhcp_hostname": "google_home",
+    "os_fingerprint": "Google_Home",
+    "lease_hostname": "google_home"
+  },
+  "dns_queries": [
+    "spotify.com"
+  ],
+  "flows": [
+    {
+      "destination": "194.183.226.11",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "172.179.22.206",
+      "port": 6667,
+      "protocol": 6
+    }
+  ],
+  "label": "Smart Speaker"
+}

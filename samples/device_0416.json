@@ -1,0 +1,33 @@
+{
+  "ip_address": "10.74.39.72",
+  "export_date": "2025-01-02T00:20:10",
+  "host_info": {
+    "ip_address": "172.25.162.194",
+    "mac_address": "06:df:ae:7f:7a:96",
+    "mac_vendor": "Ellis-Mcdonald",
+    "dhcp_hostname": "ubuntu_linux",
+    "os_fingerprint": "Ubuntu_Linux",
+    "lease_hostname": "ubuntu_linux"
+  },
+  "dns_queries": [
+    "slack.com"
+  ],
+  "flows": [
+    {
+      "destination": "204.133.226.194",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "201.44.231.127",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "129.30.116.12",
+      "port": 5000,
+      "protocol": 6
+    }
+  ],
+  "label": "Laptop"
+}

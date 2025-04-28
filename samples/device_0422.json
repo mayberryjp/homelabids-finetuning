@@ -1,0 +1,45 @@
+{
+  "ip_address": "10.80.255.237",
+  "export_date": "2025-02-17T12:43:36",
+  "host_info": {
+    "ip_address": "10.217.74.198",
+    "mac_address": "db:94:3f:13:d9:3c",
+    "mac_vendor": "Owens, Cook and Brown",
+    "dhcp_hostname": "ipad",
+    "os_fingerprint": "iPad",
+    "lease_hostname": "ipad"
+  },
+  "dns_queries": [
+    "samsung.com",
+    "amazon.com",
+    "apple.com"
+  ],
+  "flows": [
+    {
+      "destination": "202.183.133.121",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "140.143.17.21",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "211.110.158.49",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "104.129.246.180",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "2.245.8.140",
+      "port": 6667,
+      "protocol": 17
+    }
+  ],
+  "label": "Tablet"
+}

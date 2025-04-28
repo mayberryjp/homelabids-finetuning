@@ -1,0 +1,29 @@
+{
+  "ip_address": "172.24.135.155",
+  "export_date": "2025-01-30T02:58:13",
+  "host_info": {
+    "ip_address": "192.168.121.215",
+    "mac_address": "ab:61:a9:4f:13:3b",
+    "mac_vendor": "Ingram and Sons",
+    "dhcp_hostname": "lg_smarttv",
+    "os_fingerprint": "LG_SmartTV",
+    "lease_hostname": "lg_smarttv"
+  },
+  "dns_queries": [
+    "hulu.com",
+    "netflix.com"
+  ],
+  "flows": [
+    {
+      "destination": "74.52.98.108",
+      "port": 5000,
+      "protocol": 6
+    },
+    {
+      "destination": "7.51.191.86",
+      "port": 443,
+      "protocol": 17
+    }
+  ],
+  "label": "Smart TV"
+}

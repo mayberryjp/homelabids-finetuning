@@ -1,0 +1,29 @@
+{
+  "ip_address": "172.22.11.168",
+  "export_date": "2025-03-16T13:04:25",
+  "host_info": {
+    "ip_address": "10.73.54.164",
+    "mac_address": "d3:d9:b6:05:26:f5",
+    "mac_vendor": "Peterson Inc",
+    "dhcp_hostname": "xbox_series_x",
+    "os_fingerprint": "Xbox_Series_X",
+    "lease_hostname": "xbox_series_x"
+  },
+  "dns_queries": [
+    "playstation.com",
+    "xboxlive.com"
+  ],
+  "flows": [
+    {
+      "destination": "21.34.155.193",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "54.162.197.140",
+      "port": 8883,
+      "protocol": 17
+    }
+  ],
+  "label": "Game Console"
+}

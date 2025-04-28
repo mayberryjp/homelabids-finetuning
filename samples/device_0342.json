@@ -1,0 +1,48 @@
+{
+  "ip_address": "172.26.181.81",
+  "export_date": "2025-02-19T15:43:42",
+  "host_info": {
+    "ip_address": "10.163.1.232",
+    "mac_address": "d6:83:b1:5a:e0:f1",
+    "mac_vendor": "Hunter, Smith and Spence",
+    "dhcp_hostname": "amazon_echo",
+    "os_fingerprint": "Amazon_Echo",
+    "lease_hostname": "amazon_echo"
+  },
+  "dns_queries": [
+    "google.com"
+  ],
+  "flows": [
+    {
+      "destination": "165.141.67.254",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "212.117.126.47",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "150.55.36.205",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "209.167.39.24",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "38.184.8.235",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "83.204.15.112",
+      "port": 443,
+      "protocol": 17
+    }
+  ],
+  "label": "Smart Speaker"
+}

@@ -1,0 +1,40 @@
+{
+  "ip_address": "10.210.6.141",
+  "export_date": "2025-03-02T05:16:54",
+  "host_info": {
+    "ip_address": "10.5.246.178",
+    "mac_address": "32:42:53:f1:2c:39",
+    "mac_vendor": "Anderson-Butler",
+    "dhcp_hostname": "galaxy",
+    "os_fingerprint": "Galaxy",
+    "lease_hostname": "galaxy"
+  },
+  "dns_queries": [
+    "facebook.com",
+    "whatsapp.com",
+    "apple.com"
+  ],
+  "flows": [
+    {
+      "destination": "161.157.153.7",
+      "port": 5000,
+      "protocol": 6
+    },
+    {
+      "destination": "164.146.178.23",
+      "port": 5000,
+      "protocol": 6
+    },
+    {
+      "destination": "41.198.116.187",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "84.57.167.139",
+      "port": 123,
+      "protocol": 17
+    }
+  ],
+  "label": "Smartphone"
+}

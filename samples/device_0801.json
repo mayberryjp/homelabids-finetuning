@@ -1,0 +1,33 @@
+{
+  "ip_address": "172.28.60.194",
+  "export_date": "2025-04-21T03:24:53",
+  "host_info": {
+    "ip_address": "192.168.71.132",
+    "mac_address": "3b:ea:1f:cc:99:a2",
+    "mac_vendor": "Taylor Ltd",
+    "dhcp_hostname": "tp-link_smartbulb",
+    "os_fingerprint": "TP-Link_SmartBulb",
+    "lease_hostname": "tp-link_smartbulb"
+  },
+  "dns_queries": [
+    "tplinkcloud.com"
+  ],
+  "flows": [
+    {
+      "destination": "111.246.51.145",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "22.109.170.214",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "117.3.136.194",
+      "port": 8883,
+      "protocol": 6
+    }
+  ],
+  "label": "Smart Light"
+}

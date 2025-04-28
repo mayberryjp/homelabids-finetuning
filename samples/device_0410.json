@@ -1,0 +1,43 @@
+{
+  "ip_address": "192.168.96.250",
+  "export_date": "2025-04-04T21:03:13",
+  "host_info": {
+    "ip_address": "10.56.20.188",
+    "mac_address": "ca:ac:ff:8f:88:04",
+    "mac_vendor": "Valdez-Marquez",
+    "dhcp_hostname": "ring_camera",
+    "os_fingerprint": "Ring_Camera",
+    "lease_hostname": "ring_camera"
+  },
+  "dns_queries": [
+    "cloudflare.com"
+  ],
+  "flows": [
+    {
+      "destination": "195.76.239.95",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "204.165.60.139",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "4.107.27.17",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "183.44.28.137",
+      "port": 123,
+      "protocol": 17
+    },
+    {
+      "destination": "213.24.99.135",
+      "port": 53,
+      "protocol": 17
+    }
+  ],
+  "label": "Security Camera"
+}

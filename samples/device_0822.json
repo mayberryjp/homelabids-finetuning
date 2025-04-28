@@ -1,0 +1,34 @@
+{
+  "ip_address": "172.23.45.41",
+  "export_date": "2025-02-17T11:11:54",
+  "host_info": {
+    "ip_address": "172.25.242.214",
+    "mac_address": "c0:f5:96:0c:ee:0e",
+    "mac_vendor": "Aguirre-Craig",
+    "dhcp_hostname": "arlo_cam",
+    "os_fingerprint": "Arlo_Cam",
+    "lease_hostname": "arlo_cam"
+  },
+  "dns_queries": [
+    "cloudflare.com",
+    "arlo.com"
+  ],
+  "flows": [
+    {
+      "destination": "208.196.97.230",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "74.15.99.127",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "220.73.36.67",
+      "port": 8883,
+      "protocol": 6
+    }
+  ],
+  "label": "Security Camera"
+}

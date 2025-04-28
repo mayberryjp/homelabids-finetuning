@@ -1,0 +1,30 @@
+{
+  "ip_address": "10.6.64.212",
+  "export_date": "2025-01-23T22:26:55",
+  "host_info": {
+    "ip_address": "172.28.144.65",
+    "mac_address": "7a:15:97:a7:72:c6",
+    "mac_vendor": "Jones-Orr",
+    "dhcp_hostname": "google_home",
+    "os_fingerprint": "Google_Home",
+    "lease_hostname": "google_home"
+  },
+  "dns_queries": [
+    "google.com",
+    "spotify.com",
+    "amazon.com"
+  ],
+  "flows": [
+    {
+      "destination": "206.194.38.160",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "154.215.134.247",
+      "port": 53,
+      "protocol": 6
+    }
+  ],
+  "label": "Smart Speaker"
+}

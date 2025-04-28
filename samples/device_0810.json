@@ -1,0 +1,45 @@
+{
+  "ip_address": "172.29.116.109",
+  "export_date": "2025-04-13T21:48:46",
+  "host_info": {
+    "ip_address": "192.168.178.12",
+    "mac_address": "51:e0:19:0c:af:f7",
+    "mac_vendor": "Miller Inc",
+    "dhcp_hostname": "arlo_cam",
+    "os_fingerprint": "Arlo_Cam",
+    "lease_hostname": "arlo_cam"
+  },
+  "dns_queries": [
+    "ring.com",
+    "cloudflare.com",
+    "arlo.com"
+  ],
+  "flows": [
+    {
+      "destination": "71.196.113.63",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "89.36.161.173",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "219.39.230.20",
+      "port": 5000,
+      "protocol": 6
+    },
+    {
+      "destination": "160.226.190.226",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "177.20.89.230",
+      "port": 123,
+      "protocol": 6
+    }
+  ],
+  "label": "Security Camera"
+}

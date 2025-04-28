@@ -1,0 +1,33 @@
+{
+  "ip_address": "172.17.247.201",
+  "export_date": "2025-04-16T02:46:39",
+  "host_info": {
+    "ip_address": "10.51.238.96",
+    "mac_address": "65:90:da:27:d6:87",
+    "mac_vendor": "Garcia and Sons",
+    "dhcp_hostname": "google_home",
+    "os_fingerprint": "Google_Home",
+    "lease_hostname": "google_home"
+  },
+  "dns_queries": [
+    "amazon.com"
+  ],
+  "flows": [
+    {
+      "destination": "168.245.142.203",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "44.227.214.3",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "148.239.246.108",
+      "port": 443,
+      "protocol": 6
+    }
+  ],
+  "label": "Smart Speaker"
+}

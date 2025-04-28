@@ -1,0 +1,30 @@
+{
+  "ip_address": "172.30.188.117",
+  "export_date": "2025-02-15T01:44:33",
+  "host_info": {
+    "ip_address": "192.168.10.126",
+    "mac_address": "5f:ac:1b:a1:5b:b4",
+    "mac_vendor": "Evans-Harvey",
+    "dhcp_hostname": "brother_hl",
+    "os_fingerprint": "Brother_HL",
+    "lease_hostname": "brother_hl"
+  },
+  "dns_queries": [
+    "canon.com",
+    "hp.com",
+    "brother.com"
+  ],
+  "flows": [
+    {
+      "destination": "157.242.214.195",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "207.65.251.125",
+      "port": 53,
+      "protocol": 17
+    }
+  ],
+  "label": "Printer"
+}

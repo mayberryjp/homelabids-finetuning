@@ -1,0 +1,30 @@
+{
+  "ip_address": "172.30.225.159",
+  "export_date": "2025-02-28T01:42:25",
+  "host_info": {
+    "ip_address": "172.31.5.101",
+    "mac_address": "65:2d:87:b1:56:88",
+    "mac_vendor": "Lopez Group",
+    "dhcp_hostname": "canon_pixma",
+    "os_fingerprint": "Canon_PIXMA",
+    "lease_hostname": "canon_pixma"
+  },
+  "dns_queries": [
+    "brother.com",
+    "canon.com",
+    "hp.com"
+  ],
+  "flows": [
+    {
+      "destination": "28.140.4.167",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "213.117.57.253",
+      "port": 443,
+      "protocol": 17
+    }
+  ],
+  "label": "Printer"
+}

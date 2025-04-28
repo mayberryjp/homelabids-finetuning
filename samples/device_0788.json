@@ -1,0 +1,35 @@
+{
+  "ip_address": "172.24.195.249",
+  "export_date": "2025-02-21T18:20:58",
+  "host_info": {
+    "ip_address": "172.24.236.19",
+    "mac_address": "21:a9:1d:7c:07:5a",
+    "mac_vendor": "Doyle Inc",
+    "dhcp_hostname": "nest_cam",
+    "os_fingerprint": "Nest_Cam",
+    "lease_hostname": "nest_cam"
+  },
+  "dns_queries": [
+    "arlo.com",
+    "cloudflare.com",
+    "ring.com"
+  ],
+  "flows": [
+    {
+      "destination": "77.134.91.109",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "198.109.119.82",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "43.61.41.89",
+      "port": 5000,
+      "protocol": 17
+    }
+  ],
+  "label": "Security Camera"
+}

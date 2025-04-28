@@ -1,0 +1,38 @@
+{
+  "ip_address": "192.168.31.107",
+  "export_date": "2025-04-27T07:59:42",
+  "host_info": {
+    "ip_address": "10.122.34.32",
+    "mac_address": "4f:80:f0:b4:cb:97",
+    "mac_vendor": "Martin-Boyd",
+    "dhcp_hostname": "brother_hl",
+    "os_fingerprint": "Brother_HL",
+    "lease_hostname": "brother_hl"
+  },
+  "dns_queries": [
+    "canon.com"
+  ],
+  "flows": [
+    {
+      "destination": "157.43.209.18",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "209.209.32.66",
+      "port": 123,
+      "protocol": 17
+    },
+    {
+      "destination": "182.70.164.255",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "133.38.117.11",
+      "port": 8883,
+      "protocol": 17
+    }
+  ],
+  "label": "Printer"
+}

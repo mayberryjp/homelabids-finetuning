@@ -1,0 +1,38 @@
+{
+  "ip_address": "192.168.44.121",
+  "export_date": "2025-02-23T09:25:47",
+  "host_info": {
+    "ip_address": "10.103.246.162",
+    "mac_address": "38:51:f9:28:8d:b1",
+    "mac_vendor": "Jimenez and Sons",
+    "dhcp_hostname": "fire_tablet",
+    "os_fingerprint": "Fire_Tablet",
+    "lease_hostname": "fire_tablet"
+  },
+  "dns_queries": [
+    "apple.com"
+  ],
+  "flows": [
+    {
+      "destination": "160.105.36.187",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "28.211.17.37",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "1.204.70.90",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "210.245.202.181",
+      "port": 6667,
+      "protocol": 6
+    }
+  ],
+  "label": "Tablet"
+}

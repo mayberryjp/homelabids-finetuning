@@ -1,0 +1,38 @@
+{
+  "ip_address": "192.168.59.168",
+  "export_date": "2025-02-10T14:31:15",
+  "host_info": {
+    "ip_address": "10.53.187.228",
+    "mac_address": "48:e9:2a:e9:4a:7b",
+    "mac_vendor": "Wilson, Cruz and Ware",
+    "dhcp_hostname": "android",
+    "os_fingerprint": "Android",
+    "lease_hostname": "android"
+  },
+  "dns_queries": [
+    "facebook.com"
+  ],
+  "flows": [
+    {
+      "destination": "213.22.241.175",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "214.165.171.122",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "162.95.86.11",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "45.200.247.169",
+      "port": 80,
+      "protocol": 6
+    }
+  ],
+  "label": "Smartphone"
+}

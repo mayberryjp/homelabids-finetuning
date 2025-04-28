@@ -1,0 +1,43 @@
+{
+  "ip_address": "192.168.49.185",
+  "export_date": "2025-01-22T17:35:42",
+  "host_info": {
+    "ip_address": "10.146.30.116",
+    "mac_address": "9e:fd:1c:37:fd:c4",
+    "mac_vendor": "Mejia-Williams",
+    "dhcp_hostname": "nintendo_switch",
+    "os_fingerprint": "Nintendo_Switch",
+    "lease_hostname": "nintendo_switch"
+  },
+  "dns_queries": [
+    "nintendo.com"
+  ],
+  "flows": [
+    {
+      "destination": "121.5.234.65",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "149.169.69.29",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "209.126.83.157",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "173.17.209.143",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "205.226.222.53",
+      "port": 8883,
+      "protocol": 6
+    }
+  ],
+  "label": "Game Console"
+}

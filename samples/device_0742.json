@@ -1,0 +1,40 @@
+{
+  "ip_address": "10.129.209.221",
+  "export_date": "2025-04-14T13:57:42",
+  "host_info": {
+    "ip_address": "192.168.188.193",
+    "mac_address": "7e:ef:df:cf:d7:c5",
+    "mac_vendor": "Scott, Brown and Gonzalez",
+    "dhcp_hostname": "fire_tablet",
+    "os_fingerprint": "Fire_Tablet",
+    "lease_hostname": "fire_tablet"
+  },
+  "dns_queries": [
+    "apple.com",
+    "amazon.com",
+    "samsung.com"
+  ],
+  "flows": [
+    {
+      "destination": "34.131.93.110",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "100.47.235.6",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "26.99.186.251",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "201.215.83.238",
+      "port": 123,
+      "protocol": 6
+    }
+  ],
+  "label": "Tablet"
+}

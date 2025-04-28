@@ -1,0 +1,44 @@
+{
+  "ip_address": "172.23.188.235",
+  "export_date": "2025-02-08T05:57:07",
+  "host_info": {
+    "ip_address": "192.168.38.6",
+    "mac_address": "85:26:1e:3e:ec:a3",
+    "mac_vendor": "Bradley-Harris",
+    "dhcp_hostname": "nest_cam",
+    "os_fingerprint": "Nest_Cam",
+    "lease_hostname": "nest_cam"
+  },
+  "dns_queries": [
+    "arlo.com",
+    "ring.com"
+  ],
+  "flows": [
+    {
+      "destination": "212.111.207.93",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "190.43.122.198",
+      "port": 123,
+      "protocol": 17
+    },
+    {
+      "destination": "11.123.65.162",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "33.234.129.137",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "212.103.115.85",
+      "port": 443,
+      "protocol": 6
+    }
+  ],
+  "label": "Security Camera"
+}

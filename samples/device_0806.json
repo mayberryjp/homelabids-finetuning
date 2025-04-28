@@ -1,0 +1,35 @@
+{
+  "ip_address": "172.17.127.248",
+  "export_date": "2025-03-29T23:29:50",
+  "host_info": {
+    "ip_address": "172.19.174.15",
+    "mac_address": "f8:2f:11:e2:b2:67",
+    "mac_vendor": "Collins-Lyons",
+    "dhcp_hostname": "ubuntu_linux",
+    "os_fingerprint": "Ubuntu_Linux",
+    "lease_hostname": "ubuntu_linux"
+  },
+  "dns_queries": [
+    "microsoft.com",
+    "slack.com",
+    "google.com"
+  ],
+  "flows": [
+    {
+      "destination": "148.103.102.157",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "33.29.178.157",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "177.6.72.150",
+      "port": 6667,
+      "protocol": 6
+    }
+  ],
+  "label": "Laptop"
+}

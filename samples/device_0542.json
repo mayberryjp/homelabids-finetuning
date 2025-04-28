@@ -1,0 +1,39 @@
+{
+  "ip_address": "172.23.115.107",
+  "export_date": "2025-04-06T06:53:23",
+  "host_info": {
+    "ip_address": "192.168.89.118",
+    "mac_address": "04:5b:9a:9d:ae:01",
+    "mac_vendor": "White, Camacho and Torres",
+    "dhcp_hostname": "canon_pixma",
+    "os_fingerprint": "Canon_PIXMA",
+    "lease_hostname": "canon_pixma"
+  },
+  "dns_queries": [
+    "canon.com",
+    "brother.com"
+  ],
+  "flows": [
+    {
+      "destination": "147.251.182.190",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "186.65.54.147",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "184.85.203.88",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "172.83.114.132",
+      "port": 80,
+      "protocol": 6
+    }
+  ],
+  "label": "Printer"
+}

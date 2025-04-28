@@ -1,0 +1,33 @@
+{
+  "ip_address": "172.28.226.227",
+  "export_date": "2025-02-27T12:24:23",
+  "host_info": {
+    "ip_address": "172.27.236.186",
+    "mac_address": "57:0a:c9:c7:18:61",
+    "mac_vendor": "Jensen LLC",
+    "dhcp_hostname": "brother_hl",
+    "os_fingerprint": "Brother_HL",
+    "lease_hostname": "brother_hl"
+  },
+  "dns_queries": [
+    "canon.com"
+  ],
+  "flows": [
+    {
+      "destination": "179.151.197.183",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "80.219.119.46",
+      "port": 5000,
+      "protocol": 6
+    },
+    {
+      "destination": "130.221.128.26",
+      "port": 5000,
+      "protocol": 6
+    }
+  ],
+  "label": "Printer"
+}

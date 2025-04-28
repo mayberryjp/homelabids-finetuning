@@ -1,0 +1,49 @@
+{
+  "ip_address": "172.21.130.136",
+  "export_date": "2025-04-16T17:27:42",
+  "host_info": {
+    "ip_address": "10.0.115.106",
+    "mac_address": "35:b4:32:50:cb:14",
+    "mac_vendor": "Dorsey Inc",
+    "dhcp_hostname": "macbook_pro",
+    "os_fingerprint": "MacBook_Pro",
+    "lease_hostname": "macbook_pro"
+  },
+  "dns_queries": [
+    "microsoft.com",
+    "google.com"
+  ],
+  "flows": [
+    {
+      "destination": "212.79.219.233",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "130.99.199.211",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "98.152.68.55",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "47.23.116.165",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "191.161.199.24",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "217.137.196.46",
+      "port": 8883,
+      "protocol": 17
+    }
+  ],
+  "label": "Laptop"
+}

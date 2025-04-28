@@ -1,0 +1,34 @@
+{
+  "ip_address": "192.168.8.132",
+  "export_date": "2025-01-22T11:43:28",
+  "host_info": {
+    "ip_address": "172.28.218.216",
+    "mac_address": "b1:be:94:bd:f4:09",
+    "mac_vendor": "Singh PLC",
+    "dhcp_hostname": "canon_pixma",
+    "os_fingerprint": "Canon_PIXMA",
+    "lease_hostname": "canon_pixma"
+  },
+  "dns_queries": [
+    "canon.com",
+    "brother.com"
+  ],
+  "flows": [
+    {
+      "destination": "207.191.158.135",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "203.113.42.205",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "132.197.111.219",
+      "port": 5000,
+      "protocol": 6
+    }
+  ],
+  "label": "Printer"
+}

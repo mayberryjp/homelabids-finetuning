@@ -1,0 +1,44 @@
+{
+  "ip_address": "172.20.38.123",
+  "export_date": "2025-04-12T17:08:23",
+  "host_info": {
+    "ip_address": "192.168.76.19",
+    "mac_address": "56:7c:0d:90:dc:a4",
+    "mac_vendor": "Martin, Smith and Watkins",
+    "dhcp_hostname": "hp_laserjet",
+    "os_fingerprint": "HP_LaserJet",
+    "lease_hostname": "hp_laserjet"
+  },
+  "dns_queries": [
+    "canon.com",
+    "hp.com"
+  ],
+  "flows": [
+    {
+      "destination": "183.164.43.38",
+      "port": 123,
+      "protocol": 17
+    },
+    {
+      "destination": "218.104.69.156",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "200.139.179.95",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "155.124.55.214",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "196.125.28.144",
+      "port": 80,
+      "protocol": 6
+    }
+  ],
+  "label": "Printer"
+}

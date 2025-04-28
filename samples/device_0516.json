@@ -1,0 +1,33 @@
+{
+  "ip_address": "172.30.122.79",
+  "export_date": "2025-02-17T14:44:28",
+  "host_info": {
+    "ip_address": "10.174.167.248",
+    "mac_address": "f0:94:5e:72:4f:78",
+    "mac_vendor": "Mcgee Ltd",
+    "dhcp_hostname": "homepod",
+    "os_fingerprint": "HomePod",
+    "lease_hostname": "homepod"
+  },
+  "dns_queries": [
+    "spotify.com"
+  ],
+  "flows": [
+    {
+      "destination": "203.108.145.2",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "211.191.202.241",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "177.123.197.128",
+      "port": 6667,
+      "protocol": 6
+    }
+  ],
+  "label": "Smart Speaker"
+}

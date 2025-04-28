@@ -1,0 +1,35 @@
+{
+  "ip_address": "10.249.183.178",
+  "export_date": "2025-02-20T19:46:22",
+  "host_info": {
+    "ip_address": "10.96.22.159",
+    "mac_address": "c5:e0:fc:a9:4b:c5",
+    "mac_vendor": "Foley-Cross",
+    "dhcp_hostname": "canon_pixma",
+    "os_fingerprint": "Canon_PIXMA",
+    "lease_hostname": "canon_pixma"
+  },
+  "dns_queries": [
+    "hp.com",
+    "brother.com",
+    "canon.com"
+  ],
+  "flows": [
+    {
+      "destination": "50.220.61.4",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "99.194.25.164",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "223.31.120.144",
+      "port": 5000,
+      "protocol": 17
+    }
+  ],
+  "label": "Printer"
+}

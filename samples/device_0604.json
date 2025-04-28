@@ -1,0 +1,33 @@
+{
+  "ip_address": "172.24.167.164",
+  "export_date": "2025-01-14T22:38:24",
+  "host_info": {
+    "ip_address": "192.168.185.211",
+    "mac_address": "7b:8b:be:bf:b5:d9",
+    "mac_vendor": "Duncan and Sons",
+    "dhcp_hostname": "nest_cam",
+    "os_fingerprint": "Nest_Cam",
+    "lease_hostname": "nest_cam"
+  },
+  "dns_queries": [
+    "cloudflare.com"
+  ],
+  "flows": [
+    {
+      "destination": "90.207.67.116",
+      "port": 123,
+      "protocol": 17
+    },
+    {
+      "destination": "204.55.60.118",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "183.37.4.91",
+      "port": 6667,
+      "protocol": 17
+    }
+  ],
+  "label": "Security Camera"
+}

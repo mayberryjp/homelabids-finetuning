@@ -1,0 +1,43 @@
+{
+  "ip_address": "192.168.209.247",
+  "export_date": "2025-02-11T15:55:16",
+  "host_info": {
+    "ip_address": "172.23.84.240",
+    "mac_address": "ec:bd:50:71:c0:78",
+    "mac_vendor": "Wilson, Pham and Rasmussen",
+    "dhcp_hostname": "canon_pixma",
+    "os_fingerprint": "Canon_PIXMA",
+    "lease_hostname": "canon_pixma"
+  },
+  "dns_queries": [
+    "hp.com"
+  ],
+  "flows": [
+    {
+      "destination": "223.34.209.248",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "193.168.149.2",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "176.180.234.72",
+      "port": 123,
+      "protocol": 17
+    },
+    {
+      "destination": "199.113.249.166",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "69.147.78.144",
+      "port": 80,
+      "protocol": 17
+    }
+  ],
+  "label": "Printer"
+}

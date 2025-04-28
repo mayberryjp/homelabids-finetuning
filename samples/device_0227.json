@@ -1,0 +1,48 @@
+{
+  "ip_address": "192.168.62.152",
+  "export_date": "2025-02-26T22:43:49",
+  "host_info": {
+    "ip_address": "192.168.160.160",
+    "mac_address": "70:0d:3c:de:6b:ec",
+    "mac_vendor": "Montgomery, Branch and Griffith",
+    "dhcp_hostname": "sony_bravia",
+    "os_fingerprint": "Sony_Bravia",
+    "lease_hostname": "sony_bravia"
+  },
+  "dns_queries": [
+    "youtube.com"
+  ],
+  "flows": [
+    {
+      "destination": "147.44.117.9",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "129.224.77.176",
+      "port": 80,
+      "protocol": 6
+    },
+    {
+      "destination": "9.32.63.54",
+      "port": 5000,
+      "protocol": 6
+    },
+    {
+      "destination": "159.70.56.247",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "194.147.208.153",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "203.130.176.218",
+      "port": 5000,
+      "protocol": 17
+    }
+  ],
+  "label": "Smart TV"
+}

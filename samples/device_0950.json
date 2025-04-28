@@ -1,0 +1,35 @@
+{
+  "ip_address": "172.30.144.161",
+  "export_date": "2025-03-20T14:37:59",
+  "host_info": {
+    "ip_address": "10.187.7.197",
+    "mac_address": "8a:2f:1c:f5:ee:44",
+    "mac_vendor": "Smith-Lee",
+    "dhcp_hostname": "ubuntu_linux",
+    "os_fingerprint": "Ubuntu_Linux",
+    "lease_hostname": "ubuntu_linux"
+  },
+  "dns_queries": [
+    "microsoft.com",
+    "github.com",
+    "slack.com"
+  ],
+  "flows": [
+    {
+      "destination": "79.199.187.67",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "198.22.201.102",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "196.16.49.175",
+      "port": 123,
+      "protocol": 6
+    }
+  ],
+  "label": "Laptop"
+}

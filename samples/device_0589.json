@@ -1,0 +1,48 @@
+{
+  "ip_address": "10.7.255.116",
+  "export_date": "2025-04-10T03:10:09",
+  "host_info": {
+    "ip_address": "172.28.52.109",
+    "mac_address": "c6:af:4f:e5:00:a0",
+    "mac_vendor": "Thomas-Diaz",
+    "dhcp_hostname": "nest_cam",
+    "os_fingerprint": "Nest_Cam",
+    "lease_hostname": "nest_cam"
+  },
+  "dns_queries": [
+    "arlo.com"
+  ],
+  "flows": [
+    {
+      "destination": "140.62.215.173",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "108.41.217.79",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "141.151.93.61",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "4.251.202.3",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "219.56.57.212",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "154.209.115.32",
+      "port": 443,
+      "protocol": 17
+    }
+  ],
+  "label": "Security Camera"
+}

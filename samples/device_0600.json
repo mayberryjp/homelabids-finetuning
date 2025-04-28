@@ -1,0 +1,34 @@
+{
+  "ip_address": "192.168.211.220",
+  "export_date": "2025-01-12T07:20:01",
+  "host_info": {
+    "ip_address": "192.168.17.205",
+    "mac_address": "d1:69:47:c9:30:e0",
+    "mac_vendor": "Luna Ltd",
+    "dhcp_hostname": "ecobee_thermostat",
+    "os_fingerprint": "Ecobee_Thermostat",
+    "lease_hostname": "ecobee_thermostat"
+  },
+  "dns_queries": [
+    "ecobee.com",
+    "nest.com"
+  ],
+  "flows": [
+    {
+      "destination": "40.185.43.175",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "19.88.192.78",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "64.210.248.239",
+      "port": 443,
+      "protocol": 17
+    }
+  ],
+  "label": "Smart Thermostat"
+}

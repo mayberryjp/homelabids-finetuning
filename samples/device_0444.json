@@ -1,0 +1,43 @@
+{
+  "ip_address": "172.26.130.37",
+  "export_date": "2025-04-23T19:39:50",
+  "host_info": {
+    "ip_address": "172.22.28.31",
+    "mac_address": "5b:84:2c:e6:d1:61",
+    "mac_vendor": "Santiago Group",
+    "dhcp_hostname": "tp-link_smartbulb",
+    "os_fingerprint": "TP-Link_SmartBulb",
+    "lease_hostname": "tp-link_smartbulb"
+  },
+  "dns_queries": [
+    "tplinkcloud.com"
+  ],
+  "flows": [
+    {
+      "destination": "184.74.246.27",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "196.218.180.22",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "42.249.27.103",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "204.220.237.22",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "181.73.145.51",
+      "port": 6667,
+      "protocol": 6
+    }
+  ],
+  "label": "Smart Light"
+}

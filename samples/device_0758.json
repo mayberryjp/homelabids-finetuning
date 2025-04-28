@@ -1,0 +1,49 @@
+{
+  "ip_address": "10.226.66.207",
+  "export_date": "2025-04-12T16:58:53",
+  "host_info": {
+    "ip_address": "10.54.71.30",
+    "mac_address": "58:43:9d:78:4c:bf",
+    "mac_vendor": "Mccoy, Giles and Conley",
+    "dhcp_hostname": "hp_laserjet",
+    "os_fingerprint": "HP_LaserJet",
+    "lease_hostname": "hp_laserjet"
+  },
+  "dns_queries": [
+    "canon.com",
+    "hp.com"
+  ],
+  "flows": [
+    {
+      "destination": "161.102.248.161",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "142.220.194.232",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "171.82.220.53",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "132.27.199.250",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "202.25.45.216",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "216.247.175.38",
+      "port": 5000,
+      "protocol": 17
+    }
+  ],
+  "label": "Printer"
+}

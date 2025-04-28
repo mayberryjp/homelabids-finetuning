@@ -1,0 +1,38 @@
+{
+  "ip_address": "192.168.215.57",
+  "export_date": "2025-03-02T10:46:08",
+  "host_info": {
+    "ip_address": "172.21.64.51",
+    "mac_address": "7a:db:50:ef:09:d8",
+    "mac_vendor": "Torres, Conway and Howard",
+    "dhcp_hostname": "canon_pixma",
+    "os_fingerprint": "Canon_PIXMA",
+    "lease_hostname": "canon_pixma"
+  },
+  "dns_queries": [
+    "hp.com"
+  ],
+  "flows": [
+    {
+      "destination": "136.99.60.71",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "139.119.105.225",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "65.81.159.131",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "221.138.53.153",
+      "port": 8883,
+      "protocol": 6
+    }
+  ],
+  "label": "Printer"
+}

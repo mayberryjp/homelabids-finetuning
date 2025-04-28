@@ -1,0 +1,49 @@
+{
+  "ip_address": "10.190.74.97",
+  "export_date": "2025-01-09T02:08:07",
+  "host_info": {
+    "ip_address": "192.168.133.9",
+    "mac_address": "85:5f:c5:c2:09:c2",
+    "mac_vendor": "Simon PLC",
+    "dhcp_hostname": "sony_bravia",
+    "os_fingerprint": "Sony_Bravia",
+    "lease_hostname": "sony_bravia"
+  },
+  "dns_queries": [
+    "hulu.com",
+    "netflix.com"
+  ],
+  "flows": [
+    {
+      "destination": "71.135.60.46",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "199.247.4.163",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "218.121.8.24",
+      "port": 5000,
+      "protocol": 6
+    },
+    {
+      "destination": "60.118.9.175",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "203.93.35.187",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "185.6.173.252",
+      "port": 6667,
+      "protocol": 6
+    }
+  ],
+  "label": "Smart TV"
+}

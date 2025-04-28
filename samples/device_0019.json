@@ -1,0 +1,35 @@
+{
+  "ip_address": "10.53.21.224",
+  "export_date": "2025-03-29T09:44:43",
+  "host_info": {
+    "ip_address": "10.240.62.201",
+    "mac_address": "47:71:e4:1e:44:77",
+    "mac_vendor": "Ortega-Hanson",
+    "dhcp_hostname": "canon_pixma",
+    "os_fingerprint": "Canon_PIXMA",
+    "lease_hostname": "canon_pixma"
+  },
+  "dns_queries": [
+    "hp.com",
+    "canon.com",
+    "brother.com"
+  ],
+  "flows": [
+    {
+      "destination": "118.129.74.207",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "214.78.204.209",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "83.249.233.218",
+      "port": 443,
+      "protocol": 17
+    }
+  ],
+  "label": "Printer"
+}

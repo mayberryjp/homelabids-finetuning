@@ -1,0 +1,35 @@
+{
+  "ip_address": "10.203.191.52",
+  "export_date": "2025-01-26T07:52:37",
+  "host_info": {
+    "ip_address": "172.18.120.238",
+    "mac_address": "51:9c:c0:c0:af:70",
+    "mac_vendor": "Cox and Sons",
+    "dhcp_hostname": "google_home",
+    "os_fingerprint": "Google_Home",
+    "lease_hostname": "google_home"
+  },
+  "dns_queries": [
+    "amazon.com",
+    "spotify.com",
+    "google.com"
+  ],
+  "flows": [
+    {
+      "destination": "142.164.224.34",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "197.24.4.221",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "213.227.147.209",
+      "port": 80,
+      "protocol": 6
+    }
+  ],
+  "label": "Smart Speaker"
+}

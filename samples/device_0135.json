@@ -1,0 +1,28 @@
+{
+  "ip_address": "172.19.73.55",
+  "export_date": "2025-03-14T10:45:23",
+  "host_info": {
+    "ip_address": "192.168.92.204",
+    "mac_address": "26:61:d1:0d:b6:55",
+    "mac_vendor": "Diaz PLC",
+    "dhcp_hostname": "google_home",
+    "os_fingerprint": "Google_Home",
+    "lease_hostname": "google_home"
+  },
+  "dns_queries": [
+    "amazon.com"
+  ],
+  "flows": [
+    {
+      "destination": "199.139.187.101",
+      "port": 5000,
+      "protocol": 6
+    },
+    {
+      "destination": "193.223.67.26",
+      "port": 123,
+      "protocol": 17
+    }
+  ],
+  "label": "Smart Speaker"
+}

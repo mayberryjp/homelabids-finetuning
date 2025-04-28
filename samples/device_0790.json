@@ -1,0 +1,34 @@
+{
+  "ip_address": "10.255.91.15",
+  "export_date": "2025-01-25T21:33:42",
+  "host_info": {
+    "ip_address": "172.21.237.97",
+    "mac_address": "95:aa:b6:75:b5:b0",
+    "mac_vendor": "Smith Group",
+    "dhcp_hostname": "nest_cam",
+    "os_fingerprint": "Nest_Cam",
+    "lease_hostname": "nest_cam"
+  },
+  "dns_queries": [
+    "ring.com",
+    "arlo.com"
+  ],
+  "flows": [
+    {
+      "destination": "30.32.130.59",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "221.37.239.66",
+      "port": 80,
+      "protocol": 6
+    },
+    {
+      "destination": "213.194.232.57",
+      "port": 53,
+      "protocol": 17
+    }
+  ],
+  "label": "Security Camera"
+}

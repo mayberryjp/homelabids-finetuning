@@ -1,0 +1,33 @@
+{
+  "ip_address": "10.74.129.19",
+  "export_date": "2025-02-22T08:44:12",
+  "host_info": {
+    "ip_address": "192.168.44.84",
+    "mac_address": "b6:e6:46:5d:34:72",
+    "mac_vendor": "Little, Harvey and James",
+    "dhcp_hostname": "nest_thermostat",
+    "os_fingerprint": "Nest_Thermostat",
+    "lease_hostname": "nest_thermostat"
+  },
+  "dns_queries": [
+    "ecobee.com"
+  ],
+  "flows": [
+    {
+      "destination": "214.120.62.170",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "153.8.12.103",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "189.134.17.214",
+      "port": 80,
+      "protocol": 17
+    }
+  ],
+  "label": "Smart Thermostat"
+}

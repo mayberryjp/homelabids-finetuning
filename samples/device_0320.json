@@ -1,0 +1,33 @@
+{
+  "ip_address": "192.168.220.204",
+  "export_date": "2025-04-27T17:00:58",
+  "host_info": {
+    "ip_address": "172.23.41.180",
+    "mac_address": "f9:91:82:8a:ed:fe",
+    "mac_vendor": "Nelson-Moore",
+    "dhcp_hostname": "tp-link_smartbulb",
+    "os_fingerprint": "TP-Link_SmartBulb",
+    "lease_hostname": "tp-link_smartbulb"
+  },
+  "dns_queries": [
+    "tplinkcloud.com"
+  ],
+  "flows": [
+    {
+      "destination": "212.56.74.149",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "207.100.205.59",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "117.101.29.169",
+      "port": 80,
+      "protocol": 6
+    }
+  ],
+  "label": "Smart Light"
+}

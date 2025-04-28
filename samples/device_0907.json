@@ -1,0 +1,33 @@
+{
+  "ip_address": "10.155.78.77",
+  "export_date": "2025-01-04T00:14:42",
+  "host_info": {
+    "ip_address": "10.179.52.155",
+    "mac_address": "f1:96:0b:3e:90:04",
+    "mac_vendor": "Robinson, Blankenship and Pennington",
+    "dhcp_hostname": "xbox_series_x",
+    "os_fingerprint": "Xbox_Series_X",
+    "lease_hostname": "xbox_series_x"
+  },
+  "dns_queries": [
+    "nintendo.com"
+  ],
+  "flows": [
+    {
+      "destination": "69.81.28.47",
+      "port": 80,
+      "protocol": 6
+    },
+    {
+      "destination": "97.219.209.166",
+      "port": 5000,
+      "protocol": 6
+    },
+    {
+      "destination": "33.143.232.193",
+      "port": 53,
+      "protocol": 17
+    }
+  ],
+  "label": "Game Console"
+}

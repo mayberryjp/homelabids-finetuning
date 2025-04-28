@@ -1,0 +1,29 @@
+{
+  "ip_address": "10.236.207.12",
+  "export_date": "2025-01-13T23:36:47",
+  "host_info": {
+    "ip_address": "192.168.11.73",
+    "mac_address": "41:d8:8f:6f:a5:7d",
+    "mac_vendor": "Vargas, Daniel and Wells",
+    "dhcp_hostname": "google_home",
+    "os_fingerprint": "Google_Home",
+    "lease_hostname": "google_home"
+  },
+  "dns_queries": [
+    "google.com",
+    "amazon.com"
+  ],
+  "flows": [
+    {
+      "destination": "208.228.163.186",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "187.74.20.76",
+      "port": 80,
+      "protocol": 6
+    }
+  ],
+  "label": "Smart Speaker"
+}

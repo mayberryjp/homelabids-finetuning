@@ -1,0 +1,48 @@
+{
+  "ip_address": "172.19.152.68",
+  "export_date": "2025-02-27T17:11:13",
+  "host_info": {
+    "ip_address": "172.17.164.91",
+    "mac_address": "44:88:c3:f3:1f:29",
+    "mac_vendor": "Mann and Sons",
+    "dhcp_hostname": "ubuntu_linux",
+    "os_fingerprint": "Ubuntu_Linux",
+    "lease_hostname": "ubuntu_linux"
+  },
+  "dns_queries": [
+    "microsoft.com"
+  ],
+  "flows": [
+    {
+      "destination": "105.213.109.139",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "173.7.170.212",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "186.9.52.218",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "213.131.56.107",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "223.50.117.180",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "155.226.71.81",
+      "port": 123,
+      "protocol": 6
+    }
+  ],
+  "label": "Laptop"
+}

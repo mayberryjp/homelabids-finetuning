@@ -1,0 +1,48 @@
+{
+  "ip_address": "192.168.157.120",
+  "export_date": "2025-03-03T22:59:55",
+  "host_info": {
+    "ip_address": "10.178.177.37",
+    "mac_address": "4b:87:6c:d6:d5:7e",
+    "mac_vendor": "Edwards Inc",
+    "dhcp_hostname": "google_home",
+    "os_fingerprint": "Google_Home",
+    "lease_hostname": "google_home"
+  },
+  "dns_queries": [
+    "google.com"
+  ],
+  "flows": [
+    {
+      "destination": "194.113.252.172",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "223.138.188.214",
+      "port": 5000,
+      "protocol": 6
+    },
+    {
+      "destination": "217.46.155.124",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "184.89.197.86",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "137.190.50.124",
+      "port": 80,
+      "protocol": 6
+    },
+    {
+      "destination": "216.59.96.111",
+      "port": 123,
+      "protocol": 6
+    }
+  ],
+  "label": "Smart Speaker"
+}

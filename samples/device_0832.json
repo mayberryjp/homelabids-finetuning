@@ -1,0 +1,43 @@
+{
+  "ip_address": "192.168.54.130",
+  "export_date": "2025-01-31T08:49:33",
+  "host_info": {
+    "ip_address": "10.239.62.76",
+    "mac_address": "70:46:c6:a8:46:92",
+    "mac_vendor": "Middleton, Armstrong and Kim",
+    "dhcp_hostname": "windows_10",
+    "os_fingerprint": "Windows_10",
+    "lease_hostname": "windows_10"
+  },
+  "dns_queries": [
+    "google.com"
+  ],
+  "flows": [
+    {
+      "destination": "212.199.199.136",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "183.170.139.224",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "107.47.242.22",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "194.173.251.53",
+      "port": 6667,
+      "protocol": 17
+    },
+    {
+      "destination": "207.216.53.72",
+      "port": 53,
+      "protocol": 17
+    }
+  ],
+  "label": "Laptop"
+}

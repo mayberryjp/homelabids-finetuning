@@ -1,0 +1,48 @@
+{
+  "ip_address": "10.120.228.171",
+  "export_date": "2025-03-04T18:06:13",
+  "host_info": {
+    "ip_address": "172.31.142.122",
+    "mac_address": "ea:0b:bd:f4:23:44",
+    "mac_vendor": "Morgan-Washington",
+    "dhcp_hostname": "ubuntu_linux",
+    "os_fingerprint": "Ubuntu_Linux",
+    "lease_hostname": "ubuntu_linux"
+  },
+  "dns_queries": [
+    "github.com"
+  ],
+  "flows": [
+    {
+      "destination": "122.220.133.148",
+      "port": 5000,
+      "protocol": 6
+    },
+    {
+      "destination": "152.12.230.65",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "110.145.68.63",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "165.95.35.156",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "201.132.255.125",
+      "port": 123,
+      "protocol": 17
+    },
+    {
+      "destination": "49.160.243.32",
+      "port": 5000,
+      "protocol": 6
+    }
+  ],
+  "label": "Laptop"
+}

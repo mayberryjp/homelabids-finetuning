@@ -1,0 +1,40 @@
+{
+  "ip_address": "172.29.194.18",
+  "export_date": "2025-03-01T02:53:32",
+  "host_info": {
+    "ip_address": "172.17.103.160",
+    "mac_address": "a4:bd:fd:50:ae:62",
+    "mac_vendor": "Ross-Wallace",
+    "dhcp_hostname": "ubuntu_linux",
+    "os_fingerprint": "Ubuntu_Linux",
+    "lease_hostname": "ubuntu_linux"
+  },
+  "dns_queries": [
+    "slack.com",
+    "github.com",
+    "google.com"
+  ],
+  "flows": [
+    {
+      "destination": "114.216.82.25",
+      "port": 5000,
+      "protocol": 6
+    },
+    {
+      "destination": "152.221.90.157",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "202.10.233.206",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "219.191.181.66",
+      "port": 5000,
+      "protocol": 17
+    }
+  ],
+  "label": "Laptop"
+}

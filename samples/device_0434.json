@@ -1,0 +1,28 @@
+{
+  "ip_address": "172.21.228.82",
+  "export_date": "2025-04-04T12:31:09",
+  "host_info": {
+    "ip_address": "10.30.45.47",
+    "mac_address": "c7:31:81:9a:af:72",
+    "mac_vendor": "Sanchez and Sons",
+    "dhcp_hostname": "canon_pixma",
+    "os_fingerprint": "Canon_PIXMA",
+    "lease_hostname": "canon_pixma"
+  },
+  "dns_queries": [
+    "canon.com"
+  ],
+  "flows": [
+    {
+      "destination": "78.192.148.74",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "210.114.172.106",
+      "port": 80,
+      "protocol": 17
+    }
+  ],
+  "label": "Printer"
+}

@@ -1,0 +1,43 @@
+{
+  "ip_address": "10.213.162.60",
+  "export_date": "2025-04-27T01:30:52",
+  "host_info": {
+    "ip_address": "10.167.215.155",
+    "mac_address": "ae:47:6f:fc:ec:1b",
+    "mac_vendor": "Garrett-Hunter",
+    "dhcp_hostname": "homepod",
+    "os_fingerprint": "HomePod",
+    "lease_hostname": "homepod"
+  },
+  "dns_queries": [
+    "spotify.com"
+  ],
+  "flows": [
+    {
+      "destination": "155.100.131.47",
+      "port": 53,
+      "protocol": 17
+    },
+    {
+      "destination": "214.121.241.238",
+      "port": 80,
+      "protocol": 6
+    },
+    {
+      "destination": "197.185.222.92",
+      "port": 123,
+      "protocol": 6
+    },
+    {
+      "destination": "218.202.242.117",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "123.80.204.225",
+      "port": 80,
+      "protocol": 17
+    }
+  ],
+  "label": "Smart Speaker"
+}

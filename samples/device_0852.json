@@ -1,0 +1,44 @@
+{
+  "ip_address": "172.16.177.115",
+  "export_date": "2025-04-13T19:19:52",
+  "host_info": {
+    "ip_address": "10.3.82.106",
+    "mac_address": "6b:48:d9:09:45:bb",
+    "mac_vendor": "Parks-Benson",
+    "dhcp_hostname": "homepod",
+    "os_fingerprint": "HomePod",
+    "lease_hostname": "homepod"
+  },
+  "dns_queries": [
+    "amazon.com",
+    "google.com"
+  ],
+  "flows": [
+    {
+      "destination": "213.26.35.46",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "199.128.149.198",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "40.129.32.147",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "142.46.155.32",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "181.25.222.174",
+      "port": 443,
+      "protocol": 6
+    }
+  ],
+  "label": "Smart Speaker"
+}

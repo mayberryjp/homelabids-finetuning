@@ -1,0 +1,50 @@
+{
+  "ip_address": "172.29.230.205",
+  "export_date": "2025-02-25T07:28:02",
+  "host_info": {
+    "ip_address": "192.168.127.155",
+    "mac_address": "6f:0c:f9:f5:05:5e",
+    "mac_vendor": "Henderson, Diaz and Buckley",
+    "dhcp_hostname": "fire_tablet",
+    "os_fingerprint": "Fire_Tablet",
+    "lease_hostname": "fire_tablet"
+  },
+  "dns_queries": [
+    "apple.com",
+    "amazon.com",
+    "samsung.com"
+  ],
+  "flows": [
+    {
+      "destination": "1.185.41.61",
+      "port": 5000,
+      "protocol": 6
+    },
+    {
+      "destination": "180.22.189.176",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "170.58.30.87",
+      "port": 80,
+      "protocol": 6
+    },
+    {
+      "destination": "107.237.225.59",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "84.75.193.176",
+      "port": 123,
+      "protocol": 17
+    },
+    {
+      "destination": "205.171.71.33",
+      "port": 6667,
+      "protocol": 6
+    }
+  ],
+  "label": "Tablet"
+}

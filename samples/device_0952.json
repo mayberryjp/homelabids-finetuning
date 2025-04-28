@@ -1,0 +1,44 @@
+{
+  "ip_address": "172.23.210.177",
+  "export_date": "2025-01-31T15:28:01",
+  "host_info": {
+    "ip_address": "192.168.190.189",
+    "mac_address": "46:64:26:ec:45:fe",
+    "mac_vendor": "French, Kennedy and Howard",
+    "dhcp_hostname": "macbook_pro",
+    "os_fingerprint": "MacBook_Pro",
+    "lease_hostname": "macbook_pro"
+  },
+  "dns_queries": [
+    "google.com",
+    "github.com"
+  ],
+  "flows": [
+    {
+      "destination": "182.130.120.168",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "132.233.109.141",
+      "port": 5000,
+      "protocol": 17
+    },
+    {
+      "destination": "102.36.2.112",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "2.166.29.53",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "192.123.50.136",
+      "port": 123,
+      "protocol": 6
+    }
+  ],
+  "label": "Laptop"
+}

@@ -1,0 +1,50 @@
+{
+  "ip_address": "10.101.157.188",
+  "export_date": "2025-02-06T09:23:49",
+  "host_info": {
+    "ip_address": "192.168.47.116",
+    "mac_address": "f3:6c:62:79:86:d9",
+    "mac_vendor": "Neal, Walter and Arellano",
+    "dhcp_hostname": "android",
+    "os_fingerprint": "Android",
+    "lease_hostname": "android"
+  },
+  "dns_queries": [
+    "facebook.com",
+    "whatsapp.com",
+    "apple.com"
+  ],
+  "flows": [
+    {
+      "destination": "211.200.103.13",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "48.137.59.246",
+      "port": 443,
+      "protocol": 6
+    },
+    {
+      "destination": "142.130.54.91",
+      "port": 6667,
+      "protocol": 6
+    },
+    {
+      "destination": "207.96.26.113",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "157.250.140.250",
+      "port": 8883,
+      "protocol": 17
+    },
+    {
+      "destination": "185.222.123.0",
+      "port": 123,
+      "protocol": 6
+    }
+  ],
+  "label": "Smartphone"
+}

@@ -1,0 +1,30 @@
+{
+  "ip_address": "172.31.213.254",
+  "export_date": "2025-04-22T23:56:48",
+  "host_info": {
+    "ip_address": "172.18.24.140",
+    "mac_address": "b3:d4:17:a3:c2:8d",
+    "mac_vendor": "Chavez, Dyer and Yu",
+    "dhcp_hostname": "iphone",
+    "os_fingerprint": "iPhone",
+    "lease_hostname": "iphone"
+  },
+  "dns_queries": [
+    "apple.com",
+    "google.com",
+    "facebook.com"
+  ],
+  "flows": [
+    {
+      "destination": "131.189.134.61",
+      "port": 443,
+      "protocol": 17
+    },
+    {
+      "destination": "23.223.121.120",
+      "port": 80,
+      "protocol": 17
+    }
+  ],
+  "label": "Smartphone"
+}

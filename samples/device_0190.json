@@ -1,0 +1,38 @@
+{
+  "ip_address": "172.29.127.135",
+  "export_date": "2025-03-29T15:02:26",
+  "host_info": {
+    "ip_address": "192.168.48.5",
+    "mac_address": "28:69:f9:67:26:a3",
+    "mac_vendor": "Mendoza-Villarreal",
+    "dhcp_hostname": "android",
+    "os_fingerprint": "Android",
+    "lease_hostname": "android"
+  },
+  "dns_queries": [
+    "apple.com"
+  ],
+  "flows": [
+    {
+      "destination": "9.194.230.196",
+      "port": 80,
+      "protocol": 17
+    },
+    {
+      "destination": "40.194.112.244",
+      "port": 8883,
+      "protocol": 6
+    },
+    {
+      "destination": "150.48.71.241",
+      "port": 80,
+      "protocol": 6
+    },
+    {
+      "destination": "200.50.40.203",
+      "port": 80,
+      "protocol": 6
+    }
+  ],
+  "label": "Smartphone"
+}

@@ -1,0 +1,30 @@
+{
+  "ip_address": "192.168.34.209",
+  "export_date": "2025-01-18T20:02:40",
+  "host_info": {
+    "ip_address": "10.49.123.11",
+    "mac_address": "dd:c1:ec:ce:2c:45",
+    "mac_vendor": "Parker-Taylor",
+    "dhcp_hostname": "brother_hl",
+    "os_fingerprint": "Brother_HL",
+    "lease_hostname": "brother_hl"
+  },
+  "dns_queries": [
+    "hp.com",
+    "canon.com",
+    "brother.com"
+  ],
+  "flows": [
+    {
+      "destination": "144.92.40.244",
+      "port": 53,
+      "protocol": 6
+    },
+    {
+      "destination": "187.203.4.109",
+      "port": 123,
+      "protocol": 17
+    }
+  ],
+  "label": "Printer"
+}
