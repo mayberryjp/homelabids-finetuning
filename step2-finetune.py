@@ -10,7 +10,7 @@ HF_TOKEN = "your_huggingface_token_here"  # Replace with your actual token
 # Login to Hugging Face Hub
 login(token=HF_TOKEN)
 
-model_name = "Meta-Llama/Meta-Llama-3.1-8B"
+model_name = "Meta-Llama/Meta-Llama-3-8B"
 train_file = "./llm_finetune_data_with_ips.json"
 
 # 1. Load dataset
