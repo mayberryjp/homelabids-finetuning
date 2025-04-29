@@ -12,7 +12,7 @@ dataset = load_dataset("json", data_files=train_file, split="train")
 # 2. Load model with 4-bit quantization (optional but saves a lot of memory)
 bnb_config = BitsAndBytesConfig(
     load_in_4bit=True,
-    bnb_4bit_compute_dtype=torch.bfloat16,  # <-- THIS IS CORRECT
+    bnb_4bit_compute_dtype=torch.float16,  # Changed from bfloat16
     bnb_4bit_use_double_quant=True,
     bnb_4bit_quant_type="nf4",
 )
@@ -47,7 +47,7 @@ trainer = SFTTrainer(
         "save_steps": 100,
         "save_total_limit": 2,
         "learning_rate": 2e-4,
-        "bf16": True,          # If your GPU supports bf16
+        "fp16": True,          # Instead of bf16
         "optim": "paged_adamw_8bit",
         "lr_scheduler_type": "cosine",
         "warmup_ratio": 0.05,
