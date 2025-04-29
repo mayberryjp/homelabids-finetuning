@@ -52,7 +52,6 @@ training_args = TrainingArguments(
     lr_scheduler_type="cosine",
     warmup_ratio=0.05,
     report_to="none",
-    max_seq_length=512,  # Added this parameter
 )
 
 # 3. Trainer config for TRL 0.17.0
@@ -62,7 +61,8 @@ trainer = SFTTrainer(
     train_dataset=dataset,
     tokenizer=tokenizer,
     packing=True,
-    dataset_text_field="messages"
+    dataset_text_field="messages",
+    max_seq_length=512  # Add it here instead
 )
 
 # 4. Train
