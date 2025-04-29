@@ -14,7 +14,12 @@ model_name = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
 train_file = "./llm_finetune_data_with_ips.json"
 
 # 1. Load dataset
+# Map the dataset to extract the "prompt" as input and "response" as target
+def preprocess_function(examples):
+    return {"input_text": examples["prompt"], "target_text": examples["response"]}
+
 dataset = load_dataset("json", data_files=train_file, split="train")
+dataset = dataset.map(preprocess_function)
 
 # 2. Load model with 8-bit quantization
 bnb_config = BitsAndBytesConfig(
@@ -61,7 +66,7 @@ trainer = SFTTrainer(
     train_dataset=dataset,
     tokenizer=tokenizer,
     packing=True,  # Enables efficient packing of sequences
-    dataset_text_field="messages",  # Field in the dataset containing the text
+    dataset_text_field="input_text",  # Use the preprocessed "input_text" field
 )
 
 # 5. Train the model
