@@ -10,13 +10,13 @@ HF_TOKEN = "your_huggingface_token_here"  # Replace with your actual token
 # Login to Hugging Face Hub
 login(token=HF_TOKEN)
 
-model_name = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
+model_name = "Meta-Llama/Meta-Llama-3.1-8B"
 train_file = "./llm_finetune_data_with_ips.json"
 
 # 1. Load dataset
 # Map the dataset to extract the "prompt" as input and "response" as target
 def preprocess_function(examples):
-    return {"input_text": examples["prompt"], "target_text": examples["response"]}
+    return {"input_text": examples["prompt"], "target_text": examples["completion"]}
 
 dataset = load_dataset("json", data_files=train_file, split="train")
 dataset = dataset.map(preprocess_function)
