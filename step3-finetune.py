@@ -5,7 +5,7 @@ from trl import SFTTrainer
 from huggingface_hub import login
 
 # Add your Hugging Face token here
-HF_TOKEN = ""  # Replace with your actual token
+HF_TOKEN = "your_huggingface_token_here"  # Replace with your actual token
 
 # Login to Hugging Face Hub
 login(token=HF_TOKEN)
@@ -37,7 +37,7 @@ tokenizer = AutoTokenizer.from_pretrained(
 )
 tokenizer.pad_token = tokenizer.eos_token
 
-# Define training arguments separately
+# 3. Define training arguments
 training_args = TrainingArguments(
     output_dir="./fine_tuned_llama3",
     num_train_epochs=3,
@@ -54,20 +54,19 @@ training_args = TrainingArguments(
     report_to="none",
 )
 
-# 3. Trainer config for TRL 0.17.0
+# 4. Configure the trainer
 trainer = SFTTrainer(
     model=model,
     args=training_args,
     train_dataset=dataset,
     tokenizer=tokenizer,
-    packing=True,
-    dataset_text_field="messages",
-    max_seq_length=512  # Add it here instead
+    packing=True,  # Enables efficient packing of sequences
+    dataset_text_field="messages",  # Field in the dataset containing the text
 )
 
-# 4. Train
+# 5. Train the model
 trainer.train()
 
-# 5. Save
+# 6. Save the fine-tuned model and tokenizer
 trainer.save_model()
 tokenizer.save_pretrained("./fine_tuned_llama3")
