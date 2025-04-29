@@ -3,7 +3,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 from datasets import load_dataset
 from trl import SFTTrainer
 
-model_name = "deepseek-ai/DeepSeek-R1"  # Change if your model name is different
+model_name = "meta-llama/Llama-3-8B"  # Changed to Meta-Llama 3
 train_file = "./llm_finetune_data_with_ips.json"  # Path to your generated data
 
 # 1. Load dataset
