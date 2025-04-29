@@ -41,9 +41,9 @@ tokenizer.pad_token = tokenizer.eos_token  # Safety
 trainer = SFTTrainer(
     model=model,
     train_dataset=dataset,
-    formatting_func=lambda x: x["messages"],  # Use formatting_func instead of dataset_text_field
-    max_seq_length=2048,
+    formatting_func=lambda x: x["messages"],
     tokenizer=tokenizer,
+    max_length=2048,  # Using max_length instead of max_seq_length
     packing=True,          # Efficiently pack multiple samples together
     args={
         "output_dir": "./fine_tuned_llama3",
