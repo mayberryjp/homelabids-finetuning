@@ -13,14 +13,16 @@ dataset = load_dataset("json", data_files=train_file, split="train")
 bnb_config = BitsAndBytesConfig(
     load_in_8bit=True,
     bnb_8bit_compute_dtype=torch.float16,
+    use_fp8_qdq=False  # Explicitly disable FP8
 )
-
 
 model = AutoModelForCausalLM.from_pretrained(
     model_name,
     quantization_config=bnb_config,
     device_map="auto",
-    trust_remote_code=True  # Sometimes needed for newer Llama 3 code
+    trust_remote_code=True,
+    torch_dtype=torch.float16,  # Explicitly use float16
+    use_flash_attention_2=False  # Disable flash attention which might use FP8
 )
 tokenizer = AutoTokenizer.from_pretrained(
     model_name,
