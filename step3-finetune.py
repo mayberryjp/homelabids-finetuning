@@ -2,8 +2,15 @@ import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 from datasets import load_dataset
 from trl import SFTTrainer
+from huggingface_hub import login
 
-model_name = "deepseek-ai/DeepSeek-R1"  # Change if your model name is different
+# Add your Hugging Face token here
+HF_TOKEN = ""  # Replace with your actual token
+
+# Login to Hugging Face Hub
+login(token=HF_TOKEN)
+
+model_name = "meta-llama/Llama-3-8B"  # Changed to Meta-Llama 3
 train_file = "./llm_finetune_data_with_ips.json"  # Path to your generated data
 
 # 1. Load dataset
