@@ -10,13 +10,13 @@ HF_TOKEN = ""  # Replace with your actual token
 # Login to Hugging Face Hub
 login(token=HF_TOKEN)
 
-model_name = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"  # Changed to Meta-Llama 3
-train_file = "./llm_finetune_data_with_ips.json"  # Path to your generated data
+model_name = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
+train_file = "./llm_finetune_data_with_ips.json"
 
 # 1. Load dataset
 dataset = load_dataset("json", data_files=train_file, split="train")
 
-# 2. Load model with 8-bit quantization (optional but saves a lot of memory)
+# 2. Load model with 8-bit quantization
 bnb_config = BitsAndBytesConfig(
     load_in_8bit=True,
     bnb_8bit_compute_dtype=torch.float16,
@@ -28,14 +28,14 @@ model = AutoModelForCausalLM.from_pretrained(
     quantization_config=bnb_config,
     device_map="auto",
     trust_remote_code=True,
-    torch_dtype=torch.float16,  # Explicitly use float16
-    use_flash_attention_2=False  # Disable flash attention which might use FP8
+    torch_dtype=torch.float16,
+    use_flash_attention_2=False
 )
 tokenizer = AutoTokenizer.from_pretrained(
     model_name,
     trust_remote_code=True
 )
-tokenizer.pad_token = tokenizer.eos_token  # Safety
+tokenizer.pad_token = tokenizer.eos_token
 
 # Define training arguments separately
 training_args = TrainingArguments(
@@ -52,15 +52,17 @@ training_args = TrainingArguments(
     lr_scheduler_type="cosine",
     warmup_ratio=0.05,
     report_to="none",
+    max_seq_length=512,  # Added this parameter
 )
 
-# 3. Trainer config
+# 3. Trainer config for TRL 0.17.0
 trainer = SFTTrainer(
     model=model,
     args=training_args,
     train_dataset=dataset,
-    dataset_text_field="messages",  # Try this instead of formatting_func
+    tokenizer=tokenizer,
     packing=True,
+    dataset_text_field="messages"
 )
 
 # 4. Train
