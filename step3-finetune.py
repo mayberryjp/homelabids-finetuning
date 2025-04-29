@@ -3,7 +3,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 from datasets import load_dataset
 from trl import SFTTrainer
 
-model_name = "llama32:1b"  # Change if your model name is different
+model_name = "llama3.2:1b"  # Change if your model name is different
 train_file = "./llm_finetune_data_with_ips.json"  # Path to your generated data
 
 # 1. Load dataset
