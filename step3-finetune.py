@@ -16,7 +16,7 @@ for filename in os.listdir(dataset_dir):
         filepath = os.path.join(dataset_dir, filename)
         with open(filepath, 'r') as f:
             entry = json.load(f)
-            flows_ports = ', '.join(str(flow['port']) for flow in entry.get('flows', []))
+            flows_ports = ', '.join(flow['port'] for flow in entry.get('flows', []))
             destination_ips = ', '.join(flow['destination'] for flow in entry.get('flows', []))
             flows = ', '.join(f"{flow['destination']}:{flow['port']}" for flow in entry.get('flows', []))
             features = {
