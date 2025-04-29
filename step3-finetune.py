@@ -23,9 +23,10 @@ dataset = dataset.map(preprocess_function)
 
 # 2. Load model with 8-bit quantization
 bnb_config = BitsAndBytesConfig(
-    load_in_8bit=True,
-    bnb_8bit_compute_dtype=torch.float16,
-    use_fp8_qdq=False  # Explicitly disable FP8
+    load_in_4bit=True,
+    bnb_4bit_compute_dtype=torch.bfloat16,  # Or float16 if needed
+    bnb_4bit_use_double_quant=True,
+    bnb_4bit_quant_type="nf4",
 )
 
 model = AutoModelForCausalLM.from_pretrained(
@@ -41,32 +42,33 @@ tokenizer = AutoTokenizer.from_pretrained(
     trust_remote_code=True
 )
 tokenizer.pad_token = tokenizer.eos_token
-
-# 3. Define training arguments
-training_args = TrainingArguments(
-    output_dir="./fine_tuned_llama3",
-    num_train_epochs=3,
-    per_device_train_batch_size=2,
-    gradient_accumulation_steps=8,
-    logging_steps=10,
-    save_steps=100,
-    save_total_limit=2,
-    learning_rate=2e-4,
-    fp16=True,
-    optim="paged_adamw_8bit",
-    lr_scheduler_type="cosine",
-    warmup_ratio=0.05,
-    report_to="none",
-)
+s
 
 # 4. Configure the trainer
 trainer = SFTTrainer(
     model=model,
-    args=training_args,
     train_dataset=dataset,
     tokenizer=tokenizer,
     packing=True,  # Enables efficient packing of sequences
     dataset_text_field="input_text",  # Use the preprocessed "input_text" field
+    args={
+        "output_dir": "./llama3-finetuned",
+        "overwrite_output_dir": True,
+        "num_train_epochs": 3,
+        "per_device_train_batch_size": 2,
+        "gradient_accumulation_steps": 8,
+        "evaluation_strategy": "no",
+        "save_strategy": "steps",
+        "save_steps": 100,
+        "save_total_limit": 2,
+        "logging_steps": 10,
+        "learning_rate": 2e-4,
+        "weight_decay": 0.01,
+        "warmup_ratio": 0.03,
+        "lr_scheduler_type": "cosine",
+        "bf16": True,  # or fp16 if necessary
+        "report_to": "none",
+    }
 )
 
 # 5. Train the model
