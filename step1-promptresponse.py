@@ -34,7 +34,7 @@ for filename in tqdm(os.listdir(dataset_dir), desc="Processing JSON files"):
             response = entry['label']
             
             # Add the prompt/response pair
-            llm_data.append({"prompt": prompt.strip(), "response": response.strip()})
+            llm_data.append({"prompt": prompt.strip(), "completion": response.strip()})
 
 # Save as a JSON file
 with open('./llm_finetune_data_with_ips.json', 'w') as f:

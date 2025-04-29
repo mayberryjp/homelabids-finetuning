@@ -46,23 +46,6 @@ tokenizer.pad_token = tokenizer.eos_token
 # 3. Define SFTConfig
 sft_config = SFTConfig(
     output_dir="./llama3-finetuned",
-    overwrite_output_dir=True,
-    num_train_epochs=3,
-    per_device_train_batch_size=2,
-    gradient_accumulation_steps=8,
-    evaluation_strategy="no",
-    save_strategy="steps",
-    save_steps=100,
-    save_total_limit=2,
-    logging_steps=10,
-    learning_rate=2e-4,
-    weight_decay=0.01,
-    warmup_ratio=0.03,
-    lr_scheduler_type="cosine",
-    bf16=True,  # or fp16 if necessary
-    report_to="none",
-    packing=True,  # Enables efficient packing of sequences
-    dataset_text_field="input_text",  # Use the preprocessed "input_text" field
 )
 
 # 4. Configure the trainer
@@ -70,7 +53,7 @@ trainer = SFTTrainer(
     model=model,
     train_dataset=dataset,
     processing_class=tokenizer,
-    sft_config=sft_config,
+    args=sft_config,
 )
 
 # 5. Train the model
