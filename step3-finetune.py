@@ -3,7 +3,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 from datasets import load_dataset
 from trl import SFTTrainer
 
-model_name = "llama3.2:1b"  # Change if your model name is different
+model_name = "deepseek-ai/DeepSeek-R1"  # Change if your model name is different
 train_file = "./llm_finetune_data_with_ips.json"  # Path to your generated data
 
 # 1. Load dataset
@@ -12,10 +12,11 @@ dataset = load_dataset("json", data_files=train_file, split="train")
 # 2. Load model with 4-bit quantization (optional but saves a lot of memory)
 bnb_config = BitsAndBytesConfig(
     load_in_4bit=True,
-    bnb_4bit_compute_dtype=torch.bfloat16,
+    bnb_4bit_compute_dtype=torch.bfloat16,  # <-- THIS IS CORRECT
     bnb_4bit_use_double_quant=True,
     bnb_4bit_quant_type="nf4",
 )
+
 
 model = AutoModelForCausalLM.from_pretrained(
     model_name,
