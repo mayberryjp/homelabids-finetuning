@@ -42,7 +42,6 @@ tokenizer = AutoTokenizer.from_pretrained(
     trust_remote_code=True
 )
 tokenizer.pad_token = tokenizer.eos_token
-s
 
 # 4. Configure the trainer
 trainer = SFTTrainer(
