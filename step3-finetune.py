@@ -18,7 +18,7 @@ for filename in os.listdir(dataset_dir):
             entry = json.load(f)
             flows_ports = ', '.join(str(flow['port']) for flow in entry.get('flows', []))
             destination_ips = ', '.join(flow['destination'] for flow in entry.get('flows', []))
-            flows = ', '.join([str(f"{flow['destination']}:{flow['port']}") for flow in entry['flows']]),
+            flows = ', '.join([str(f"{flow['destination']}:{flow['port']}") for flow in entry['flows']])
             features = {
                 "text": f"IP: {entry['ip_address']}, Host: {entry['host_info']['dhcp_hostname']}, OS: {entry['host_info']['os_fingerprint']}, Flows Ports: {flows_ports}, Dest IPs: {destination_ips}, Flows: {flows}, MAC Vendor: {entry['host_info']['mac_vendor']}, MAC Address: {entry['host_info']['mac_address']}",
                 "label": entry["label"]
