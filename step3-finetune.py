@@ -9,12 +9,10 @@ train_file = "./llm_finetune_data_with_ips.json"  # Path to your generated data
 # 1. Load dataset
 dataset = load_dataset("json", data_files=train_file, split="train")
 
-# 2. Load model with 4-bit quantization (optional but saves a lot of memory)
+# 2. Load model with 8-bit quantization (optional but saves a lot of memory)
 bnb_config = BitsAndBytesConfig(
-    load_in_4bit=True,
-    bnb_4bit_compute_dtype=torch.float16,  # Changed from bfloat16
-    bnb_4bit_use_double_quant=True,
-    bnb_4bit_quant_type="nf4",
+    load_in_8bit=True,
+    bnb_8bit_compute_dtype=torch.float16,
 )
 
 
