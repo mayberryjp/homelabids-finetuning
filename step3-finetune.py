@@ -59,9 +59,8 @@ trainer = SFTTrainer(
     model=model,
     args=training_args,
     train_dataset=dataset,
-    formatting_func=lambda x: x["messages"],
-    max_length=2048,  # Using max_length instead of max_seq_length
-    packing=True,          # Efficiently pack multiple samples together
+    dataset_text_field="messages",  # Try this instead of formatting_func
+    packing=True,
 )
 
 # 4. Train
