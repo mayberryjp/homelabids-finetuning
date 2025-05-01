@@ -4,6 +4,9 @@ from datasets import load_dataset
 from trl import SFTTrainer, SFTConfig
 from peft import LoraConfig, get_peft_model
 from huggingface_hub import login
+import os 
+
+os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
 
 # Add your Hugging Face token here
 HF_TOKEN = "your_huggingface_token_here"  # Replace with your actual token
@@ -11,7 +14,7 @@ HF_TOKEN = "your_huggingface_token_here"  # Replace with your actual token
 # Login to Hugging Face Hub
 login(token=HF_TOKEN)
 
-model_name = "Meta-Llama/Meta-Llama-3-8B"
+model_name = "meta-llama/Llama-3.2-1B"
 train_file = "./llm_finetune_data_with_ips.json"
 
 # 1. Load dataset
@@ -63,7 +66,6 @@ sft_config = SFTConfig(
     num_train_epochs=3,
     per_device_train_batch_size=2,
     gradient_accumulation_steps=8,
-    evaluation_strategy="no",
     save_strategy="steps",
     save_steps=100,
     save_total_limit=2,
@@ -82,8 +84,8 @@ sft_config = SFTConfig(
 trainer = SFTTrainer(
     model=model,
     train_dataset=dataset,
-    tokenizer=tokenizer,
-    sft_config=sft_config,
+    processing_class=tokenizer,
+    args=sft_config,
 )
 
 # 6. Train the model
