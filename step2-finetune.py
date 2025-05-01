@@ -2,6 +2,7 @@ import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 from datasets import load_dataset
 from trl import SFTTrainer, SFTConfig
+from peft import LoraConfig, get_peft_model
 from huggingface_hub import login
 
 # Add your Hugging Face token here
@@ -43,22 +44,51 @@ tokenizer = AutoTokenizer.from_pretrained(
 )
 tokenizer.pad_token = tokenizer.eos_token
 
-# 3. Define SFTConfig
-sft_config = SFTConfig(
-    output_dir="./llama3-finetuned",
+# 3. Add LoRA adapters using PEFT
+lora_config = LoraConfig(
+    r=16,  # Rank of the LoRA update matrices
+    lora_alpha=32,  # Scaling factor
+    target_modules=["q_proj", "v_proj"],  # Target attention layers
+    lora_dropout=0.05,  # Dropout probability
+    bias="none",  # No bias adjustment
+    task_type="CAUSAL_LM",  # Task type for causal language modeling
 )
 
-# 4. Configure the trainer
+model = get_peft_model(model, lora_config)
+
+# 4. Define SFTConfig
+sft_config = SFTConfig(
+    output_dir="./llama3-finetuned",
+    overwrite_output_dir=True,
+    num_train_epochs=3,
+    per_device_train_batch_size=2,
+    gradient_accumulation_steps=8,
+    evaluation_strategy="no",
+    save_strategy="steps",
+    save_steps=100,
+    save_total_limit=2,
+    logging_steps=10,
+    learning_rate=2e-4,
+    weight_decay=0.01,
+    warmup_ratio=0.03,
+    lr_scheduler_type="cosine",
+    bf16=True,  # Use bf16 for training
+    report_to="none",
+    packing=True,  # Enables efficient packing of sequences
+    dataset_text_field="input_text",  # Use the preprocessed "input_text" field
+)
+
+# 5. Configure the trainer
 trainer = SFTTrainer(
     model=model,
     train_dataset=dataset,
-    processing_class=tokenizer,
-    args=sft_config,
+    tokenizer=tokenizer,
+    sft_config=sft_config,
 )
 
-# 5. Train the model
+# 6. Train the model
 trainer.train()
 
-# 6. Save the fine-tuned model and tokenizer
+# 7. Save the fine-tuned model and tokenizer
 trainer.save_model()
 tokenizer.save_pretrained("./fine_tuned_llama3")

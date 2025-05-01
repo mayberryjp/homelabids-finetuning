@@ -20,18 +20,20 @@ for filename in tqdm(os.listdir(dataset_dir), desc="Processing JSON files"):
             Classify the device with the following details:
             Hostname: {entry['host_info']['dhcp_hostname']}
             Flows: {[f"{flow['destination']}:{flow['port']}" for flow in entry['flows']]}
-            Destination IPs: {[flow['destination'] for flow in entry['flows']]}  # Added destination IPs
+            Destination IPs: {[flow['destination'] for flow in entry['flows']]} 
             Destination Ports: {[flow['port'] for flow in entry['flows']]}
             DNS Queries: {entry['dns_queries']}
             OS: {entry['host_info']['os_fingerprint']}
             MAC Vendor: {entry['host_info']['mac_vendor']}
             MAC Address: {entry['host_info']['mac_address']}
             DHCP Hostname: {entry['host_info']['dhcp_hostname']}
+            Category: {entry['host_info']["icon"]}
+            Local Description: {entry['host_info']["local_description"]}
             Classify the device as one of: Smart Thermostat, Smartphone, Laptop, etc.
             """
             
             # Prepare response (the device type)
-            response = entry['label']
+            response = f"{entry['host_info']["icon"]} {entry['host_info']["local_description"]}"
             
             # Add the prompt/response pair
             llm_data.append({"prompt": prompt.strip(), "completion": response.strip()})
