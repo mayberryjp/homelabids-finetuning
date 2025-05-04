@@ -1,17 +1,30 @@
 {
     "ip_address": "192.168.50.81",
-    "export_date": "2025-04-29T23:55:04.903724",
+    "export_date": "2025-05-04T06:09:20.114074",
     "instance_identifier": "9a72641185275de6aee6384294035d373d4c94dc73c430210b6c1a3770519bb7",
     "host_info": {
         "ip_address": "192.168.50.81",
         "mac_address": null,
         "mac_vendor": null,
         "dhcp_hostname": null,
+        "dns_hostname": "olimex-esp32-bedroom.832-5.com.",
         "os_fingerprint": "Garmin_embedded_None_95",
         "lease_hostname": "olimex-esp32-bedroom",
         "icon": "BLUETOOTH_RADIO",
         "local_description": "192.168.50.81"
     },
     "dns_queries": [],
-    "flows": []
+    "flows": [
+        {
+            "destination": "224.0.0.251",
+            "port": 5353,
+            "protocol": 17,
+            "flow_count": 270,
+            "total_packets": 508,
+            "total_bytes": 182372,
+            "first_seen": "2025-05-04 05:39:32",
+            "last_seen": "2025-04-23T11:44:33.046000+00:00"
+        }
+    ],
+    "actions": []
 }
